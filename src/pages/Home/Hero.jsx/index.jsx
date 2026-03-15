@@ -2812,11 +2812,7 @@
           )}
         </AnimatePresence> */}
 
-import { useEffect, useState } from 'react';
-import { motion, AnimatePresence } from 'framer-motion';
-import './Hero.css';
-
-// const ButterflyIcon1 = ({ className, flipped = false }) => (
+        // const ButterflyIcon1 = ({ className, flipped = false }) => (
 //   <img
 //     src="/assets/icons/butterflys.svg"
 //     alt="Butterfly"
@@ -2868,10 +2864,639 @@ import './Hero.css';
 //   { id: 8, heroRotate: -2,  heroX: 0,   heroY: 0,   circRotate: 315, circX: -127, circY: -127, zIndex: 2 },  
 // ];
 
+
+
+// import { useEffect, useState } from 'react';
+// import { motion, AnimatePresence } from 'framer-motion';
+// import './Hero.css';
+
+// const deckConfig = [
+//   // Cards 1-4: Fanned out in hero state
+//   { id: 1, heroRotate: -2,  heroX: 0,   heroY: 0,   circRotate: 0,   circX: 0,    circY: -220, zIndex: 40 }, 
+//   { id: 2, heroRotate: 6,   heroX: 45,  heroY: -5, circRotate: 45,  circX: 156,  circY: -156, zIndex: 30 }, 
+//   { id: 3, heroRotate: 14,  heroX: 85,  heroY: -10, circRotate: 90,  circX: 220,  circY: 0,    zIndex: 20 }, 
+//   { id: 4, heroRotate: 22,  heroX: 125, heroY: -10, circRotate: 135, circX: 156,  circY: 156,  zIndex: 10 }, 
+//   // Cards 5-8: Hidden directly behind Card 1 during initial state
+//   { id: 5, heroRotate: -2,  heroX: 0,   heroY: 0,   circRotate: 180, circX: 0,    circY: 220,  zIndex: 5 },  
+//   { id: 6, heroRotate: -2,  heroX: 0,   heroY: 0,   circRotate: 225, circX: -156, circY: 156,  zIndex: 4 },  
+//   { id: 7, heroRotate: -2,  heroX: 0,   heroY: 0,   circRotate: 270, circX: -220, circY: 0,    zIndex: 3 },  
+//   { id: 8, heroRotate: -2,  heroX: 0,   heroY: 0,   circRotate: 315, circX: -156, circY: -156, zIndex: 2 },  
+// ];
+
+// const FACE_CARD_DROP_MS  = 2500;
+// const POST_SETTLE_GAP_MS = 500;
+// const EXPAND_DELAY_MS    = FACE_CARD_DROP_MS + POST_SETTLE_GAP_MS;
+
+// export default function Hero() {
+//   const [showIntro,     setShowIntro]     = useState(true);
+//   const [topCardReady,  setTopCardReady]  = useState(false);
+//   const [isExpanded,    setIsExpanded]    = useState(false);
+//   const [cardIsFalling, setCardIsFalling] = useState(false);
+  
+//   const [isScrolled,    setIsScrolled]    = useState(false);
+//   const [isDesktop,     setIsDesktop]     = useState(true);
+
+//   useEffect(() => {
+//     const introTimer = setTimeout(() => {
+//       setShowIntro(false);
+//       setTimeout(() => {
+//         setTopCardReady(true);
+//         setCardIsFalling(true);
+//         setTimeout(() => setCardIsFalling(false), FACE_CARD_DROP_MS);
+//         setTimeout(() => setIsExpanded(true), EXPAND_DELAY_MS);
+//       }, 400);
+//     }, 2800);
+//     return () => clearTimeout(introTimer);
+//   }, []);
+
+//   useEffect(() => {
+//     setIsDesktop(window.innerWidth >= 768);
+//     const handleResize = () => setIsDesktop(window.innerWidth >= 768);
+//     window.addEventListener('resize', handleResize);
+
+//     const handleScroll = () => {
+//       if (window.scrollY > 50 && isExpanded) {
+//         setIsScrolled(true);
+//       } else {
+//         setIsScrolled(false);
+//       }
+//     };
+//     window.addEventListener('scroll', handleScroll);
+    
+//     return () => {
+//       window.removeEventListener('resize', handleResize);
+//       window.removeEventListener('scroll', handleScroll);
+//     };
+//   }, [isExpanded]);
+
+//   const getCircPos = (val) => isDesktop ? val : val * 0.6;
+
+//   return (
+//     <div className="relative w-full h-[150vh] bg-white">
+      
+//       {/* Sticky container uses exactly 100vh so the bottom bar isn't forced off-screen */}
+//       <div className="sticky top-0 w-full h-screen overflow-hidden flex flex-col">
+
+//         {/* PHASE 2 & 3 — HERO AND SCROLL STATE */}
+//         {true && (
+//           <motion.div
+//             className="relative z-10 flex flex-col h-full w-full"
+//             initial={{ opacity: 0 }}
+//             animate={{ opacity: 1 }}
+//             transition={{ duration: 0.6 }}
+//           >
+//             {/* flex-grow ensures this area takes up available space without pushing the ticker offscreen */}
+//             {/* <main className="max-w-[1300px] mx-auto px-6 lg:px-12 w-full flex-grow flex flex-col md:flex-row items-center justify-between pb-8 pt-6 md:pt-0"> */}
+//               {/* Change justify-between to justify-center and reduce padding-top */}
+// <main className="max-w-[1300px] mx-auto px-6 lg:px-12 w-full flex-grow flex flex-col md:flex-row items-center justify-center pb-8 pt-2 md:pt-0 gap-8">
+//               {/* Left Column: Text (Properly scaled) */}
+//               <motion.div 
+//                 className="w-full md:w-[55%] flex flex-col items-center md:items-start justify-center z-20 order-1"
+//                 animate={{ opacity: isScrolled ? 0 : 1, y: isScrolled ? -40 : 0, filter: isScrolled ? 'blur(10px)' : 'blur(0px)' }}
+//                 transition={{ duration: 0.6, ease: 'easeInOut' }}
+//                 style={{ pointerEvents: isScrolled ? 'none' : 'auto' }}
+//               >
+//                 <motion.div 
+//                   initial={{ x: -30, opacity: 0 }} 
+//                   animate={{ x: 0, opacity: 1 }} 
+//                   transition={{ duration: 0.8, ease: 'easeOut', delay: 0 }} 
+//                   className="w-max flex flex-col text-left relative z-30"
+//                 >
+//                   <div 
+//                     className="text-black text-[15vw] md:text-[72px] lg:text-[86px] xl:text-[100px] leading-[0.85] tracking-[-0.03em] uppercase whitespace-nowrap" 
+//                     style={{ fontFamily: 'Almarena, sans-serif', fontWeight: '800' }}
+//                   >
+//                     REAL INK
+//                   </div>
+                  
+//                   <div 
+//                     className="text-[#FE8204] text-[15vw] md:text-[72px] lg:text-[86px] xl:text-[100px] leading-[0.85] tracking-[-0.03em] uppercase whitespace-nowrap mt-1 lg:mt-2 ml-[10vw] md:ml-[60px] lg:ml-[70px] xl:ml-[85px]" 
+//                     style={{ fontFamily: 'Almarena, sans-serif', fontWeight: '800' }}
+//                   >
+//                     YOUR WAY
+//                   </div>
+//                 </motion.div>
+
+//                 <motion.p 
+//                   className="mt-6 md:mt-8 text-left hidden md:block text-[#111]" 
+//                   style={{ maxWidth: '520px', fontFamily: 'Montserrat, sans-serif', fontWeight: '500' }} 
+//                   initial={{ y: 20, opacity: 0 }} 
+//                   animate={{ y: 0, opacity: 1 }} 
+//                   transition={{ duration: 0.8, ease: 'easeOut', delay: 0.2 }}
+//                 >
+//                   <span className="text-[14px] lg:text-[16px] leading-[1.6]">
+//                     Get the authentic tattoo look without the needle or the lifelong commitment. Our clinically tested, permanent ink sinks into the top layer of your skin, fully developing into a bold, 
+//                   </span>
+//                   <span className="text-[#FE8204] text-[14px] lg:text-[16px] leading-[1.6] font-semibold">
+//                     {" "}realistic design within 24 hours.
+//                   </span>
+//                 </motion.p>
+
+//                 <motion.button 
+//                   className="mt-8 bg-black text-white rounded-full px-7 py-3.5 lg:px-8 lg:py-4 hidden md:flex items-center gap-4 font-bold uppercase tracking-widest text-[12px] lg:text-[14px] hover:bg-gray-800 transition-colors group" 
+//                   initial={{ y: 20, opacity: 0 }} 
+//                   animate={{ y: 0, opacity: 1 }} 
+//                   transition={{ duration: 0.8, ease: 'easeOut', delay: 0.3 }}
+//                 >
+//                   SHOP COLLECTIONS
+//                   <span className="bg-white text-black rounded-full w-8 h-8 flex items-center justify-center group-hover:translate-x-1 transition-transform">
+//                     <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+//                       <path d="M5 12h14"></path>
+//                       <path d="m12 5 7 7-7 7"></path>
+//                     </svg>
+//                   </span>
+//                 </motion.button>
+//               </motion.div>
+
+//               {/* Right Column: Scaled-down Card Deck */}
+//               {/* <motion.div 
+                
+//                 className="w-full md:w-[45%] h-[280px] md:h-[380px] lg:h-[420px] relative flex justify-center items-center mt-2 md:-mt-12 order-2"
+//                 animate={{ x: isScrolled && isDesktop ? '-50%' : '0%' }}
+//                 transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1] }}
+//               > */}
+//               <motion.div 
+//                 className="w-full md:w-[45%] h-[250px] md:h-[380px] lg:h-[420px] relative flex justify-center items-center mt-2 md:-mt-12 order-2"
+//                 // Changed from -50% to -61% for mathematically perfect center-screen alignment
+//                 // animate={{ x: isScrolled && isDesktop ? '-61%' : '0%' }} 
+//                 animate={{ x: isScrolled && isDesktop ? '-61%' : '0%', 
+//                   y: isScrolled ? 80 : 0
+//                 }}
+//                 transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1] }}
+//               >
+//                 {/* Center "Real Tattoo Look" Logo */}
+//                 <motion.div
+//                   className="absolute inset-0 flex flex-col items-center justify-center pointer-events-none z-[60]"
+//                   initial={{ opacity: 0, scale: 0.5 }}
+//                   animate={{ opacity: isScrolled ? 1 : 0, scale: isScrolled ? 1 : 0.5 }}
+//                   transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1], delay: isScrolled ? 0.15 : 0 }}
+//                 >
+//                   <span className="text-[24px] md:text-[32px] leading-[1.1] tracking-widest text-black uppercase text-center" style={{ fontFamily: 'Almarena, sans-serif', fontWeight: '800' }}>
+//                     REAL
+//                   </span>
+//                   <svg className="my-1.5" width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="#FE8204" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
+//                     <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path>
+//                   </svg>
+//                   <span className="text-[24px] md:text-[32px] leading-[1.1] tracking-widest text-black uppercase text-center" style={{ fontFamily: 'Almarena, sans-serif', fontWeight: '800' }}>
+//                     TATTOO<br/>LOOK
+//                   </span>
+//                 </motion.div>
+
+//                 {/* Shrunk overall wrapper size to match layout */}
+//                 {/* <div className="relative w-[220px] h-[300px] md:w-[260px] md:h-[360px] lg:w-[320px] lg:h-[440px]"> */}
+//                 <div className="relative w-[180px] h-[250px] md:w-[260px] md:h-[360px] lg:w-[320px] lg:h-[440px] flex justify-center items-center">
+//                   {deckConfig.map((card, index) => {
+//                     const isTopCard = index === 0;
+//                     const isVisibleInHero = card.id <= 4;
+
+//                     return (
+//                       <motion.div
+//                         // key={card.id}
+//                         // className="absolute inset-0 rounded-2xl md:rounded-[24px] overflow-hidden flex flex-col items-center justify-center"
+//                         // style={{
+//                         //   zIndex: isTopCard && cardIsFalling ? 9999 : card.zIndex,
+//                         //   transformOrigin: 'bottom left',
+//                         //   border: '2px solid #111',
+//                         //   boxShadow: '0 20px 40px rgba(0,0,0,0.12)',
+//                         //   backgroundColor: '#fff',
+//                         // }}
+//                         key={card.id}
+//                         className="absolute inset-0 rounded-2xl md:rounded-[24px] overflow-hidden flex flex-col items-center justify-center"
+//                         style={{
+//                           zIndex: isTopCard && cardIsFalling ? 9999 : card.zIndex,
+//                           transformOrigin: 'center', 
+//                           border: '2px solid #111',
+//                           boxShadow: '0 20px 40px rgba(0,0,0,0.12)',
+//                           backgroundColor: '#fff',
+//                         }}
+//                         initial={isTopCard ? { x: -650, y: -650, opacity: 0, rotate: -20 } : { x: 0, y: 0, opacity: 0, rotate: 0 }}
+//                         animate={
+//                           isScrolled 
+//                             ? {
+//                                 x: getCircPos(card.circX),
+//                                 y: getCircPos(card.circY),
+//                                 rotate: card.circRotate,
+//                                 opacity: 1,
+//                                scale: isDesktop ? 0.5 : 0.85
+//                               }
+//                             : isExpanded
+//                             ? {
+//                                 // x: card.heroX,
+//                                 // y: card.heroY,
+//                                 // rotate: card.heroRotate,
+//                                 // opacity: isVisibleInHero ? 1 : 0, 
+//                                 // scale: 1
+//                                 // this is good
+//                                 // x: isDesktop ? card.heroX : 0, 
+//                                 // y: isDesktop ? card.heroY : (index * -2), // Slight vertical stack for mobile
+//                                 // rotate: isDesktop ? card.heroRotate : card.heroRotate , // Tighter fan for mobile
+//                                 // opacity: isVisibleInHero ? 1 : 0, 
+//                                 // scale: 1
+
+
+//                                 x: isDesktop 
+//                                   ? card.heroX 
+//                                   : (index === 0 ? -20 : index === 1 ? 0 : index === 2 ? 20 : 40), 
+                                
+//                                 y: isDesktop ? card.heroY : (index * 2), // Slight vertical stagger
+                                
+//                                 // rotate: isDesktop 
+//                                 //   ? card.heroRotate 
+//                                 //   : (index === 0 ? -6 : index === 1 ? 2 : index === 2 ? 10 : 18),
+//                                 rotate: card.heroRotate,
+                                  
+//                                 opacity: isVisibleInHero ? 1 : 0, 
+//                                 scale: 1
+//                               }
+//                             : isTopCard && topCardReady
+//                             ? {
+//                                 x: [-650, -20, 0],
+//                                 y: [-650, -40, 0],
+//                                 rotate: [-70, 15, 0],
+//                                 opacity: [0, 1, 1],
+//                                 scale: 1
+//                               }
+//                             : {
+//                                 x: isTopCard ? -650 : 0,
+//                                 y: isTopCard ? -650 : 0,
+//                                 opacity: 0,
+//                                 rotate: isTopCard ? -20 : 0,
+//                                 scale: 1
+//                               }
+//                         }
+//                         transition={
+//                           isScrolled
+//                             ? { type: 'spring', damping: 25, stiffness: 85, mass: 1 }
+//                             : isExpanded
+//                             ? { type: 'spring', damping: 18, stiffness: 90, delay: isTopCard ? 0 : index * 0.08 }
+//                             : isTopCard && topCardReady
+//                             ? { duration: 2.5, times: [0, 0.99, 1], ease: [0.25, 0.1, 0.25, 1] }
+//                             : { duration: 0 }
+//                         }
+//                       >
+//                         <img src={`/assets/images/Card${card.id}.png`} alt={`Tattoo Card ${card.id}`} className="w-full h-full object-cover" onError={(e) => { e.target.style.display = 'none'; e.target.nextSibling.style.display = 'flex'; }} />
+//                         <div className="hidden w-full h-full bg-gray-100 items-center justify-center text-center px-4">
+//                           <span className="font-bold text-xl text-gray-400">Card {card.id}</span>
+//                         </div>
+//                       </motion.div>
+//                     );
+//                   })}
+//                 </div>
+//               </motion.div>
+
+//               {/* Mobile-only Body Copy */}
+//               <motion.div 
+//                 className="w-full order-3 md:hidden flex flex-col items-center text-center px-4 pb-12 mt-4"
+//                 animate={{ opacity: isScrolled ? 0 : 1, y: isScrolled ? 40 : 0 }}
+//                 transition={{ duration: 0.6 }}
+//                 style={{ pointerEvents: isScrolled ? 'none' : 'auto' }}
+//               >
+//                 <motion.p className="text-[#111]" style={{ fontFamily: 'Montserrat, sans-serif', fontWeight: '500' }} initial={{ y: 20, opacity: 0 }} animate={{ y: 0, opacity: 1 }} transition={{ duration: 0.8, ease: 'easeOut', delay: 0.2 }}>
+//                   <span className="text-[14px] leading-[1.6]">Get the authentic tattoo look without the needle or the lifelong commitment. Our clinically tested, permanent ink sinks into the top layer of your skin, fully developing into a bold, </span>
+//                   <span className="text-[#FE8204] text-[14px] leading-[1.6]">realistic design within 24 hours.</span>
+//                 </motion.p>
+//                 <motion.button className="mt-8 bg-black text-white rounded-full px-8 py-4 flex items-center gap-4 font-bold uppercase tracking-widest text-[13px] hover:bg-gray-800 transition-colors group" initial={{ y: 20, opacity: 0 }} animate={{ y: 0, opacity: 1 }} transition={{ duration: 0.8, ease: 'easeOut', delay: 0.3 }}>
+//                   SHOP COLLECTIONS
+//                   <span className="bg-white text-black rounded-full w-8 h-8 flex items-center justify-center group-hover:translate-x-1 transition-transform">
+//                     <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg>
+//                   </span>
+//                 </motion.button>
+//               </motion.div>
+              
+//             </main>
+
+//             <motion.div
+//               className="absolute bottom-0 z-50 top-160 w-full h-14 md:h-16 bg-black flex-shrink-0 flex items-center overflow-hidden"
+//               initial={{ y: 50, opacity: 0 }}
+//               animate={{
+//                 y: 0,
+//                 opacity: isScrolled ? 0 : 1,
+//                 x: isScrolled ? '100%' : '0%' 
+//               }}
+//               transition={{ delay: showIntro ? 0.5 : 0, duration: 0.8, ease: 'easeInOut' }}
+//             >
+//               <motion.div className="flex whitespace-nowrap" animate={{ x: ['0%', '-50%'] }} transition={{ duration: 18, ease: 'linear', repeat: Infinity, repeatType: 'loop' }}>
+//                 {[0, 1].map((i) => (
+//                   <span key={i} className="flex items-center" style={{ fontFamily: 'Montserrat, sans-serif', fontWeight: '700', fontSize: 'clamp(13px, 1.1vw, 16px)', textTransform: 'uppercase', letterSpacing: '0.12em', color: '#fff' }}>
+//                     {Array.from({ length: 10 }).map((_, j) => (
+//                       <span key={j} className="flex items-center">
+//                         Just Tattoos <span style={{ color: '#FE8204', margin: '0 18px', fontSize: '10px' }}>◆</span>
+//                       </span>
+//                     ))}
+//                   </span>
+//                 ))}
+//               </motion.div>
+//             </motion.div>
+            
+//             {/* Bottom Black Scrolling Strip (Slides out on Scroll) */}
+//             {/* flex-shrink-0 keeps it visible within 100vh layout */}
+          
+//           </motion.div>
+//         )}
+//       </div>
+//     </div>
+//   );
+// }
+
+
+// import { useEffect, useState } from 'react';
+// import { motion, AnimatePresence } from 'framer-motion';
+// import './Hero.css';
+
+// const deckConfig = [
+//   // Cards 1-4: Fanned out in hero state
+//   { id: 1, heroRotate: -2,  heroX: 0,   heroY: 0,   circRotate: 0,   circX: 0,    circY: -220, zIndex: 40 }, 
+//   { id: 2, heroRotate: 6,   heroX: 45,  heroY: -5,  circRotate: 45,  circX: 156,  circY: -156, zIndex: 30 }, 
+//   { id: 3, heroRotate: 14,  heroX: 85,  heroY: -10, circRotate: 90,  circX: 220,  circY: 0,    zIndex: 20 }, 
+//   { id: 4, heroRotate: 22,  heroX: 125, heroY: -10, circRotate: 135, circX: 156,  circY: 156,  zIndex: 10 }, 
+//   // Cards 5-8: Hidden directly behind Card 1 during initial state
+//   { id: 5, heroRotate: -2,  heroX: 0,   heroY: 0,   circRotate: 180, circX: 0,    circY: 220,  zIndex: 5 },  
+//   { id: 6, heroRotate: -2,  heroX: 0,   heroY: 0,   circRotate: 225, circX: -156, circY: 156,  zIndex: 4 },  
+//   { id: 7, heroRotate: -2,  heroX: 0,   heroY: 0,   circRotate: 270, circX: -220, circY: 0,    zIndex: 3 },  
+//   { id: 8, heroRotate: -2,  heroX: 0,   heroY: 0,   circRotate: 315, circX: -156, circY: -156, zIndex: 2 },  
+// ];
+
+// const FACE_CARD_DROP_MS  = 2500;
+// const POST_SETTLE_GAP_MS = 500;
+// const EXPAND_DELAY_MS    = FACE_CARD_DROP_MS + POST_SETTLE_GAP_MS;
+
+// export default function Hero() {
+//   const [showIntro,     setShowIntro]     = useState(true);
+//   const [topCardReady,  setTopCardReady]  = useState(false);
+//   const [isExpanded,    setIsExpanded]    = useState(false);
+//   const [cardIsFalling, setCardIsFalling] = useState(false);
+  
+//   const [isScrolled,    setIsScrolled]    = useState(false);
+//   const [isDesktop,     setIsDesktop]     = useState(true);
+
+//   useEffect(() => {
+//     const introTimer = setTimeout(() => {
+//       setShowIntro(false);
+//       setTimeout(() => {
+//         setTopCardReady(true);
+//         setCardIsFalling(true);
+//         setTimeout(() => setCardIsFalling(false), FACE_CARD_DROP_MS);
+//         setTimeout(() => setIsExpanded(true), EXPAND_DELAY_MS);
+//       }, 400);
+//     }, 2800);
+//     return () => clearTimeout(introTimer);
+//   }, []);
+
+//   useEffect(() => {
+//     setIsDesktop(window.innerWidth >= 768);
+//     const handleResize = () => setIsDesktop(window.innerWidth >= 768);
+//     window.addEventListener('resize', handleResize);
+
+//     const handleScroll = () => {
+//       if (window.scrollY > 50 && isExpanded) {
+//         setIsScrolled(true);
+//       } else {
+//         setIsScrolled(false);
+//       }
+//     };
+//     window.addEventListener('scroll', handleScroll);
+    
+//     return () => {
+//       window.removeEventListener('resize', handleResize);
+//       window.removeEventListener('scroll', handleScroll);
+//     };
+//   }, [isExpanded]);
+
+//   // Adjust mobile explosion radius here. 0.9 pushes cards further out to make room for text.
+//   const getCircPos = (val) => isDesktop ? val : val * 0.9;
+
+//   return (
+//     <div className="relative w-full h-[150vh] bg-white">
+      
+//       {/* Sticky container uses exactly 100vh so the bottom bar isn't forced off-screen */}
+//       <div className="sticky top-0 w-full h-screen overflow-hidden flex flex-col">
+
+//         {/* PHASE 2 & 3 — HERO AND SCROLL STATE */}
+//         <AnimatePresence>
+//           <motion.div
+//             className="relative z-10 flex flex-col h-full w-full"
+//             initial={{ opacity: 0 }}
+//             animate={{ opacity: 1 }}
+//             transition={{ duration: 0.6 }}
+//           >
+//             <main className="max-w-[1300px] mx-auto px-6 lg:px-12 w-full flex-grow flex flex-col md:flex-row items-center justify-center pb-8 pt-2 md:pt-0 gap-8">
+              
+//               {/* Left Column: Text (Properly scaled) */}
+//               <motion.div 
+//                 className="w-full md:w-[55%] flex flex-col items-center md:items-start justify-center z-20 order-1"
+//                 animate={{ opacity: isScrolled ? 0 : 1, y: isScrolled ? -40 : 0, filter: isScrolled ? 'blur(10px)' : 'blur(0px)' }}
+//                 transition={{ duration: 0.6, ease: 'easeInOut' }}
+//                 style={{ pointerEvents: isScrolled ? 'none' : 'auto' }}
+//               >
+//                 <motion.div 
+//                   initial={{ x: -30, opacity: 0 }} 
+//                   animate={{ x: 0, opacity: 1 }} 
+//                   transition={{ duration: 0.8, ease: 'easeOut', delay: 0 }} 
+//                   className="w-max flex flex-col text-left relative z-30"
+//                 >
+//                   <div 
+//                     className="text-black text-[15vw] md:text-[72px] lg:text-[86px] xl:text-[100px] leading-[0.85] tracking-[-0.03em] uppercase whitespace-nowrap" 
+//                     style={{ fontFamily: 'Almarena, sans-serif', fontWeight: '800' }}
+//                   >
+//                     REAL INK
+//                   </div>
+                  
+//                   <div 
+//                     className="text-[#FE8204] text-[15vw] md:text-[72px] lg:text-[86px] xl:text-[100px] leading-[0.85] tracking-[-0.03em] uppercase whitespace-nowrap mt-1 lg:mt-2 ml-[10vw] md:ml-[60px] lg:ml-[70px] xl:ml-[85px]" 
+//                     style={{ fontFamily: 'Almarena, sans-serif', fontWeight: '800' }}
+//                   >
+//                     YOUR WAY
+//                   </div>
+//                 </motion.div>
+
+//                 <motion.p 
+//                   className="mt-6 md:mt-8 text-left hidden md:block text-[#111]" 
+//                   style={{ maxWidth: '520px', fontFamily: 'Montserrat, sans-serif', fontWeight: '500' }} 
+//                   initial={{ y: 20, opacity: 0 }} 
+//                   animate={{ y: 0, opacity: 1 }} 
+//                   transition={{ duration: 0.8, ease: 'easeOut', delay: 0.2 }}
+//                 >
+//                   <span className="text-[14px] lg:text-[16px] leading-[1.6]">
+//                     Get the authentic tattoo look without the needle or the lifelong commitment. Our clinically tested, permanent ink sinks into the top layer of your skin, fully developing into a bold, 
+//                   </span>
+//                   <span className="text-[#FE8204] text-[14px] lg:text-[16px] leading-[1.6] font-semibold">
+//                     {" "}realistic design within 24 hours.
+//                   </span>
+//                 </motion.p>
+
+//                 <motion.button 
+//                   className="mt-8 bg-black text-white rounded-full px-7 py-3.5 lg:px-8 lg:py-4 hidden md:flex items-center gap-4 font-bold uppercase tracking-widest text-[12px] lg:text-[14px] hover:bg-gray-800 transition-colors group" 
+//                   initial={{ y: 20, opacity: 0 }} 
+//                   animate={{ y: 0, opacity: 1 }} 
+//                   transition={{ duration: 0.8, ease: 'easeOut', delay: 0.3 }}
+//                 >
+//                   SHOP COLLECTIONS
+//                   <span className="bg-white text-black rounded-full w-8 h-8 flex items-center justify-center group-hover:translate-x-1 transition-transform">
+//                     <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+//                       <path d="M5 12h14"></path>
+//                       <path d="m12 5 7 7-7 7"></path>
+//                     </svg>
+//                   </span>
+//                 </motion.button>
+//               </motion.div>
+
+//               {/* Right Column: Scaled-down Card Deck */}
+//               <motion.div 
+//                 className="w-full md:w-[45%] h-[250px] md:h-[380px] lg:h-[420px] relative flex justify-center items-center order-2"
+//                 animate={{ 
+//                   x: isScrolled && isDesktop ? '-61%' : '0%', 
+//                   // y: 50 // Removed y: 80 to prevent the top gap issue
+//                   y: isScrolled ? 80 : 0
+//                 }}
+//                 transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1] }}
+//               >
+//                 {/* Center "Real Tattoo Look" Logo */}
+//                 <motion.div
+//                   className="absolute inset-0 flex flex-col items-center justify-center pointer-events-none z-[60]"
+//                   initial={{ opacity: 0, scale: 0.5 }}
+//                   animate={{ opacity: isScrolled ? 1 : 0, scale: isScrolled ? 1 : 0.5 }}
+//                   transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1], delay: isScrolled ? 0.15 : 0 }}
+//                 >
+//                   <span className="text-[24px] md:text-[32px] leading-[1.1] tracking-widest text-black uppercase text-center" style={{ fontFamily: 'Almarena, sans-serif', fontWeight: '800' }}>
+//                     REAL
+//                   </span>
+//                   <svg className="my-1.5" width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="#FE8204" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
+//                     <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path>
+//                   </svg>
+//                   <span className="text-[24px] md:text-[32px] leading-[1.1] tracking-widest text-black uppercase text-center" style={{ fontFamily: 'Almarena, sans-serif', fontWeight: '800' }}>
+//                     TATTOO<br/>LOOK
+//                   </span>
+//                 </motion.div>
+
+//                 <div className="relative w-[180px] h-[250px] md:w-[260px] md:h-[360px] lg:w-[320px] lg:h-[440px] flex justify-center items-center">
+//                   {deckConfig.map((card, index) => {
+//                     const isTopCard = index === 0;
+//                     const isVisibleInHero = card.id <= 4;
+
+//                     return (
+//                       <motion.div
+//                         key={card.id}
+//                         className="absolute inset-0 rounded-2xl md:rounded-[24px] overflow-hidden flex flex-col items-center justify-center"
+//                         style={{
+//                           zIndex: isTopCard && cardIsFalling ? 9999 : card.zIndex,
+//                           transformOrigin: 'center', 
+//                           border: '2px solid #111',
+//                           boxShadow: '0 20px 40px rgba(0,0,0,0.12)',
+//                           backgroundColor: '#fff',
+//                         }}
+//                         initial={isTopCard ? { x: -650, y: -650, opacity: 0, rotate: -20 } : { x: 0, y: 0, opacity: 0, rotate: 0 }}
+//                         animate={
+//                           isScrolled 
+//                             ? {
+//                                 x: getCircPos(card.circX ),
+//                                 y: getCircPos(card.circY),
+//                                 rotate: card.circRotate,
+//                                 opacity: 1,
+//                                 scale: isDesktop ? 0.5 : 0.95 // Mobile scale bumped to 1 to scale cards up
+//                               }
+//                             : isExpanded
+//                             ? {
+//                                 // Dynamic fanning logic fixed. Anchors properly starting at 0,0.
+//                                 x: isDesktop ? card.heroX : card.heroX * 0.5, 
+//                                 y: isDesktop ? card.heroY : card.heroY * 0.5, 
+//                                 rotate: card.heroRotate,
+//                                 opacity: isVisibleInHero ? 1 : 0, 
+//                                 scale: 1
+//                               }
+//                             : isTopCard && topCardReady
+//                             ? {
+//                                 x: [-650, -20, 0],
+//                                 y: [-650, -40, 0],
+//                                 rotate: [-70, 15, 0],
+//                                 opacity: [0, 1, 1],
+//                                 scale: 1
+//                               }
+//                             : {
+//                                 x: isTopCard ? -650 : 0,
+//                                 y: isTopCard ? -650 : 0,
+//                                 opacity: 0,
+//                                 rotate: isTopCard ? -20 : 0,
+//                                 scale: 1
+//                               }
+//                         }
+//                         transition={
+//                           isScrolled
+//                             ? { type: 'spring', damping: 25, stiffness: 85, mass: 1 }
+//                             : isExpanded
+//                             ? { type: 'spring', damping: 18, stiffness: 90, delay: isTopCard ? 0 : index * 0.08 }
+//                             : isTopCard && topCardReady
+//                             ? { duration: 2.5, times: [0, 0.99, 1], ease: [0.25, 0.1, 0.25, 1] }
+//                             : { duration: 0 }
+//                         }
+//                       >
+//                         <img src={`/assets/images/Card${card.id}.png`} alt={`Tattoo Card ${card.id}`} className="w-full h-full object-cover" onError={(e) => { e.target.style.display = 'none'; e.target.nextSibling.style.display = 'flex'; }} />
+//                         <div className="hidden w-full h-full bg-gray-100 items-center justify-center text-center px-4">
+//                           <span className="font-bold text-xl text-gray-400">Card {card.id}</span>
+//                         </div>
+//                       </motion.div>
+//                     );
+//                   })}
+//                 </div>
+//               </motion.div>
+
+//               {/* Mobile-only Body Copy */}
+//               <motion.div 
+//                 className="w-full order-3 md:hidden flex flex-col items-center text-center px-4 pb-12 mt-4"
+//                 animate={{ opacity: isScrolled ? 0 : 1, y: isScrolled ? 40 : 0 }}
+//                 transition={{ duration: 0.6 }}
+//                 style={{ pointerEvents: isScrolled ? 'none' : 'auto' }}
+//               >
+//                 <motion.p className="text-[#111]" style={{ fontFamily: 'Montserrat, sans-serif', fontWeight: '500' }} initial={{ y: 20, opacity: 0 }} animate={{ y: 0, opacity: 1 }} transition={{ duration: 0.8, ease: 'easeOut', delay: 0.2 }}>
+//                   <span className="text-[14px] leading-[1.6]">Get the authentic tattoo look without the needle or the lifelong commitment. Our clinically tested, permanent ink sinks into the top layer of your skin, fully developing into a bold, </span>
+//                   <span className="text-[#FE8204] text-[14px] leading-[1.6]">realistic design within 24 hours.</span>
+//                 </motion.p>
+//                 <motion.button className="mt-8 bg-black text-white rounded-full px-8 py-4 flex items-center gap-4 font-bold uppercase tracking-widest text-[13px] hover:bg-gray-800 transition-colors group" initial={{ y: 20, opacity: 0 }} animate={{ y: 0, opacity: 1 }} transition={{ duration: 0.8, ease: 'easeOut', delay: 0.3 }}>
+//                   SHOP COLLECTIONS
+//                   <span className="bg-white text-black rounded-full w-8 h-8 flex items-center justify-center group-hover:translate-x-1 transition-transform">
+//                     <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg>
+//                   </span>
+//                 </motion.button>
+//               </motion.div>
+              
+//             </main>
+
+//             <motion.div
+//               className="absolute bottom-0 z-50 top-160 w-full h-14 md:h-16 bg-black flex-shrink-0 flex items-center overflow-hidden"
+//               initial={{ y: 50, opacity: 0 }}
+//               animate={{
+//                 y: 0,
+//                 opacity: isScrolled ? 0 : 1,
+//                 x: isScrolled ? '100%' : '0%' 
+//               }}
+//               transition={{ delay: showIntro ? 0.5 : 0, duration: 0.8, ease: 'easeInOut' }}
+//             >
+//               <motion.div className="flex whitespace-nowrap" animate={{ x: ['0%', '-50%'] }} transition={{ duration: 18, ease: 'linear', repeat: Infinity, repeatType: 'loop' }}>
+//                 {[0, 1].map((i) => (
+//                   <span key={i} className="flex items-center" style={{ fontFamily: 'Montserrat, sans-serif', fontWeight: '700', fontSize: 'clamp(13px, 1.1vw, 16px)', textTransform: 'uppercase', letterSpacing: '0.12em', color: '#fff' }}>
+//                     {Array.from({ length: 10 }).map((_, j) => (
+//                       <span key={j} className="flex items-center">
+//                         Just Tattoos <span style={{ color: '#FE8204', margin: '0 18px', fontSize: '10px' }}>◆</span>
+//                       </span>
+//                     ))}
+//                   </span>
+//                 ))}
+//               </motion.div>
+//             </motion.div>
+//           </motion.div>
+//         </AnimatePresence>
+//       </div>
+//     </div>
+//   );
+// }
+
+import { useEffect, useState } from 'react';
+import { motion, AnimatePresence } from 'framer-motion';
+import './Hero.css';
+
 const deckConfig = [
   // Cards 1-4: Fanned out in hero state
   { id: 1, heroRotate: -2,  heroX: 0,   heroY: 0,   circRotate: 0,   circX: 0,    circY: -220, zIndex: 40 }, 
-  { id: 2, heroRotate: 6,   heroX: 45,  heroY: -5, circRotate: 45,  circX: 156,  circY: -156, zIndex: 30 }, 
+  { id: 2, heroRotate: 6,   heroX: 45,  heroY: -5,  circRotate: 45,  circX: 156,  circY: -156, zIndex: 30 }, 
   { id: 3, heroRotate: 14,  heroX: 85,  heroY: -10, circRotate: 90,  circX: 220,  circY: 0,    zIndex: 20 }, 
   { id: 4, heroRotate: 22,  heroX: 125, heroY: -10, circRotate: 135, circX: 156,  circY: 156,  zIndex: 10 }, 
   // Cards 5-8: Hidden directly behind Card 1 during initial state
@@ -2927,7 +3552,8 @@ export default function Hero() {
     };
   }, [isExpanded]);
 
-  const getCircPos = (val) => isDesktop ? val : val * 0.6;
+  // Adjust mobile explosion radius here. 0.9 pushes cards further out to make room for text.
+  const getCircPos = (val) => isDesktop ? val : val * 0.9;
 
   return (
     <div className="relative w-full h-[150vh] bg-white">
@@ -2936,18 +3562,16 @@ export default function Hero() {
       <div className="sticky top-0 w-full h-screen overflow-hidden flex flex-col">
 
         {/* PHASE 2 & 3 — HERO AND SCROLL STATE */}
-        {true && (
+        <AnimatePresence>
           <motion.div
             className="relative z-10 flex flex-col h-full w-full"
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ duration: 0.6 }}
           >
-            {/* flex-grow ensures this area takes up available space without pushing the ticker offscreen */}
-            {/* <main className="max-w-[1300px] mx-auto px-6 lg:px-12 w-full flex-grow flex flex-col md:flex-row items-center justify-between pb-8 pt-6 md:pt-0"> */}
-              {/* Change justify-between to justify-center and reduce padding-top */}
-<main className="max-w-[1300px] mx-auto px-6 lg:px-12 w-full flex-grow flex flex-col md:flex-row items-center justify-center pb-8 pt-2 md:pt-0 gap-8">
-              {/* Left Column: Text (Properly scaled) */}
+            <main className="max-w-[1300px] mx-auto px-6 lg:px-12 w-full flex-grow flex flex-col md:flex-row items-center justify-center pb-8 pt-2 md:pt-0 gap-8">
+              
+              {/* Left Column: Text */}
               <motion.div 
                 className="w-full md:w-[55%] flex flex-col items-center md:items-start justify-center z-20 order-1"
                 animate={{ opacity: isScrolled ? 0 : 1, y: isScrolled ? -40 : 0, filter: isScrolled ? 'blur(10px)' : 'blur(0px)' }}
@@ -3007,17 +3631,10 @@ export default function Hero() {
               </motion.div>
 
               {/* Right Column: Scaled-down Card Deck */}
-              {/* <motion.div 
-                
-                className="w-full md:w-[45%] h-[280px] md:h-[380px] lg:h-[420px] relative flex justify-center items-center mt-2 md:-mt-12 order-2"
-                animate={{ x: isScrolled && isDesktop ? '-50%' : '0%' }}
-                transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1] }}
-              > */}
               <motion.div 
-                className="w-full md:w-[45%] h-[280px] md:h-[380px] lg:h-[420px] relative flex justify-center items-center mt-2 md:-mt-12 order-2"
-                // Changed from -50% to -61% for mathematically perfect center-screen alignment
-                // animate={{ x: isScrolled && isDesktop ? '-61%' : '0%' }} 
-                animate={{ x: isScrolled && isDesktop ? '-61%' : '0%', 
+                className="w-full md:w-[45%] h-[250px] md:h-[380px] lg:h-[420px] relative flex justify-center items-center order-2"
+                animate={{ 
+                  x: isScrolled && isDesktop ? '-61%' : '0%', 
                   y: isScrolled ? 80 : 0
                 }}
                 transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1] }}
@@ -3040,23 +3657,13 @@ export default function Hero() {
                   </span>
                 </motion.div>
 
-                {/* Shrunk overall wrapper size to match layout */}
-                <div className="relative w-[220px] h-[300px] md:w-[260px] md:h-[360px] lg:w-[320px] lg:h-[440px]">
+                <div className="relative w-[180px] h-[250px] md:w-[260px] md:h-[360px] lg:w-[320px] lg:h-[440px] flex justify-center items-center">
                   {deckConfig.map((card, index) => {
                     const isTopCard = index === 0;
                     const isVisibleInHero = card.id <= 4;
 
                     return (
                       <motion.div
-                        // key={card.id}
-                        // className="absolute inset-0 rounded-2xl md:rounded-[24px] overflow-hidden flex flex-col items-center justify-center"
-                        // style={{
-                        //   zIndex: isTopCard && cardIsFalling ? 9999 : card.zIndex,
-                        //   transformOrigin: 'bottom left',
-                        //   border: '2px solid #111',
-                        //   boxShadow: '0 20px 40px rgba(0,0,0,0.12)',
-                        //   backgroundColor: '#fff',
-                        // }}
                         key={card.id}
                         className="absolute inset-0 rounded-2xl md:rounded-[24px] overflow-hidden flex flex-col items-center justify-center"
                         style={{
@@ -3070,26 +3677,27 @@ export default function Hero() {
                         animate={
                           isScrolled 
                             ? {
-                                x: getCircPos(card.circX),
+                                x: getCircPos(card.circX ),
                                 y: getCircPos(card.circY),
                                 rotate: card.circRotate,
                                 opacity: 1,
-                               scale: isDesktop ? 0.5 : 0.4
+                                scale: isDesktop ? 0.5 : 0.95 
                               }
                             : isExpanded
                             ? {
-                                x: card.heroX,
-                                y: card.heroY,
+                                x: isDesktop ? card.heroX : card.heroX * 0.5, 
+                                y: isDesktop ? card.heroY : card.heroY * 0.5, 
                                 rotate: card.heroRotate,
                                 opacity: isVisibleInHero ? 1 : 0, 
                                 scale: 1
                               }
                             : isTopCard && topCardReady
                             ? {
-                                x: [-650, -20, 0],
-                                y: [-650, -40, 0],
-                                rotate: [-70, 15, 0],
-                                opacity: [0, 1, 1],
+                                // FIX: Smoothly fall directly to the final 0,0 location without any snapping at the end.
+                                x: [-650, 0],
+                                y: [-650, 0],
+                                rotate: [-70, -2],
+                                opacity: [0, 1],
                                 scale: 1
                               }
                             : {
@@ -3106,7 +3714,8 @@ export default function Hero() {
                             : isExpanded
                             ? { type: 'spring', damping: 18, stiffness: 90, delay: isTopCard ? 0 : index * 0.08 }
                             : isTopCard && topCardReady
-                            ? { duration: 2.5, times: [0, 0.99, 1], ease: [0.25, 0.1, 0.25, 1] }
+                            // FIX: Removed the erratic `times: [0, 0.99, 1]` so it doesn't snap at the final frame.
+                            ? { duration: 2.5, ease: [0.25, 0.1, 0.25, 1] } 
                             : { duration: 0 }
                         }
                       >
@@ -3141,15 +3750,16 @@ export default function Hero() {
               
             </main>
 
-            <motion.div
-              className="absolute bottom-0 z-50 top-160 w-full h-14 md:h-16 bg-black flex-shrink-0 flex items-center overflow-hidden"
+            {/* FIX: Infinity bar mapped properly to isExpanded and scrolling state */}
+            {/* <motion.div
+              className="absolute bottom-0 z-50 w-full h-14 md:h-16 bg-black flex-shrink-0 flex items-center overflow-hidden"
               initial={{ y: 50, opacity: 0 }}
               animate={{
-                y: 0,
-                opacity: isScrolled ? 0 : 1,
+                y: isExpanded ? 0 : 50,
+                opacity: isScrolled ? 0 : (isExpanded ? 1 : 0),
                 x: isScrolled ? '100%' : '0%' 
               }}
-              transition={{ delay: showIntro ? 0.5 : 0, duration: 0.8, ease: 'easeInOut' }}
+              transition={{ duration: 0.8, ease: 'easeInOut' }}
             >
               <motion.div className="flex whitespace-nowrap" animate={{ x: ['0%', '-50%'] }} transition={{ duration: 18, ease: 'linear', repeat: Infinity, repeatType: 'loop' }}>
                 {[0, 1].map((i) => (
@@ -3162,17 +3772,501 @@ export default function Hero() {
                   </span>
                 ))}
               </motion.div>
-            </motion.div>
+            </motion.div> */}
             
-            {/* Bottom Black Scrolling Strip (Slides out on Scroll) */}
-            {/* flex-shrink-0 keeps it visible within 100vh layout */}
-          
+            {/* FIX: Changed 'absolute' to 'fixed left-0' so it anchors to the bottom of your screen, not the bottom of the 100vh container */}
+<motion.div
+  className="fixed bottom-0 left-0 z-50 w-full h-14 md:h-16 bg-black flex-shrink-0 flex items-center overflow-hidden"
+  initial={{ y: 50, opacity: 0 }}
+  animate={{
+    y: isExpanded ? 0 : 50,
+    opacity: isScrolled ? 0 : (isExpanded ? 1 : 0),
+    x: isScrolled ? '100%' : '0%' 
+  }}
+  transition={{ duration: 0.8, ease: 'easeInOut' }}
+>
+  <motion.div className="flex whitespace-nowrap" animate={{ x: ['0%', '-50%'] }} transition={{ duration: 18, ease: 'linear', repeat: Infinity, repeatType: 'loop' }}>
+    {[0, 1].map((i) => (
+      <span key={i} className="flex items-center" style={{ fontFamily: 'Montserrat, sans-serif', fontWeight: '700', fontSize: 'clamp(13px, 1.1vw, 16px)', textTransform: 'uppercase', letterSpacing: '0.12em', color: '#fff' }}>
+        {Array.from({ length: 10 }).map((_, j) => (
+          <span key={j} className="flex items-center">
+            Just Tattoos <span style={{ color: '#FE8204', margin: '0 18px', fontSize: '10px' }}>◆</span>
+          </span>
+        ))}
+      </span>
+    ))}
+  </motion.div>
+</motion.div>
+
           </motion.div>
-        )}
+        </AnimatePresence>
       </div>
     </div>
   );
 }
+
+// import { useEffect, useState } from 'react';
+// import { motion, AnimatePresence } from 'framer-motion';
+// import './Hero.css';
+
+// const deckConfig = [
+//   // Cards 1-4: Fanned out in hero state
+//   { id: 1, heroRotate: -2,  heroX: 0,   heroY: 0,   circRotate: 0,   circX: 0,    circY: -220, zIndex: 40 }, 
+//   { id: 2, heroRotate: 6,   heroX: 45,  heroY: -5,  circRotate: 45,  circX: 156,  circY: -156, zIndex: 30 }, 
+//   { id: 3, heroRotate: 14,  heroX: 85,  heroY: -10, circRotate: 90,  circX: 220,  circY: 0,    zIndex: 20 }, 
+//   { id: 4, heroRotate: 22,  heroX: 125, heroY: -10, circRotate: 135, circX: 156,  circY: 156,  zIndex: 10 }, 
+//   // Cards 5-8: Hidden directly behind Card 1 during initial state
+//   { id: 5, heroRotate: -2,  heroX: 0,   heroY: 0,   circRotate: 180, circX: 0,    circY: 220,  zIndex: 5 },  
+//   { id: 6, heroRotate: -2,  heroX: 0,   heroY: 0,   circRotate: 225, circX: -156, circY: 156,  zIndex: 4 },  
+//   { id: 7, heroRotate: -2,  heroX: 0,   heroY: 0,   circRotate: 270, circX: -220, circY: 0,    zIndex: 3 },  
+//   { id: 8, heroRotate: -2,  heroX: 0,   heroY: 0,   circRotate: 315, circX: -156, circY: -156, zIndex: 2 },  
+// ];
+
+// const FACE_CARD_DROP_MS  = 2500;
+// const POST_SETTLE_GAP_MS = 500;
+// const EXPAND_DELAY_MS    = FACE_CARD_DROP_MS + POST_SETTLE_GAP_MS;
+
+// export default function Hero() {
+//   const [showIntro,     setShowIntro]     = useState(true);
+//   const [topCardReady,  setTopCardReady]  = useState(false);
+//   const [isExpanded,    setIsExpanded]    = useState(false);
+//   const [cardIsFalling, setCardIsFalling] = useState(false);
+  
+//   const [isScrolled,    setIsScrolled]    = useState(false);
+//   const [isDesktop,     setIsDesktop]     = useState(true);
+
+//   useEffect(() => {
+//     const introTimer = setTimeout(() => {
+//       setShowIntro(false);
+//       setTimeout(() => {
+//         setTopCardReady(true);
+//         setCardIsFalling(true);
+//         setTimeout(() => setCardIsFalling(false), FACE_CARD_DROP_MS);
+//         setTimeout(() => setIsExpanded(true), EXPAND_DELAY_MS);
+//       }, 400);
+//     }, 2800);
+//     return () => clearTimeout(introTimer);
+//   }, []);
+
+//   useEffect(() => {
+//     setIsDesktop(window.innerWidth >= 768);
+//     const handleResize = () => setIsDesktop(window.innerWidth >= 768);
+//     window.addEventListener('resize', handleResize);
+
+//     const handleScroll = () => {
+//       if (window.scrollY > 50 && isExpanded) {
+//         setIsScrolled(true);
+//       } else {
+//         setIsScrolled(false);
+//       }
+//     };
+//     window.addEventListener('scroll', handleScroll);
+    
+//     return () => {
+//       window.removeEventListener('resize', handleResize);
+//       window.removeEventListener('scroll', handleScroll);
+//     };
+//   }, [isExpanded]);
+
+//   // Adjust mobile explosion radius here. 0.9 pushes cards further out to make room for text.
+//   const getCircPos = (val) => isDesktop ? val : val * 0.9;
+
+//   return (
+//     <div className="relative w-full h-[150vh] bg-white">
+      
+//       {/* Sticky container uses exactly 100vh so the bottom bar isn't forced off-screen */}
+//       <div className="sticky top-0 w-full h-screen overflow-hidden flex flex-col">
+
+//         {/* PHASE 2 & 3 — HERO AND SCROLL STATE */}
+//         <AnimatePresence>
+//           <motion.div
+//             className="relative z-10 flex flex-col h-full w-full"
+//             initial={{ opacity: 0 }}
+//             animate={{ opacity: 1 }}
+//             transition={{ duration: 0.6 }}
+//           >
+//             <main className="max-w-[1300px] mx-auto px-6 lg:px-12 w-full flex-grow flex flex-col md:flex-row items-center justify-center pb-8 pt-2 md:pt-0 gap-8">
+              
+//               {/* Left Column: Text (Properly scaled) */}
+//               <motion.div 
+//                 className="w-full md:w-[55%] flex flex-col items-center md:items-start justify-center z-20 order-1"
+//                 animate={{ opacity: isScrolled ? 0 : 1, y: isScrolled ? -40 : 0, filter: isScrolled ? 'blur(10px)' : 'blur(0px)' }}
+//                 transition={{ duration: 0.6, ease: 'easeInOut' }}
+//                 style={{ pointerEvents: isScrolled ? 'none' : 'auto' }}
+//               >
+//                 <motion.div 
+//                   initial={{ x: -30, opacity: 0 }} 
+//                   animate={{ x: 0, opacity: 1 }} 
+//                   transition={{ duration: 0.8, ease: 'easeOut', delay: 0 }} 
+//                   className="w-max flex flex-col text-left relative z-30"
+//                 >
+//                   <div 
+//                     className="text-black text-[15vw] md:text-[72px] lg:text-[86px] xl:text-[100px] leading-[0.85] tracking-[-0.03em] uppercase whitespace-nowrap" 
+//                     style={{ fontFamily: 'Almarena, sans-serif', fontWeight: '800' }}
+//                   >
+//                     REAL INK
+//                   </div>
+                  
+//                   <div 
+//                     className="text-[#FE8204] text-[15vw] md:text-[72px] lg:text-[86px] xl:text-[100px] leading-[0.85] tracking-[-0.03em] uppercase whitespace-nowrap mt-1 lg:mt-2 ml-[10vw] md:ml-[60px] lg:ml-[70px] xl:ml-[85px]" 
+//                     style={{ fontFamily: 'Almarena, sans-serif', fontWeight: '800' }}
+//                   >
+//                     YOUR WAY
+//                   </div>
+//                 </motion.div>
+
+//                 <motion.p 
+//                   className="mt-6 md:mt-8 text-left hidden md:block text-[#111]" 
+//                   style={{ maxWidth: '520px', fontFamily: 'Montserrat, sans-serif', fontWeight: '500' }} 
+//                   initial={{ y: 20, opacity: 0 }} 
+//                   animate={{ y: 0, opacity: 1 }} 
+//                   transition={{ duration: 0.8, ease: 'easeOut', delay: 0.2 }}
+//                 >
+//                   <span className="text-[14px] lg:text-[16px] leading-[1.6]">
+//                     Get the authentic tattoo look without the needle or the lifelong commitment. Our clinically tested, permanent ink sinks into the top layer of your skin, fully developing into a bold, 
+//                   </span>
+//                   <span className="text-[#FE8204] text-[14px] lg:text-[16px] leading-[1.6] font-semibold">
+//                     {" "}realistic design within 24 hours.
+//                   </span>
+//                 </motion.p>
+
+//                 <motion.button 
+//                   className="mt-8 bg-black text-white rounded-full px-7 py-3.5 lg:px-8 lg:py-4 hidden md:flex items-center gap-4 font-bold uppercase tracking-widest text-[12px] lg:text-[14px] hover:bg-gray-800 transition-colors group" 
+//                   initial={{ y: 20, opacity: 0 }} 
+//                   animate={{ y: 0, opacity: 1 }} 
+//                   transition={{ duration: 0.8, ease: 'easeOut', delay: 0.3 }}
+//                 >
+//                   SHOP COLLECTIONS
+//                   <span className="bg-white text-black rounded-full w-8 h-8 flex items-center justify-center group-hover:translate-x-1 transition-transform">
+//                     <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+//                       <path d="M5 12h14"></path>
+//                       <path d="m12 5 7 7-7 7"></path>
+//                     </svg>
+//                   </span>
+//                 </motion.button>
+//               </motion.div>
+
+//               {/* Right Column: Scaled-down Card Deck */}
+//               <motion.div 
+//                 className="w-full md:w-[45%] h-[250px] md:h-[380px] lg:h-[420px] relative flex justify-center items-center order-2"
+//                 animate={{ 
+//                   x: isScrolled && isDesktop ? '-61%' : '0%', 
+//                   y: isScrolled ? 80 : 0
+//                 }}
+//                 transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1] }}
+//               >
+//                 {/* Center "Real Tattoo Look" Logo */}
+//                 <motion.div
+//                   className="absolute inset-0 flex flex-col items-center justify-center pointer-events-none z-[60]"
+//                   initial={{ opacity: 0, scale: 0.5 }}
+//                   animate={{ opacity: isScrolled ? 1 : 0, scale: isScrolled ? 1 : 0.5 }}
+//                   transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1], delay: isScrolled ? 0.15 : 0 }}
+//                 >
+//                   <span className="text-[24px] md:text-[32px] leading-[1.1] tracking-widest text-black uppercase text-center" style={{ fontFamily: 'Almarena, sans-serif', fontWeight: '800' }}>
+//                     REAL
+//                   </span>
+//                   <svg className="my-1.5" width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="#FE8204" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
+//                     <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path>
+//                   </svg>
+//                   <span className="text-[24px] md:text-[32px] leading-[1.1] tracking-widest text-black uppercase text-center" style={{ fontFamily: 'Almarena, sans-serif', fontWeight: '800' }}>
+//                     TATTOO<br/>LOOK
+//                   </span>
+//                 </motion.div>
+
+//                 <div className="relative w-[180px] h-[250px] md:w-[260px] md:h-[360px] lg:w-[320px] lg:h-[440px] flex justify-center items-center">
+//                   {deckConfig.map((card, index) => {
+//                     const isTopCard = index === 0;
+//                     const isVisibleInHero = card.id <= 4;
+
+//                     return (
+//                       <motion.div
+//                         key={card.id}
+//                         className="absolute inset-0 rounded-2xl md:rounded-[24px] overflow-hidden flex flex-col items-center justify-center"
+//                         style={{
+//                           zIndex: isTopCard && cardIsFalling ? 9999 : card.zIndex,
+//                           transformOrigin: 'center', 
+//                           border: '2px solid #111',
+//                           boxShadow: '0 20px 40px rgba(0,0,0,0.12)',
+//                           backgroundColor: '#fff',
+//                         }}
+//                         initial={isTopCard ? { x: -650, y: -650, opacity: 0, rotate: -20 } : { x: 0, y: 0, opacity: 0, rotate: 0 }}
+//                         animate={
+//                           isScrolled 
+//                             ? {
+//                                 x: getCircPos(card.circX ),
+//                                 y: getCircPos(card.circY),
+//                                 rotate: card.circRotate,
+//                                 opacity: 1,
+//                                 scale: isDesktop ? 0.5 : 0.95 
+//                               }
+//                             : isExpanded
+//                             ? {
+//                                 x: isDesktop ? card.heroX : card.heroX * 0.5, 
+//                                 y: isDesktop ? card.heroY : card.heroY * 0.5, 
+//                                 rotate: card.heroRotate,
+//                                 opacity: isVisibleInHero ? 1 : 0, 
+//                                 scale: 1
+//                               }
+//                             : isTopCard && topCardReady
+//                             ? {
+//                                 x: [-650, -20, 0],
+//                                 y: [-650, -40, 0],
+//                                 // FIX 1: Changed ending rotate from 0 to -2 to match the heroRotate of Card 1
+//                                 rotate: [-70, 15, -2], 
+//                                 opacity: [0, 1, 1],
+//                                 scale: 1
+//                               }
+//                             : {
+//                                 x: isTopCard ? -650 : 0,
+//                                 y: isTopCard ? -650 : 0,
+//                                 opacity: 0,
+//                                 rotate: isTopCard ? -20 : 0,
+//                                 scale: 1
+//                               }
+//                         }
+//                         transition={
+//                           isScrolled
+//                             ? { type: 'spring', damping: 25, stiffness: 85, mass: 1 }
+//                             : isExpanded
+//                             ? { type: 'spring', damping: 18, stiffness: 90, delay: isTopCard ? 0 : index * 0.08 }
+//                             : isTopCard && topCardReady
+//                             ? { duration: 2.5, times: [0, 0.99, 1], ease: [0.25, 0.1, 0.25, 1] }
+//                             : { duration: 0 }
+//                         }
+//                       >
+//                         <img src={`/assets/images/Card${card.id}.png`} alt={`Tattoo Card ${card.id}`} className="w-full h-full object-cover" onError={(e) => { e.target.style.display = 'none'; e.target.nextSibling.style.display = 'flex'; }} />
+//                         <div className="hidden w-full h-full bg-gray-100 items-center justify-center text-center px-4">
+//                           <span className="font-bold text-xl text-gray-400">Card {card.id}</span>
+//                         </div>
+//                       </motion.div>
+//                     );
+//                   })}
+//                 </div>
+//               </motion.div>
+
+//               {/* Mobile-only Body Copy */}
+//               <motion.div 
+//                 className="w-full order-3 md:hidden flex flex-col items-center text-center px-4 pb-12 mt-4"
+//                 animate={{ opacity: isScrolled ? 0 : 1, y: isScrolled ? 40 : 0 }}
+//                 transition={{ duration: 0.6 }}
+//                 style={{ pointerEvents: isScrolled ? 'none' : 'auto' }}
+//               >
+//                 <motion.p className="text-[#111]" style={{ fontFamily: 'Montserrat, sans-serif', fontWeight: '500' }} initial={{ y: 20, opacity: 0 }} animate={{ y: 0, opacity: 1 }} transition={{ duration: 0.8, ease: 'easeOut', delay: 0.2 }}>
+//                   <span className="text-[14px] leading-[1.6]">Get the authentic tattoo look without the needle or the lifelong commitment. Our clinically tested, permanent ink sinks into the top layer of your skin, fully developing into a bold, </span>
+//                   <span className="text-[#FE8204] text-[14px] leading-[1.6]">realistic design within 24 hours.</span>
+//                 </motion.p>
+//                 <motion.button className="mt-8 bg-black text-white rounded-full px-8 py-4 flex items-center gap-4 font-bold uppercase tracking-widest text-[13px] hover:bg-gray-800 transition-colors group" initial={{ y: 20, opacity: 0 }} animate={{ y: 0, opacity: 1 }} transition={{ duration: 0.8, ease: 'easeOut', delay: 0.3 }}>
+//                   SHOP COLLECTIONS
+//                   <span className="bg-white text-black rounded-full w-8 h-8 flex items-center justify-center group-hover:translate-x-1 transition-transform">
+//                     <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg>
+//                   </span>
+//                 </motion.button>
+//               </motion.div>
+              
+//             </main>
+
+//             {/* FIX 2: Infinity Bar - Removed top-160 and tied visibility/movement to isExpanded */}
+//             <motion.div
+//               className="absolute bottom-0 z-50 w-full h-14 md:h-16 bg-black flex-shrink-0 flex items-center overflow-hidden"
+//               initial={{ y: 50, opacity: 0 }}
+//               animate={{
+//                 y: isExpanded ? 0 : 50,
+//                 opacity: (isExpanded && !isScrolled) ? 1 : 0,
+//                 x: isScrolled ? '100%' : '0%' 
+//               }}
+//               transition={{ duration: 0.8, ease: 'easeInOut' }}
+//             >
+//               <motion.div className="flex whitespace-nowrap" animate={{ x: ['0%', '-50%'] }} transition={{ duration: 18, ease: 'linear', repeat: Infinity, repeatType: 'loop' }}>
+//                 {[0, 1].map((i) => (
+//                   <span key={i} className="flex items-center" style={{ fontFamily: 'Montserrat, sans-serif', fontWeight: '700', fontSize: 'clamp(13px, 1.1vw, 16px)', textTransform: 'uppercase', letterSpacing: '0.12em', color: '#fff' }}>
+//                     {Array.from({ length: 10 }).map((_, j) => (
+//                       <span key={j} className="flex items-center">
+//                         Just Tattoos <span style={{ color: '#FE8204', margin: '0 18px', fontSize: '10px' }}>◆</span>
+//                       </span>
+//                     ))}
+//                   </span>
+//                 ))}
+//               </motion.div>
+//             </motion.div>
+//           </motion.div>
+//         </AnimatePresence>
+//       </div>
+//     </div>
+//   );
+// }
+
+// import { useEffect, useState } from 'react';
+// import { motion } from 'framer-motion';
+
+// const deckConfig = [
+//   // Cards 1-4: Fanned out in hero state
+//   { id: 1, heroRotate: -2,  heroX: 0,   heroY: 0,   circRotate: 0,   circX: 0,    circY: -220, zIndex: 40 }, 
+//   { id: 2, heroRotate: 6,   heroX: 45,  heroY: -5, circRotate: 45,  circX: 156,  circY: -156, zIndex: 30 }, 
+//   { id: 3, heroRotate: 14,  heroX: 85,  heroY: -10, circRotate: 90,  circX: 220,  circY: 0,    zIndex: 20 }, 
+//   { id: 4, heroRotate: 22,  heroX: 125, heroY: -10, circRotate: 135, circX: 156,  circY: 156,  zIndex: 10 }, 
+//   // Cards 5-8: Hidden directly behind Card 1 during initial state
+//   { id: 5, heroRotate: -2,  heroX: 0,   heroY: 0,   circRotate: 180, circX: 0,    circY: 220,  zIndex: 5 },  
+//   { id: 6, heroRotate: -2,  heroX: 0,   heroY: 0,   circRotate: 225, circX: -156, circY: 156,  zIndex: 4 },  
+//   { id: 7, heroRotate: -2,  heroX: 0,   heroY: 0,   circRotate: 270, circX: -220, circY: 0,    zIndex: 3 },  
+//   { id: 8, heroRotate: -2,  heroX: 0,   heroY: 0,   circRotate: 315, circX: -156, circY: -156, zIndex: 2 },  
+// ];
+
+// const FALL_DURATION = 1.2; 
+// const EXPAND_DELAY = 1.5; 
+
+// export default function Hero() {
+//   const [isExpanded, setIsExpanded] = useState(false);
+//   const [isScrolled, setIsScrolled] = useState(false);
+//   const [isDesktop, setIsDesktop] = useState(true);
+
+//   useEffect(() => {
+//     // Initial Animation Sequence
+//     const timer = setTimeout(() => setIsExpanded(true), EXPAND_DELAY * 1000);
+    
+//     const handleResize = () => setIsDesktop(window.innerWidth >= 768);
+//     const handleScroll = () => {
+//       // Trigger explosion earlier for smoother transition
+//       setIsScrolled(window.scrollY > 20);
+//     };
+
+//     window.addEventListener('resize', handleResize);
+//     window.addEventListener('scroll', handleScroll);
+//     handleResize();
+
+//     return () => {
+//       clearTimeout(timer);
+//       window.removeEventListener('resize', handleResize);
+//       window.removeEventListener('scroll', handleScroll);
+//     };
+//   }, []);
+
+//   // Point 3: Adjusted multiplier for mobile to create a larger "inner circle"
+//   const getCircPos = (val) => isDesktop ? val : val * 0.75;
+
+//   return (
+//     <div className="relative w-full h-[200vh] bg-white">
+//       <div className="sticky top-0 w-full h-screen overflow-hidden flex flex-col items-center justify-center">
+        
+//         <main className="relative w-full max-w-[1300px] h-full flex flex-col md:flex-row items-center justify-center px-6">
+          
+//           {/* LEFT CONTENT: Text */}
+//           <motion.div 
+//             className="w-full md:w-1/2 flex flex-col items-center md:items-start z-20"
+//             animate={{ 
+//                 opacity: isScrolled ? 0 : 1, 
+//                 x: isScrolled ? -100 : 0,
+//                 filter: isScrolled ? 'blur(10px)' : 'blur(0px)' 
+//             }}
+//             transition={{ duration: 0.5 }}
+//           >
+//             <div className="uppercase font-[800] leading-[0.85] tracking-tighter text-[15vw] md:text-[80px] lg:text-[100px]">
+//               <div className="text-black">REAL INK</div>
+//               <div className="text-[#FE8204] ml-[10vw] md:ml-[60px]">YOUR WAY</div>
+//             </div>
+            
+//             <p className="mt-6 max-w-[450px] text-left hidden md:block text-[16px] font-medium">
+//               Get the authentic tattoo look without the needle. Our clinically tested ink develops into a 
+//               <span className="text-[#FE8204] font-bold"> realistic design within 24 hours.</span>
+//             </p>
+//           </motion.div>
+
+//           {/* RIGHT CONTENT: The Deck */}
+//           <div className="relative w-full md:w-1/2 h-[400px] flex items-center justify-center">
+            
+//             {/* Center Logo (Point 2) */}
+//             <motion.div
+//               className="absolute flex flex-col items-center justify-center z-[60] pointer-events-none"
+//               initial={{ opacity: 0, scale: 0.8 }}
+//               animate={{ 
+//                 opacity: isScrolled ? 1 : 0, 
+//                 scale: isScrolled ? 1 : 0.8,
+//                 y: isDesktop ? 0 : -20 // Adjust for mobile visual center
+//               }}
+//               transition={{ duration: 0.6, ease: "easeOut" }}
+//             >
+//               <span className="text-2xl md:text-4xl font-black text-black leading-none">REAL</span>
+//               <div className="text-[#FE8204] text-3xl my-1">❤</div>
+//               <span className="text-2xl md:text-4xl font-black text-black leading-none text-center">TATTOO<br/>LOOK</span>
+//             </motion.div>
+
+//             {/* The Cards (Point 1 & 3) */}
+//             <motion.div 
+//               className="relative w-[200px] h-[280px] md:w-[280px] md:h-[380px]"
+//               animate={{ 
+//                 // Move deck to screen center when exploded
+//                 x: isScrolled && isDesktop ? "-61%" : "0%",
+//                 y: isScrolled && !isDesktop ? "-10%" : "10%"
+//               }}
+//               transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1] }}
+//             >
+//               {deckConfig.map((card, index) => {
+//                 const isTopCard = index === 0;
+//                 return (
+//                   <motion.div
+//                     key={card.id}
+//                     className="absolute inset-0 bg-white border-2 border-black rounded-[20px] md:rounded-[30px] shadow-xl overflow-hidden flex items-center justify-center"
+//                     style={{ zIndex: card.zIndex, transformOrigin: 'center' }}
+//                     initial={{ x: -800, y: -600, rotate: -45, opacity: 0 }}
+//                     animate={
+//                       isScrolled 
+//                         ? {
+//                             x: getCircPos(card.circX),
+//                             y: getCircPos(card.circY),
+//                             rotate: card.circRotate,
+//                             scale: isDesktop ? 0.5 : 0.6, // Point 3: Tighter scale for mobile
+//                             opacity: 1
+//                           }
+//                         : isExpanded
+//                         ? {
+//                             x: card.heroX,
+//                             y: card.heroY,
+//                             rotate: card.heroRotate,
+//                             opacity: card.id <= 4 ? 1 : 0,
+//                             scale: 1
+//                           }
+//                         : { // The Initial Drop (Point 1)
+//                             x: 0, 
+//                             y: 0, 
+//                             rotate: 0, 
+//                             opacity: isTopCard ? 1 : 0,
+//                             scale: 1
+//                           }
+//                     }
+//                     transition={
+//                       isScrolled 
+//                         ? { type: 'spring', damping: 20, stiffness: 100 }
+//                         : isExpanded 
+//                         ? { type: 'spring', damping: 15, stiffness: 70, delay: index * 0.05 }
+//                         : { duration: FALL_DURATION, ease: "easeOut" }
+//                     }
+//                   >
+//                      <img 
+//                         src={`/assets/images/Card${card.id}.png`} 
+//                         alt="Tattoo" 
+//                         className="w-full h-full object-cover"
+//                         onError={(e) => { e.target.src = "https://via.placeholder.com/300x400?text=Tattoo"; }} 
+//                      />
+//                   </motion.div>
+//                 );
+//               })}
+//             </motion.div>
+//           </div>
+//         </main>
+
+//         {/* Bottom Ticker */}
+//         <motion.div
+//           className="absolute bottom-0 w-full h-16 bg-black flex items-center overflow-hidden"
+//           animate={{ y: isScrolled ? 100 : 0 }}
+//         >
+//           <div className="flex whitespace-nowrap text-white font-bold uppercase tracking-widest text-sm">
+//              {/* Simple ticker logic */}
+//              {Array(20).fill("Just Tattoos ◆ ").map((t, i) => <span key={i} className="mx-4">{t}</span>)}
+//           </div>
+//         </motion.div>
+//       </div>
+//     </div>
+//   );
+// }
 
 
 
@@ -3397,6 +4491,10 @@ export default function Hero() {
 //                           boxShadow: '0 20px 60px rgba(0,0,0,0.15)',
 //                           backgroundColor: '#fff',
 //                         }}
+
+
+
+
 //                         initial={{ x: -650, y: -650, opacity: 0, rotate: -20 }}
 //                         animate={
 //                           isExpanded

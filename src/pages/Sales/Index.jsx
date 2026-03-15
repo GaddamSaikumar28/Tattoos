@@ -1,12 +1,11 @@
-import NewArrivals from "./Hero.jsx";
-import NewArrivalsProducts from "./Products.jsx/index.jsx";
-import FreeGiftComponent from "../Home/FreeGiftComponent.jsx/index.jsx";
-import Testimonials from "../Home/Testimonials.jsx/index.jsx";
-import FAQSection from "../Home/FAQSection.jsx/index.jsx";
-import Newsletter from "../Home/NewsLetter.jsx/index.jsx";
-import PopularComponent from "./PopularComponent.jsx/index.jsx";
-import SharedProductGrid from "../Shared/index.jsx";
-import SharedHeroBanner from "../Shared/SharedHeroBanner.jsx";
+import React, { useMemo, useRef } from 'react';
+import SharedHeroBanner from '../Shared/SharedHeroBanner';
+import SharedProductGrid from '../Shared/index.jsx';
+import FreeGiftComponent from '../Home/FreeGiftComponent.jsx';
+import Testimonials from '../Home/Testimonials.jsx';
+import FAQSection from '../Home/FAQSection.jsx';
+import Newsletter from '../Home/NewsLetter.jsx';
+import PopularComponent from '../NewArrivals/PopularComponent.jsx';
 const productsData = Array.from({ length: 20 }, (_, i) => ({
   id: i + 1,
   title: i === 0 ? 'Floral Slithering Snake' : i === 1 ? 'Colored Quadruple Skulls' : `Product Design ${i + 1}`,
@@ -20,32 +19,28 @@ const productsData = Array.from({ length: 20 }, (_, i) => ({
 
 
 export default function NewArrivalsPage() {
+  const handleExploreClick = () => {
+    console.log("Navigating to all products...");
+    // Add your navigation logic here (e.g., router.push('/products'))
+  };
+
   return (
     <div className="w-full min-h-screen bg-white">
         <SharedHeroBanner 
         title="New Arrivals" 
+        image="/assets/images/SaleBanner.png"
         // image="/assets/images/SaleHeroBanner.png"
         // textColor="#E11D48" // You can even pass a custom hex color for different sections!
       />
-      {/* <NewArrivals /> */}
-      {/* <NewArrivalsProducts /> */}
-      {/* <SharedProductGrid 
+
+     <SharedProductGrid 
         title="Sale Collection"
         products={productsData}
-        itemsPerPage={15} 
-        showPagination={true} 
+        itemsPerPage={6} 
+        showPagination={false} 
         showExploreAll={true} 
         exploreAllText="Explore All Now"
         onExploreAll={handleExploreClick}
-      /> */}
-
-      <SharedProductGrid 
-        title="New Arrivals"
-        products={productsData}
-        itemsPerPage={15}       
-        showPagination={true}  
-        showExploreAll={false}  
-        themeColor="#FE8204"   
       />
 
       <FreeGiftComponent />

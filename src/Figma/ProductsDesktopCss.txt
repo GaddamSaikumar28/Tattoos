@@ -1,0 +1,472 @@
+
+// SALE
+color: white;
+ font-size: 16px;
+ font-family: Montserrat;
+ font-weight: 700;
+ word-wrap: break-word
+---
+// Lotus Infinity Trail
+color: white;
+ font-size: 20px;
+ font-family: Almarena;
+ font-weight: 700;
+ text-transform: uppercase;
+ word-wrap: break-word
+---
+// $19,99 USD
+color: white;
+ font-size: 16px;
+ font-family: Montserrat;
+ font-weight: 300;
+ text-decoration: line-through;
+ word-wrap: break-word
+---
+// $14,99 USD
+color: white;
+ font-size: 20px;
+ font-family: Montserrat;
+ font-weight: 600;
+ word-wrap: break-word
+---
+// SALE
+color: white;
+ font-size: 16px;
+ font-family: Montserrat;
+ font-weight: 700;
+ word-wrap: break-word
+---
+// Jesus Christ Religious Art
+color: white;
+ font-size: 20px;
+ font-family: Almarena;
+ font-weight: 700;
+ text-transform: uppercase;
+ word-wrap: break-word
+---
+// $34,99 USD
+color: white;
+ font-size: 16px;
+ font-family: Montserrat;
+ font-weight: 300;
+ text-decoration: line-through;
+ word-wrap: break-word
+---
+// $24,99 USD
+color: white;
+ font-size: 20px;
+ font-family: Montserrat;
+ font-weight: 600;
+ word-wrap: break-word
+---
+// SALE
+color: white;
+ font-size: 16px;
+ font-family: Montserrat;
+ font-weight: 700;
+ word-wrap: break-word
+---
+// Colored King of the Jungle (colored)
+color: white;
+ font-size: 20px;
+ font-family: Almarena;
+ font-weight: 700;
+ text-transform: uppercase;
+ word-wrap: break-word
+---
+// $22,99 USD
+color: white;
+ font-size: 16px;
+ font-family: Montserrat;
+ font-weight: 300;
+ text-decoration: line-through;
+ word-wrap: break-word
+---
+// $17,99 USD
+color: white;
+ font-size: 20px;
+ font-family: Montserrat;
+ font-weight: 600;
+ word-wrap: break-word
+---
+// SALE
+color: white;
+ font-size: 16px;
+ font-family: Montserrat;
+ font-weight: 700;
+ word-wrap: break-word
+---
+// Japanese Foo Dog (Color)
+color: white;
+ font-size: 20px;
+ font-family: Almarena;
+ font-weight: 700;
+ text-transform: uppercase;
+ word-wrap: break-word
+---
+// $34,99 USD
+color: white;
+ font-size: 16px;
+ font-family: Montserrat;
+ font-weight: 300;
+ text-decoration: line-through;
+ word-wrap: break-word
+---
+// $29,99 USD
+color: white;
+ font-size: 20px;
+ font-family: Montserrat;
+ font-weight: 600;
+ word-wrap: break-word
+---
+// SALE
+color: white;
+ font-size: 16px;
+ font-family: Montserrat;
+ font-weight: 700;
+ word-wrap: break-word
+---
+// Floral Skull with Hat Colored
+color: white;
+ font-size: 20px;
+ font-family: Almarena;
+ font-weight: 700;
+ text-transform: uppercase;
+ word-wrap: break-word
+---
+// $29,99 USD
+color: white;
+ font-size: 16px;
+ font-family: Montserrat;
+ font-weight: 300;
+ text-decoration: line-through;
+ word-wrap: break-word
+---
+// $24,99 USD
+color: white;
+ font-size: 20px;
+ font-family: Montserrat;
+ font-weight: 600;
+ word-wrap: break-word
+---
+// SALE
+color: white;
+ font-size: 16px;
+ font-family: Montserrat;
+ font-weight: 700;
+ word-wrap: break-word
+---
+// Flock of Birds
+color: white;
+ font-size: 20px;
+ font-family: Almarena;
+ font-weight: 700;
+ text-transform: uppercase;
+ word-wrap: break-word
+---
+// $19,99 USD
+color: white;
+ font-size: 16px;
+ font-family: Montserrat;
+ font-weight: 300;
+ text-decoration: line-through;
+ word-wrap: break-word
+---
+// $14,99 USD
+color: white;
+ font-size: 20px;
+ font-family: Montserrat;
+ font-weight: 600;
+ word-wrap: break-word
+---
+// SALE
+color: white;
+ font-size: 16px;
+ font-family: Montserrat;
+ font-weight: 700;
+ word-wrap: break-word
+---
+// Dapper Kat
+color: white;
+ font-size: 20px;
+ font-family: Almarena;
+ font-weight: 700;
+ text-transform: uppercase;
+ word-wrap: break-word
+---
+// $19,99 USD
+color: white;
+ font-size: 16px;
+ font-family: Montserrat;
+ font-weight: 300;
+ text-decoration: line-through;
+ word-wrap: break-word
+---
+// $14,99 USD
+color: white;
+ font-size: 20px;
+ font-family: Montserrat;
+ font-weight: 600;
+ word-wrap: break-word
+---
+// SALE
+color: white;
+ font-size: 16px;
+ font-family: Montserrat;
+ font-weight: 700;
+ word-wrap: break-word
+---
+// Danger Dagger
+color: white;
+ font-size: 20px;
+ font-family: Almarena;
+ font-weight: 700;
+ text-transform: uppercase;
+ word-wrap: break-word
+---
+// $19,99 USD
+color: white;
+ font-size: 16px;
+ font-family: Montserrat;
+ font-weight: 300;
+ text-decoration: line-through;
+ word-wrap: break-word
+---
+// $14,99 USD
+color: white;
+ font-size: 20px;
+ font-family: Montserrat;
+ font-weight: 600;
+ word-wrap: break-word
+---
+// SALE
+color: white;
+ font-size: 16px;
+ font-family: Montserrat;
+ font-weight: 700;
+ word-wrap: break-word
+---
+// Compass & Time
+color: white;
+ font-size: 20px;
+ font-family: Almarena;
+ font-weight: 700;
+ text-transform: uppercase;
+ word-wrap: break-word
+---
+// $19,99 USD
+color: white;
+ font-size: 16px;
+ font-family: Montserrat;
+ font-weight: 300;
+ text-decoration: line-through;
+ word-wrap: break-word
+---
+// $14,99 USD
+color: white;
+ font-size: 20px;
+ font-family: Montserrat;
+ font-weight: 600;
+ word-wrap: break-word
+---
+// SALE
+color: white;
+ font-size: 16px;
+ font-family: Montserrat;
+ font-weight: 700;
+ word-wrap: break-word
+---
+// Colored Zeus
+color: white;
+ font-size: 20px;
+ font-family: Almarena;
+ font-weight: 700;
+ text-transform: uppercase;
+ word-wrap: break-word
+---
+// $22,99 USD
+color: white;
+ font-size: 16px;
+ font-family: Montserrat;
+ font-weight: 300;
+ text-decoration: line-through;
+ word-wrap: break-word
+---
+// $17,99 USD
+color: white;
+ font-size: 20px;
+ font-family: Montserrat;
+ font-weight: 600;
+ word-wrap: break-word
+---
+// SALE
+color: white;
+ font-size: 16px;
+ font-family: Montserrat;
+ font-weight: 700;
+ word-wrap: break-word
+---
+// Colored Quadruple Skulls
+color: white;
+ font-size: 20px;
+ font-family: Almarena;
+ font-weight: 700;
+ text-transform: uppercase;
+ word-wrap: break-word
+---
+// $22,99 USD
+color: white;
+ font-size: 16px;
+ font-family: Montserrat;
+ font-weight: 300;
+ text-decoration: line-through;
+ word-wrap: break-word
+---
+// $17,99 USD
+color: white;
+ font-size: 20px;
+ font-family: Montserrat;
+ font-weight: 600;
+ word-wrap: break-word
+---
+// SALE
+color: white;
+ font-size: 16px;
+ font-family: Montserrat;
+ font-weight: 700;
+ word-wrap: break-word
+---
+// Colored Dragon Rose
+color: white;
+ font-size: 20px;
+ font-family: Almarena;
+ font-weight: 700;
+ text-transform: uppercase;
+ word-wrap: break-word
+---
+// $29,99 USD
+color: white;
+ font-size: 16px;
+ font-family: Montserrat;
+ font-weight: 300;
+ text-decoration: line-through;
+ word-wrap: break-word
+---
+// $24,99 USD
+color: white;
+ font-size: 20px;
+ font-family: Montserrat;
+ font-weight: 600;
+ word-wrap: break-word
+---
+// SALE
+color: white;
+ font-size: 16px;
+ font-family: Montserrat;
+ font-weight: 700;
+ word-wrap: break-word
+---
+// Colored Botanical Butterfly
+color: white;
+ font-size: 20px;
+ font-family: Almarena;
+ font-weight: 700;
+ text-transform: uppercase;
+ word-wrap: break-word
+---
+// $22,99 USD
+color: white;
+ font-size: 16px;
+ font-family: Montserrat;
+ font-weight: 300;
+ text-decoration: line-through;
+ word-wrap: break-word
+---
+// $17,99 USD
+color: white;
+ font-size: 20px;
+ font-family: Montserrat;
+ font-weight: 600;
+ word-wrap: break-word
+---
+// SALE
+color: white;
+ font-size: 16px;
+ font-family: Montserrat;
+ font-weight: 700;
+ word-wrap: break-word
+---
+// Celestial Mischief Duo
+color: white;
+ font-size: 20px;
+ font-family: Almarena;
+ font-weight: 700;
+ text-transform: uppercase;
+ word-wrap: break-word
+---
+// $19,99 USD
+color: white;
+ font-size: 16px;
+ font-family: Montserrat;
+ font-weight: 300;
+ text-decoration: line-through;
+ word-wrap: break-word
+---
+// $14,99 USD
+color: white;
+ font-size: 20px;
+ font-family: Montserrat;
+ font-weight: 600;
+ word-wrap: break-word
+---
+// SALE
+color: white;
+ font-size: 16px;
+ font-family: Montserrat;
+ font-weight: 700;
+ word-wrap: break-word
+---
+// Botanical Phoenix
+color: white;
+ font-size: 20px;
+ font-family: Almarena;
+ font-weight: 700;
+ text-transform: uppercase;
+ word-wrap: break-word
+---
+// $19,99 USD
+color: white;
+ font-size: 16px;
+ font-family: Montserrat;
+ font-weight: 300;
+ text-decoration: line-through;
+ word-wrap: break-word
+---
+// $14,99 USD
+color: white;
+ font-size: 20px;
+ font-family: Montserrat;
+ font-weight: 600;
+ word-wrap: break-word
+---
+// New Arrivals
+color: white;
+ font-size: 64px;
+ font-family: Almarena;
+ font-weight: 700;
+ text-transform: uppercase;
+ word-wrap: break-word
+---
+// Filters
+color: white;
+ font-size: 16px;
+ font-family: Montserrat;
+ font-weight: 400;
+ word-wrap: break-word
+---
+// Sort by
+color: white;
+ font-size: 16px;
+ font-family: Montserrat;
+ font-weight: 400;
+ word-wrap: break-word
