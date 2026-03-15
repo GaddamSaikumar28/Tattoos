@@ -1,0 +1,809 @@
+<html>
+<div style={{width: '100%', height: '100%', background: 'white', overflow: 'hidden', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 64, display: 'inline-flex'}}>
+    <div style={{alignSelf: 'stretch', paddingTop: 36, background: 'white', overflow: 'hidden', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'center', gap: 45, display: 'flex'}}>
+        <div style={{alignSelf: 'stretch', justifyContent: 'center', alignItems: 'center', gap: 182, display: 'inline-flex'}}>
+            <div data-property-1="Desktop" style={{width: 97, height: 57, position: 'relative', overflow: 'hidden'}}>
+                <div style={{width: 17, height: 20, left: 0, top: 30, position: 'absolute', background: '#FE8204'}} />
+                <div style={{width: 14, height: 16, left: 15, top: 35, position: 'absolute', background: '#FE8204'}} />
+                <div style={{width: 17, height: 20, left: 31, top: 30, position: 'absolute', background: '#FE8204'}} />
+                <div style={{width: 15, height: 16, left: 50, top: 35, position: 'absolute', background: '#FE8204'}} />
+                <div style={{width: 15, height: 16, left: 66, top: 35, position: 'absolute', background: '#FE8204'}} />
+                <div style={{width: 14, height: 16, left: 83, top: 35, position: 'absolute', background: '#FE8204'}} />
+                <div style={{width: 13, height: 21, left: 0, top: 6, position: 'absolute', background: '#FE8204'}} />
+                <div style={{width: 14, height: 16, left: 16, top: 12, position: 'absolute', background: '#FE8204'}} />
+                <div style={{width: 14, height: 16, left: 32, top: 11, position: 'absolute', background: '#FE8204'}} />
+                <div style={{width: 8, height: 20, left: 47, top: 7, position: 'absolute', background: '#FE8204'}} />
+                <div style={{width: 29, height: 24, left: 62, top: 6, position: 'absolute', background: '#FE8204'}} />
+            </div>
+            <div style={{width: 694, justifyContent: 'center', alignItems: 'center', gap: 24, display: 'flex'}}>
+                <div data-property-1="Default" data-show-open-up-icon="false" style={{height: 22, justifyContent: 'flex-start', alignItems: 'center', gap: 2, display: 'flex'}}>
+                    <div style={{width: 137, height: 25, position: 'relative', overflow: 'hidden'}}>
+                        <div style={{left: 1, top: 27.50, position: 'absolute', justifyContent: 'center', display: 'flex', flexDirection: 'column', color: 'black', fontSize: 20, fontFamily: 'Almarena', fontWeight: '700', textTransform: 'uppercase', wordWrap: 'break-word'}}>New Arrival</div>
+                        <div style={{left: 0, top: 5, position: 'absolute', justifyContent: 'center', display: 'flex', flexDirection: 'column', color: 'black', fontSize: 20, fontFamily: 'Almarena', fontWeight: '700', textTransform: 'uppercase', wordWrap: 'break-word'}}>New Arrival</div>
+                    </div>
+                </div>
+                <div data-property-1="Default" data-show-open-up-icon="true" style={{height: 22, justifyContent: 'flex-start', alignItems: 'center', gap: 2, display: 'flex'}}>
+                    <div style={{width: 123, height: 25, position: 'relative', overflow: 'hidden'}}>
+                        <div style={{left: 1, top: 27.50, position: 'absolute', justifyContent: 'center', display: 'flex', flexDirection: 'column', color: 'black', fontSize: 20, fontFamily: 'Almarena', fontWeight: '700', textTransform: 'uppercase', wordWrap: 'break-word'}}>Collection</div>
+                        <div style={{left: 0, top: 5, position: 'absolute', justifyContent: 'center', display: 'flex', flexDirection: 'column', color: 'black', fontSize: 20, fontFamily: 'Almarena', fontWeight: '700', textTransform: 'uppercase', wordWrap: 'break-word'}}>Collection</div>
+                    </div>
+                    <div style={{width: 20, height: 10, position: 'relative', overflow: 'hidden'}}>
+                        <div style={{width: 14.38, height: 8.13, left: 2.81, top: 1.56, position: 'absolute', background: 'black'}} />
+                    </div>
+                </div>
+                <div data-property-1="Default" data-show-open-up-icon="true" style={{height: 22, justifyContent: 'flex-start', alignItems: 'center', gap: 2, display: 'flex'}}>
+                    <div style={{width: 52, height: 25, position: 'relative', overflow: 'hidden'}}>
+                        <div style={{left: 1, top: 27.50, position: 'absolute', justifyContent: 'center', display: 'flex', flexDirection: 'column', color: 'black', fontSize: 20, fontFamily: 'Almarena', fontWeight: '700', textTransform: 'uppercase', wordWrap: 'break-word'}}>Sale</div>
+                        <div style={{left: 0, top: 5, position: 'absolute', justifyContent: 'center', display: 'flex', flexDirection: 'column', color: 'black', fontSize: 20, fontFamily: 'Almarena', fontWeight: '700', textTransform: 'uppercase', wordWrap: 'break-word'}}>Sale</div>
+                    </div>
+                </div>
+                <div data-property-1="Default" style={{justifyContent: 'flex-start', alignItems: 'center', gap: 2, display: 'flex'}}>
+                    <div style={{width: 152, height: 25, position: 'relative', overflow: 'hidden'}}>
+                        <div style={{left: 1, top: 27.50, position: 'absolute', justifyContent: 'center', display: 'flex', flexDirection: 'column', color: 'black', fontSize: 20, fontFamily: 'Almarena', fontWeight: '700', textTransform: 'uppercase', wordWrap: 'break-word'}}>How it works</div>
+                        <div style={{left: 0, top: 5, position: 'absolute', justifyContent: 'center', display: 'flex', flexDirection: 'column', color: 'black', fontSize: 20, fontFamily: 'Almarena', fontWeight: '700', textTransform: 'uppercase', wordWrap: 'break-word'}}>How it works</div>
+                    </div>
+                    <div style={{width: 20, height: 10, position: 'relative', overflow: 'hidden'}}>
+                        <div style={{width: 14.38, height: 8.13, left: 2.81, top: 1.56, position: 'absolute', background: 'black'}} />
+                    </div>
+                </div>
+            </div>
+            <div style={{justifyContent: 'flex-start', alignItems: 'flex-end', gap: 24, display: 'flex'}}>
+                <div data-property-1="Default" style={{width: 36, height: 36, position: 'relative', overflow: 'hidden'}}>
+                    <div style={{width: 26.24, height: 26.24, left: 4.50, top: 4.50, position: 'absolute', background: 'black'}} />
+                </div>
+                <div data-property-1="Default" style={{width: 33, height: 36, position: 'relative'}}>
+                    <div style={{width: 33, height: 36, left: 0, top: 0, position: 'absolute', overflow: 'hidden'}}>
+                        <div style={{width: 33, height: 36, left: 0, top: 0, position: 'absolute'}} />
+                        <div style={{width: 28, height: 30, left: 3, top: 3, position: 'absolute', background: 'black'}} />
+                    </div>
+                </div>
+                <div data-property-1="Default" style={{width: 40, height: 46, position: 'relative'}}>
+                    <div style={{width: 33, height: 36, left: 0, top: 10, position: 'absolute', overflow: 'hidden'}}>
+                        <div style={{width: 33, height: 36, left: 0, top: 0, position: 'absolute'}} />
+                        <div style={{width: 25, height: 31, left: 4, top: 2, position: 'absolute', background: 'black'}} />
+                    </div>
+                    <div style={{width: 22, height: 24, left: 18, top: 0, position: 'absolute', background: '#FF0000', borderRadius: 9999}} />
+                    <div style={{width: 22, height: 24, left: 18, top: 0, position: 'absolute', textAlign: 'center', justifyContent: 'center', display: 'flex', flexDirection: 'column', color: 'white', fontSize: 18, fontFamily: 'Almarena', fontWeight: '700', wordWrap: 'break-word'}}>2</div>
+                </div>
+            </div>
+        </div>
+        <div style={{alignSelf: 'stretch', justifyContent: 'center', alignItems: 'center', gap: 17, display: 'inline-flex'}}>
+            <div style={{width: 726, flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 20, display: 'inline-flex'}}>
+                <div style={{alignSelf: 'stretch', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 4, display: 'flex'}}>
+                    <div style={{alignSelf: 'stretch', height: 267, position: 'relative'}}>
+                        <div style={{width: 592, height: 133, left: 0, top: 0, position: 'absolute', overflow: 'hidden'}}>
+                            <div style={{left: 0, top: 0, position: 'absolute', justifyContent: 'center', display: 'flex', flexDirection: 'column', color: 'black', fontSize: 140, fontFamily: 'Almarena', fontWeight: '700', textTransform: 'uppercase', wordWrap: 'break-word'}}>Real ink</div>
+                        </div>
+                        <div style={{width: 687, height: 133, left: 29, top: 134, position: 'absolute', overflow: 'hidden'}}>
+                            <div style={{left: 0, top: 0, position: 'absolute', justifyContent: 'center', display: 'flex', flexDirection: 'column', color: '#FE8204', fontSize: 140, fontFamily: 'Almarena', fontWeight: '700', textTransform: 'uppercase', wordWrap: 'break-word'}}>Your Way</div>
+                        </div>
+                    </div>
+                    <div style={{alignSelf: 'stretch', padding: 10, justifyContent: 'center', alignItems: 'center', gap: 10, display: 'inline-flex'}}>
+                        <div style={{width: 698, justifyContent: 'center', display: 'flex', flexDirection: 'column'}}><span style="color: 'black', fontSize: 24, fontFamily: 'Montserrat', fontWeight: '500', wordWrap: 'break-word'">Get the authentic tattoo look without the needle or the lifelong commitment. Our clinically tested, permanent ink sinks into the top layer of your skin, fully developing into a bold, </span><span style="color: '#FE8204', fontSize: 24, fontFamily: 'Montserrat', fontWeight: '500', wordWrap: 'break-word'">realistic design within 24 hours</span></div>
+                    </div>
+                </div>
+                <div data-property-1="Default" style={{width: 249, height: 50, position: 'relative', background: 'black', overflow: 'hidden', borderRadius: 30, outline: '1px black solid', outlineOffset: '-1px'}}>
+                    <div style={{width: 205, height: 50, left: 41, top: 0, position: 'absolute', borderRadius: 30, border: '1px rgba(19, 21, 23, 0.10) solid'}} />
+                    <div style={{width: 40, height: 40, left: 201.77, top: 5, position: 'absolute', background: 'white', borderRadius: 200}} />
+                    <div style={{left: 20, top: 16.21, position: 'absolute', justifyContent: 'center', display: 'flex', flexDirection: 'column', color: 'white', fontSize: 18, fontFamily: 'Almarena', fontWeight: '700', textTransform: 'uppercase', wordWrap: 'break-word'}}>Shop collections</div>
+                    <div style={{width: 20, height: 20, left: 211.77, top: 15, position: 'absolute', overflow: 'hidden'}}>
+                        <div style={{width: 15, height: 12.50, left: 2.50, top: 3.75, position: 'absolute', background: 'black'}} />
+                    </div>
+                </div>
+            </div>
+            <img style={{width: 350, height: 450, transform: 'rotate(18deg)', transformOrigin: 'top left'}} src="https://placehold.co/350x450" />
+            <img style={{width: 350, height: 450, transform: 'rotate(18deg)', transformOrigin: 'top left'}} src="https://placehold.co/350x450" />
+            <img style={{width: 350, height: 450, transform: 'rotate(18deg)', transformOrigin: 'top left'}} src="https://placehold.co/350x450" />
+            <img style={{width: 350, height: 450, transform: 'rotate(18deg)', transformOrigin: 'top left'}} src="https://placehold.co/350x450" />
+            <img style={{width: 350, height: 450, transform: 'rotate(18deg)', transformOrigin: 'top left'}} src="https://placehold.co/350x450" />
+            <img style={{width: 350, height: 450, transform: 'rotate(12deg)', transformOrigin: 'top left'}} src="https://placehold.co/350x450" />
+            <img style={{width: 350, height: 450, transform: 'rotate(3deg)', transformOrigin: 'top left'}} src="https://placehold.co/350x450" />
+            <img style={{width: 350, height: 450, transform: 'rotate(-8deg)', transformOrigin: 'top left'}} src="https://placehold.co/350x450" />
+        </div>
+        <div data-property-1="Scroll" style={{alignSelf: 'stretch', height: 80, position: 'relative', background: 'black', overflow: 'hidden'}}>
+            <div style={{width: 25, height: 32, left: 481, top: 23, position: 'absolute', background: 'white'}} />
+            <div style={{width: 20, height: 24, left: 504, top: 30, position: 'absolute', background: 'white'}} />
+            <div style={{width: 26, height: 32, left: 527, top: 23, position: 'absolute', background: 'white'}} />
+            <div style={{width: 23, height: 24, left: 556, top: 30, position: 'absolute', background: 'white'}} />
+            <div style={{width: 23, height: 24, left: 582, top: 30, position: 'absolute', background: 'white'}} />
+            <div style={{width: 21, height: 24, left: 607, top: 30, position: 'absolute', background: 'white'}} />
+            <div style={{width: 20, height: 32, left: 334, top: 22, position: 'absolute', background: 'white'}} />
+            <div style={{width: 20, height: 24, left: 358, top: 31, position: 'absolute', background: 'white'}} />
+            <div style={{width: 21, height: 24, left: 382, top: 30, position: 'absolute', background: 'white'}} />
+            <div style={{width: 13, height: 32, left: 405, top: 23, position: 'absolute', background: 'white'}} />
+            <div style={{width: 43, height: 37, left: 428, top: 22, position: 'absolute', background: 'white'}} />
+            <div style={{width: 25, height: 32, left: 2389, top: 23, position: 'absolute', background: 'white'}} />
+            <div style={{width: 20, height: 24, left: 2412, top: 30, position: 'absolute', background: 'white'}} />
+            <div style={{width: 26, height: 32, left: 2435, top: 23, position: 'absolute', background: 'white'}} />
+            <div style={{width: 23, height: 24, left: 2464, top: 30, position: 'absolute', background: 'white'}} />
+            <div style={{width: 23, height: 24, left: 2490, top: 30, position: 'absolute', background: 'white'}} />
+            <div style={{width: 21, height: 24, left: 2515, top: 30, position: 'absolute', background: 'white'}} />
+            <div style={{width: 20, height: 32, left: 2242, top: 22, position: 'absolute', background: 'white'}} />
+            <div style={{width: 20, height: 24, left: 2266, top: 31, position: 'absolute', background: 'white'}} />
+            <div style={{width: 21, height: 24, left: 2290, top: 30, position: 'absolute', background: 'white'}} />
+            <div style={{width: 13, height: 32, left: 2313, top: 23, position: 'absolute', background: 'white'}} />
+            <div style={{width: 43, height: 37, left: 2336, top: 22, position: 'absolute', background: 'white'}} />
+            <div style={{width: 25, height: 32, left: 163, top: 23, position: 'absolute', background: 'white'}} />
+            <div style={{width: 20, height: 24, left: 186, top: 30, position: 'absolute', background: 'white'}} />
+            <div style={{width: 26, height: 32, left: 209, top: 23, position: 'absolute', background: 'white'}} />
+            <div style={{width: 23, height: 24, left: 238, top: 30, position: 'absolute', background: 'white'}} />
+            <div style={{width: 23, height: 24, left: 264, top: 30, position: 'absolute', background: 'white'}} />
+            <div style={{width: 21, height: 24, left: 289, top: 30, position: 'absolute', background: 'white'}} />
+            <div style={{width: 20, height: 32, left: 16, top: 22, position: 'absolute', background: 'white'}} />
+            <div style={{width: 20, height: 24, left: 40, top: 31, position: 'absolute', background: 'white'}} />
+            <div style={{width: 21, height: 24, left: 64, top: 30, position: 'absolute', background: 'white'}} />
+            <div style={{width: 13, height: 32, left: 87, top: 23, position: 'absolute', background: 'white'}} />
+            <div style={{width: 43, height: 37, left: 110, top: 22, position: 'absolute', background: 'white'}} />
+            <div style={{width: 25, height: 32, left: 2071, top: 23, position: 'absolute', background: 'white'}} />
+            <div style={{width: 20, height: 24, left: 2094, top: 30, position: 'absolute', background: 'white'}} />
+            <div style={{width: 26, height: 32, left: 2117, top: 23, position: 'absolute', background: 'white'}} />
+            <div style={{width: 23, height: 24, left: 2146, top: 30, position: 'absolute', background: 'white'}} />
+            <div style={{width: 23, height: 24, left: 2172, top: 30, position: 'absolute', background: 'white'}} />
+            <div style={{width: 21, height: 24, left: 2197, top: 30, position: 'absolute', background: 'white'}} />
+            <div style={{width: 20, height: 32, left: 1924, top: 22, position: 'absolute', background: 'white'}} />
+            <div style={{width: 20, height: 24, left: 1948, top: 31, position: 'absolute', background: 'white'}} />
+            <div style={{width: 21, height: 24, left: 1972, top: 30, position: 'absolute', background: 'white'}} />
+            <div style={{width: 13, height: 32, left: 1995, top: 23, position: 'absolute', background: 'white'}} />
+            <div style={{width: 43, height: 37, left: 2018, top: 22, position: 'absolute', background: 'white'}} />
+            <div style={{width: 25, height: 32, left: 799, top: 23, position: 'absolute', background: 'white'}} />
+            <div style={{width: 20, height: 24, left: 822, top: 30, position: 'absolute', background: 'white'}} />
+            <div style={{width: 26, height: 32, left: 845, top: 23, position: 'absolute', background: 'white'}} />
+            <div style={{width: 23, height: 24, left: 874, top: 30, position: 'absolute', background: 'white'}} />
+            <div style={{width: 23, height: 24, left: 900, top: 30, position: 'absolute', background: 'white'}} />
+            <div style={{width: 21, height: 24, left: 925, top: 30, position: 'absolute', background: 'white'}} />
+            <div style={{width: 20, height: 32, left: 652, top: 22, position: 'absolute', background: 'white'}} />
+            <div style={{width: 20, height: 24, left: 676, top: 31, position: 'absolute', background: 'white'}} />
+            <div style={{width: 21, height: 24, left: 700, top: 30, position: 'absolute', background: 'white'}} />
+            <div style={{width: 13, height: 32, left: 723, top: 23, position: 'absolute', background: 'white'}} />
+            <div style={{width: 43, height: 37, left: 746, top: 22, position: 'absolute', background: 'white'}} />
+            <div style={{width: 25, height: 32, left: 2707, top: 23, position: 'absolute', background: 'white'}} />
+            <div style={{width: 20, height: 24, left: 2730, top: 30, position: 'absolute', background: 'white'}} />
+            <div style={{width: 26, height: 32, left: 2753, top: 23, position: 'absolute', background: 'white'}} />
+            <div style={{width: 23, height: 24, left: 2782, top: 30, position: 'absolute', background: 'white'}} />
+            <div style={{width: 23, height: 24, left: 2808, top: 30, position: 'absolute', background: 'white'}} />
+            <div style={{width: 21, height: 24, left: 2833, top: 30, position: 'absolute', background: 'white'}} />
+            <div style={{width: 20, height: 32, left: 2560, top: 22, position: 'absolute', background: 'white'}} />
+            <div style={{width: 20, height: 24, left: 2584, top: 31, position: 'absolute', background: 'white'}} />
+            <div style={{width: 21, height: 24, left: 2608, top: 30, position: 'absolute', background: 'white'}} />
+            <div style={{width: 13, height: 32, left: 2631, top: 23, position: 'absolute', background: 'white'}} />
+            <div style={{width: 43, height: 37, left: 2654, top: 22, position: 'absolute', background: 'white'}} />
+            <div style={{width: 25, height: 32, left: 1117, top: 23, position: 'absolute', background: 'white'}} />
+            <div style={{width: 20, height: 24, left: 1140, top: 30, position: 'absolute', background: 'white'}} />
+            <div style={{width: 26, height: 32, left: 1163, top: 23, position: 'absolute', background: 'white'}} />
+            <div style={{width: 23, height: 24, left: 1192, top: 30, position: 'absolute', background: 'white'}} />
+            <div style={{width: 23, height: 24, left: 1218, top: 30, position: 'absolute', background: 'white'}} />
+            <div style={{width: 21, height: 24, left: 1243, top: 30, position: 'absolute', background: 'white'}} />
+            <div style={{width: 20, height: 32, left: 970, top: 22, position: 'absolute', background: 'white'}} />
+            <div style={{width: 20, height: 24, left: 994, top: 31, position: 'absolute', background: 'white'}} />
+            <div style={{width: 21, height: 24, left: 1018, top: 30, position: 'absolute', background: 'white'}} />
+            <div style={{width: 13, height: 32, left: 1041, top: 23, position: 'absolute', background: 'white'}} />
+            <div style={{width: 43, height: 37, left: 1064, top: 22, position: 'absolute', background: 'white'}} />
+            <div style={{width: 25, height: 32, left: 3025, top: 23, position: 'absolute', background: 'white'}} />
+            <div style={{width: 20, height: 24, left: 3048, top: 30, position: 'absolute', background: 'white'}} />
+            <div style={{width: 26, height: 32, left: 3071, top: 23, position: 'absolute', background: 'white'}} />
+            <div style={{width: 23, height: 24, left: 3100, top: 30, position: 'absolute', background: 'white'}} />
+            <div style={{width: 23, height: 24, left: 3126, top: 30, position: 'absolute', background: 'white'}} />
+            <div style={{width: 21, height: 24, left: 3151, top: 30, position: 'absolute', background: 'white'}} />
+            <div style={{width: 20, height: 32, left: 2878, top: 22, position: 'absolute', background: 'white'}} />
+            <div style={{width: 20, height: 24, left: 2902, top: 31, position: 'absolute', background: 'white'}} />
+            <div style={{width: 21, height: 24, left: 2926, top: 30, position: 'absolute', background: 'white'}} />
+            <div style={{width: 13, height: 32, left: 2949, top: 23, position: 'absolute', background: 'white'}} />
+            <div style={{width: 43, height: 37, left: 2972, top: 22, position: 'absolute', background: 'white'}} />
+            <div style={{width: 25, height: 32, left: 1435, top: 23, position: 'absolute', background: 'white'}} />
+            <div style={{width: 20, height: 24, left: 1458, top: 30, position: 'absolute', background: 'white'}} />
+            <div style={{width: 26, height: 32, left: 1481, top: 23, position: 'absolute', background: 'white'}} />
+            <div style={{width: 23, height: 24, left: 1510, top: 30, position: 'absolute', background: 'white'}} />
+            <div style={{width: 23, height: 24, left: 1536, top: 30, position: 'absolute', background: 'white'}} />
+            <div style={{width: 21, height: 24, left: 1561, top: 30, position: 'absolute', background: 'white'}} />
+            <div style={{width: 20, height: 32, left: 1288, top: 22, position: 'absolute', background: 'white'}} />
+            <div style={{width: 20, height: 24, left: 1312, top: 31, position: 'absolute', background: 'white'}} />
+            <div style={{width: 21, height: 24, left: 1336, top: 30, position: 'absolute', background: 'white'}} />
+            <div style={{width: 13, height: 32, left: 1359, top: 23, position: 'absolute', background: 'white'}} />
+            <div style={{width: 43, height: 37, left: 1382, top: 22, position: 'absolute', background: 'white'}} />
+            <div style={{width: 25, height: 32, left: 3343, top: 23, position: 'absolute', background: 'white'}} />
+            <div style={{width: 20, height: 24, left: 3366, top: 30, position: 'absolute', background: 'white'}} />
+            <div style={{width: 26, height: 32, left: 3389, top: 23, position: 'absolute', background: 'white'}} />
+            <div style={{width: 23, height: 24, left: 3418, top: 30, position: 'absolute', background: 'white'}} />
+            <div style={{width: 23, height: 24, left: 3444, top: 30, position: 'absolute', background: 'white'}} />
+            <div style={{width: 21, height: 24, left: 3469, top: 30, position: 'absolute', background: 'white'}} />
+            <div style={{width: 20, height: 32, left: 3196, top: 22, position: 'absolute', background: 'white'}} />
+            <div style={{width: 20, height: 24, left: 3220, top: 31, position: 'absolute', background: 'white'}} />
+            <div style={{width: 21, height: 24, left: 3244, top: 30, position: 'absolute', background: 'white'}} />
+            <div style={{width: 13, height: 32, left: 3267, top: 23, position: 'absolute', background: 'white'}} />
+            <div style={{width: 43, height: 37, left: 3290, top: 22, position: 'absolute', background: 'white'}} />
+            <div style={{width: 25, height: 32, left: 1753, top: 23, position: 'absolute', background: 'white'}} />
+            <div style={{width: 20, height: 24, left: 1776, top: 30, position: 'absolute', background: 'white'}} />
+            <div style={{width: 26, height: 32, left: 1799, top: 23, position: 'absolute', background: 'white'}} />
+            <div style={{width: 23, height: 24, left: 1828, top: 30, position: 'absolute', background: 'white'}} />
+            <div style={{width: 23, height: 24, left: 1854, top: 30, position: 'absolute', background: 'white'}} />
+            <div style={{width: 21, height: 24, left: 1879, top: 30, position: 'absolute', background: 'white'}} />
+            <div style={{width: 20, height: 32, left: 1606, top: 22, position: 'absolute', background: 'white'}} />
+            <div style={{width: 20, height: 24, left: 1630, top: 31, position: 'absolute', background: 'white'}} />
+            <div style={{width: 21, height: 24, left: 1654, top: 30, position: 'absolute', background: 'white'}} />
+            <div style={{width: 13, height: 32, left: 1677, top: 23, position: 'absolute', background: 'white'}} />
+            <div style={{width: 43, height: 37, left: 1700, top: 22, position: 'absolute', background: 'white'}} />
+            <div style={{width: 25, height: 32, left: 3661, top: 23, position: 'absolute', background: 'white'}} />
+            <div style={{width: 20, height: 24, left: 3684, top: 30, position: 'absolute', background: 'white'}} />
+            <div style={{width: 26, height: 32, left: 3707, top: 23, position: 'absolute', background: 'white'}} />
+            <div style={{width: 23, height: 24, left: 3736, top: 30, position: 'absolute', background: 'white'}} />
+            <div style={{width: 23, height: 24, left: 3762, top: 30, position: 'absolute', background: 'white'}} />
+            <div style={{width: 21, height: 24, left: 3787, top: 30, position: 'absolute', background: 'white'}} />
+            <div style={{width: 20, height: 32, left: 3514, top: 22, position: 'absolute', background: 'white'}} />
+            <div style={{width: 20, height: 24, left: 3538, top: 31, position: 'absolute', background: 'white'}} />
+            <div style={{width: 21, height: 24, left: 3562, top: 30, position: 'absolute', background: 'white'}} />
+            <div style={{width: 13, height: 32, left: 3585, top: 23, position: 'absolute', background: 'white'}} />
+            <div style={{width: 43, height: 37, left: 3608, top: 22, position: 'absolute', background: 'white'}} />
+        </div>
+    </div>
+    <div style={{width: 1430, height: 800, paddingLeft: 305, paddingRight: 305, paddingTop: 10, paddingBottom: 10, position: 'relative', background: 'white', overflow: 'hidden', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 10, display: 'flex'}}>
+        <div style={{width: 137, left: 647, top: 304, position: 'absolute', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'center', gap: 10, display: 'flex'}}>
+            <div style={{width: 43, height: 37, background: '#FE8204'}} />
+            <div style={{alignSelf: 'stretch', textAlign: 'center', justifyContent: 'center', display: 'flex', flexDirection: 'column', color: 'black', fontSize: 36, fontFamily: 'Almarena', fontWeight: '700', textTransform: 'uppercase', wordWrap: 'break-word'}}>Real<br/>Tattoo <br/>Look</div>
+        </div>
+        <img style={{width: 213, height: 274, transform: 'rotate(-180deg)', transformOrigin: 'top left'}} src="https://placehold.co/213x274" />
+        <img style={{width: 213, height: 274}} src="https://placehold.co/213x274" />
+    </div>
+    <div style={{width: 1440, paddingLeft: 64, paddingRight: 64, paddingTop: 100, paddingBottom: 100, background: 'white', overflow: 'hidden', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 10, display: 'flex'}}>
+        <div style={{alignSelf: 'stretch', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 36, display: 'flex'}}>
+            <div style={{width: 1018, flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 24, display: 'flex'}}>
+                <div style={{alignSelf: 'stretch', justifyContent: 'center', display: 'flex', flexDirection: 'column', color: 'black', fontSize: 64, fontFamily: 'Almarena', fontWeight: '700', textTransform: 'uppercase', wordWrap: 'break-word'}}>Real Art. Real Fast.</div>
+                <div style={{alignSelf: 'stretch', justifyContent: 'center', display: 'flex', flexDirection: 'column', color: 'black', fontSize: 24, fontFamily: 'Montserrat', fontWeight: '500', wordWrap: 'break-word'}}>Get an authentic, tattoo-quality finish that develops in 24 hours. Our skin-safe formula is built for adventure and designed to fade naturally. Your style, your terms</div>
+            </div>
+            <div style={{alignSelf: 'stretch', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 24, display: 'flex'}}>
+                <div style={{alignSelf: 'stretch', justifyContent: 'flex-start', alignItems: 'center', gap: 24, display: 'inline-flex'}}>
+                    <div style={{width: 800, background: 'black', overflow: 'hidden', borderRadius: 30, flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 10, display: 'inline-flex'}}>
+                        <img style={{alignSelf: 'stretch', height: 500, borderRadius: 30}} src="https://placehold.co/800x500" />
+                    </div>
+                    <div style={{width: 400, height: 500, paddingLeft: 16, paddingRight: 16, paddingTop: 36, paddingBottom: 36, background: 'black', overflow: 'hidden', borderRadius: 30, flexDirection: 'column', justifyContent: 'flex-end', alignItems: 'flex-start', gap: 10, display: 'inline-flex'}}>
+                        <div style={{alignSelf: 'stretch', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 20, display: 'flex'}}>
+                            <div style={{alignSelf: 'stretch', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 10, display: 'flex'}}>
+                                <div style={{alignSelf: 'stretch', justifyContent: 'center', display: 'flex', flexDirection: 'column', color: 'white', fontSize: 24, fontFamily: 'Almarena', fontWeight: '700', textTransform: 'uppercase', wordWrap: 'break-word'}}>Built for Self-Expression</div>
+                                <div style={{alignSelf: 'stretch', justifyContent: 'center', display: 'flex', flexDirection: 'column', color: 'white', fontSize: 16, fontFamily: 'Montserrat', fontWeight: '400', wordWrap: 'break-word'}}>Born from a love for tattoo culture and a fear of lifelong regret. Just Tattoos was created to let you test new ideas, change your look, and make a statement whenever the mood strikes</div>
+                            </div>
+                            <div data-property-1="Default" style={{width: 249, height: 50, position: 'relative', background: 'white', overflow: 'hidden', borderRadius: 30, outline: '1px black solid', outlineOffset: '-1px'}}>
+                                <div style={{width: 205, height: 50, left: 41, top: 0, position: 'absolute', borderRadius: 30, border: '1px rgba(255, 255, 255, 0.10) solid'}} />
+                                <div style={{width: 40, height: 40, left: 201.77, top: 5, position: 'absolute', background: 'black', borderRadius: 200}} />
+                                <div style={{left: 20, top: 16.21, position: 'absolute', justifyContent: 'center', display: 'flex', flexDirection: 'column', color: 'black', fontSize: 18, fontFamily: 'Almarena', fontWeight: '700', textTransform: 'uppercase', wordWrap: 'break-word'}}>Read our story</div>
+                                <div style={{width: 20, height: 20, left: 211.77, top: 15, position: 'absolute', overflow: 'hidden'}}>
+                                    <div style={{width: 15, height: 12.50, left: 2.50, top: 3.75, position: 'absolute', background: 'white'}} />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div style={{alignSelf: 'stretch', justifyContent: 'flex-start', alignItems: 'center', gap: 24, display: 'inline-flex'}}>
+                    <div style={{width: 400, height: 500, paddingLeft: 16, paddingRight: 16, paddingTop: 36, paddingBottom: 36, background: '#E8E8E8', overflow: 'hidden', borderRadius: 30, flexDirection: 'column', justifyContent: 'flex-end', alignItems: 'flex-start', gap: 10, display: 'inline-flex'}}>
+                        <div style={{alignSelf: 'stretch', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 20, display: 'flex'}}>
+                            <div style={{alignSelf: 'stretch', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 10, display: 'flex'}}>
+                                <div style={{alignSelf: 'stretch', justifyContent: 'center', display: 'flex', flexDirection: 'column', color: 'black', fontSize: 24, fontFamily: 'Almarena', fontWeight: '700', textTransform: 'uppercase', wordWrap: 'break-word'}}>The 24-Hour Glow Up</div>
+                                <div style={{alignSelf: 'stretch', justifyContent: 'center', display: 'flex', flexDirection: 'column', color: 'black', fontSize: 16, fontFamily: 'Montserrat', fontWeight: '400', wordWrap: 'break-word'}}>Apply your design in minutes and watch the magic happen. Our ink develops over 24 hours to create a deep, realistic finish that lasts up to 10 days. No needles, no pain, just pure art</div>
+                            </div>
+                            <div data-property-1="Default" style={{width: 249, height: 50, position: 'relative', background: 'white', overflow: 'hidden', borderRadius: 30, outline: '1px black solid', outlineOffset: '-1px'}}>
+                                <div style={{width: 205, height: 50, left: 41, top: 0, position: 'absolute', borderRadius: 30, border: '1px rgba(255, 255, 255, 0.10) solid'}} />
+                                <div style={{width: 40, height: 40, left: 201.77, top: 5, position: 'absolute', background: 'black', borderRadius: 200}} />
+                                <div style={{left: 20, top: 16.21, position: 'absolute', justifyContent: 'center', display: 'flex', flexDirection: 'column', color: 'black', fontSize: 18, fontFamily: 'Almarena', fontWeight: '700', textTransform: 'uppercase', wordWrap: 'break-word'}}>How it works</div>
+                                <div style={{width: 20, height: 20, left: 211.77, top: 15, position: 'absolute', overflow: 'hidden'}}>
+                                    <div style={{width: 15, height: 12.50, left: 2.50, top: 3.75, position: 'absolute', background: 'white'}} />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div style={{width: 800, background: 'black', overflow: 'hidden', borderRadius: 30, flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 10, display: 'inline-flex'}}>
+                        <img style={{alignSelf: 'stretch', height: 500, borderRadius: 30}} src="https://placehold.co/800x500" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div style={{flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', display: 'flex'}}>
+        <div style={{width: 1440, height: 900, paddingTop: 100, paddingBottom: 36, paddingLeft: 64, paddingRight: 64, background: 'black', overflow: 'hidden', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 10, display: 'flex'}}>
+            <div style={{width: 1312, flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'center', gap: 48, display: 'flex'}}>
+                <div style={{alignSelf: 'stretch', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 36, display: 'flex'}}>
+                    <div style={{alignSelf: 'stretch', justifyContent: 'center', display: 'flex', flexDirection: 'column', color: 'white', fontSize: 64, fontFamily: 'Almarena', fontWeight: '700', textTransform: 'uppercase', wordWrap: 'break-word'}}>New Arrivals</div>
+                    <div style={{alignSelf: 'stretch', justifyContent: 'flex-start', alignItems: 'center', gap: 56, display: 'inline-flex'}}>
+                        <div data-property-1="Default" style={{width: 400, height: 569, overflow: 'hidden', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 20, display: 'inline-flex'}}>
+                            <div style={{alignSelf: 'stretch', height: 500, padding: 10, position: 'relative', background: 'white', overflow: 'hidden', borderRadius: 30, outline: '1px black solid', outlineOffset: '-1px', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 10, display: 'flex'}}>
+                                <img style={{width: 400, height: 500, left: 0, top: 0, position: 'absolute', borderRadius: 30}} src="https://placehold.co/400x500" />
+                                <div style={{paddingLeft: 20, paddingRight: 20, paddingTop: 10, paddingBottom: 10, background: '#FE8204', borderRadius: 100, justifyContent: 'center', alignItems: 'center', gap: 10, display: 'inline-flex'}}>
+                                    <div style={{justifyContent: 'center', display: 'flex', flexDirection: 'column', color: 'white', fontSize: 16, fontFamily: 'Montserrat', fontWeight: '700', wordWrap: 'break-word'}}>SALE</div>
+                                </div>
+                            </div>
+                            <div style={{width: '100%', maxWidth: 400, flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 10, display: 'flex'}}>
+                                <div style={{justifyContent: 'center', alignItems: 'center', gap: 10, display: 'inline-flex', flexWrap: 'wrap', alignContent: 'center'}}>
+                                    <div style={{width: 396, height: 19, justifyContent: 'center', display: 'flex', flexDirection: 'column', color: 'white', fontSize: 20, fontFamily: 'Almarena', fontWeight: '700', textTransform: 'uppercase', wordWrap: 'break-word'}}>Wolves &amp; Rose (Color)</div>
+                                </div>
+                                <div style={{alignSelf: 'stretch', justifyContent: 'flex-start', alignItems: 'center', gap: 10, display: 'inline-flex'}}>
+                                    <div style={{justifyContent: 'center', alignItems: 'center', gap: 10, display: 'flex'}}>
+                                        <div style={{justifyContent: 'center', display: 'flex', flexDirection: 'column', color: 'white', fontSize: 16, fontFamily: 'Montserrat', fontWeight: '300', textDecoration: 'line-through', wordWrap: 'break-word'}}>$34,99 USD</div>
+                                    </div>
+                                    <div style={{justifyContent: 'center', alignItems: 'center', gap: 10, display: 'flex'}}>
+                                        <div style={{justifyContent: 'center', display: 'flex', flexDirection: 'column', color: 'white', fontSize: 20, fontFamily: 'Montserrat', fontWeight: '600', wordWrap: 'break-word'}}>$29,99 USD</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div data-property-1="Default" style={{width: 400, height: 569, overflow: 'hidden', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 20, display: 'inline-flex'}}>
+                            <div style={{alignSelf: 'stretch', height: 500, padding: 10, position: 'relative', background: 'white', overflow: 'hidden', borderRadius: 30, outline: '1px black solid', outlineOffset: '-1px', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 10, display: 'flex'}}>
+                                <img style={{width: 400, height: 500, left: 0, top: 0, position: 'absolute', borderRadius: 30}} src="https://placehold.co/400x500" />
+                                <div style={{paddingLeft: 20, paddingRight: 20, paddingTop: 10, paddingBottom: 10, background: '#FE8204', borderRadius: 100, justifyContent: 'center', alignItems: 'center', gap: 10, display: 'inline-flex'}}>
+                                    <div style={{justifyContent: 'center', display: 'flex', flexDirection: 'column', color: 'white', fontSize: 16, fontFamily: 'Montserrat', fontWeight: '700', wordWrap: 'break-word'}}>SALE</div>
+                                </div>
+                            </div>
+                            <div style={{width: '100%', maxWidth: 400, flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 10, display: 'flex'}}>
+                                <div style={{justifyContent: 'center', alignItems: 'center', gap: 10, display: 'inline-flex', flexWrap: 'wrap', alignContent: 'center'}}>
+                                    <div style={{width: 396, height: 19, justifyContent: 'center', display: 'flex', flexDirection: 'column', color: 'white', fontSize: 20, fontFamily: 'Almarena', fontWeight: '700', textTransform: 'uppercase', wordWrap: 'break-word'}}>Ripped Cross Colored</div>
+                                </div>
+                                <div style={{alignSelf: 'stretch', justifyContent: 'flex-start', alignItems: 'center', gap: 10, display: 'inline-flex'}}>
+                                    <div style={{justifyContent: 'center', alignItems: 'center', gap: 10, display: 'flex'}}>
+                                        <div style={{justifyContent: 'center', display: 'flex', flexDirection: 'column', color: 'white', fontSize: 16, fontFamily: 'Montserrat', fontWeight: '300', textDecoration: 'line-through', wordWrap: 'break-word'}}>$29,99 USD</div>
+                                    </div>
+                                    <div style={{justifyContent: 'center', alignItems: 'center', gap: 10, display: 'flex'}}>
+                                        <div style={{justifyContent: 'center', display: 'flex', flexDirection: 'column', color: 'white', fontSize: 20, fontFamily: 'Montserrat', fontWeight: '600', wordWrap: 'break-word'}}>$24,99 USD</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div data-property-1="Default" style={{width: 400, height: 569, overflow: 'hidden', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 20, display: 'inline-flex'}}>
+                            <div style={{alignSelf: 'stretch', height: 500, padding: 10, position: 'relative', background: 'white', overflow: 'hidden', borderRadius: 30, outline: '1px black solid', outlineOffset: '-1px', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 10, display: 'flex'}}>
+                                <img style={{width: 400, height: 500, left: 0, top: 0, position: 'absolute', borderRadius: 30}} src="https://placehold.co/400x500" />
+                                <div style={{paddingLeft: 20, paddingRight: 20, paddingTop: 10, paddingBottom: 10, background: '#FE8204', borderRadius: 100, justifyContent: 'center', alignItems: 'center', gap: 10, display: 'inline-flex'}}>
+                                    <div style={{justifyContent: 'center', display: 'flex', flexDirection: 'column', color: 'white', fontSize: 16, fontFamily: 'Montserrat', fontWeight: '700', wordWrap: 'break-word'}}>SALE</div>
+                                </div>
+                            </div>
+                            <div style={{width: '100%', maxWidth: 400, flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 10, display: 'flex'}}>
+                                <div style={{justifyContent: 'center', alignItems: 'center', gap: 10, display: 'inline-flex', flexWrap: 'wrap', alignContent: 'center'}}>
+                                    <div style={{width: 396, height: 19, justifyContent: 'center', display: 'flex', flexDirection: 'column', color: 'white', fontSize: 20, fontFamily: 'Almarena', fontWeight: '700', textTransform: 'uppercase', wordWrap: 'break-word'}}>Snake Skull Compass (colored)</div>
+                                </div>
+                                <div style={{alignSelf: 'stretch', justifyContent: 'flex-start', alignItems: 'center', gap: 10, display: 'inline-flex'}}>
+                                    <div style={{justifyContent: 'center', alignItems: 'center', gap: 10, display: 'flex'}}>
+                                        <div style={{justifyContent: 'center', display: 'flex', flexDirection: 'column', color: 'white', fontSize: 16, fontFamily: 'Montserrat', fontWeight: '300', textDecoration: 'line-through', wordWrap: 'break-word'}}>$29,99 USD</div>
+                                    </div>
+                                    <div style={{justifyContent: 'center', alignItems: 'center', gap: 10, display: 'flex'}}>
+                                        <div style={{justifyContent: 'center', display: 'flex', flexDirection: 'column', color: 'white', fontSize: 20, fontFamily: 'Montserrat', fontWeight: '600', wordWrap: 'break-word'}}>$24,99 USD</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div data-property-1="Default" style={{width: 249, height: 50, position: 'relative', background: 'white', overflow: 'hidden', borderRadius: 30, outline: '1px black solid', outlineOffset: '-1px'}}>
+                    <div style={{width: 205, height: 50, left: 41, top: 0, position: 'absolute', borderRadius: 30, border: '1px rgba(255, 255, 255, 0.10) solid'}} />
+                    <div style={{width: 40, height: 40, left: 201.77, top: 5, position: 'absolute', background: 'black', borderRadius: 200}} />
+                    <div style={{left: 20, top: 16.21, position: 'absolute', justifyContent: 'center', display: 'flex', flexDirection: 'column', color: 'black', fontSize: 18, fontFamily: 'Almarena', fontWeight: '700', textTransform: 'uppercase', wordWrap: 'break-word'}}>Explore all now</div>
+                    <div style={{width: 20, height: 20, left: 211.77, top: 15, position: 'absolute', overflow: 'hidden'}}>
+                        <div style={{width: 15, height: 12.50, left: 2.50, top: 3.75, position: 'absolute', background: 'white'}} />
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div style={{width: 1440, height: 900, paddingTop: 100, paddingBottom: 60, paddingLeft: 64, paddingRight: 152, background: 'black', overflow: 'hidden', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 10, display: 'flex'}}>
+            <div style={{width: 1224, flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 36, display: 'flex'}}>
+                <div style={{width: 1018, flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 24, display: 'flex'}}>
+                    <div style={{alignSelf: 'stretch', justifyContent: 'center', display: 'flex', flexDirection: 'column', color: 'white', fontSize: 64, fontFamily: 'Almarena', fontWeight: '700', textTransform: 'uppercase', wordWrap: 'break-word'}}>Free gift with your order</div>
+                    <div style={{alignSelf: 'stretch', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 3, display: 'flex'}}>
+                        <div style={{alignSelf: 'stretch', justifyContent: 'center', display: 'flex', flexDirection: 'column', color: 'white', fontSize: 24, fontFamily: 'Montserrat', fontWeight: '500', wordWrap: 'break-word'}}>Who doesn’t love a surprise? Spend $30 USD or more and we’ll toss in a mystery ink on us. Realistic tattoo look, water-resistant, and designed to last up to 10 days. At Just Tattoos, we make it easy to switch up your style, no commitment required.</div>
+                        <div style={{alignSelf: 'stretch', justifyContent: 'center', display: 'flex', flexDirection: 'column', color: '#FE8204', fontSize: 24, fontFamily: 'Montserrat', fontWeight: '500', wordWrap: 'break-word'}}>Available in the U.S. only. While supplies last</div>
+                    </div>
+                </div>
+                <div style={{alignSelf: 'stretch', justifyContent: 'flex-start', alignItems: 'center', gap: 24, display: 'inline-flex'}}>
+                    <div style={{width: 800, background: 'black', overflow: 'hidden', borderRadius: 30, flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 10, display: 'inline-flex'}}>
+                        <img style={{alignSelf: 'stretch', height: 500, borderRadius: 30}} src="https://placehold.co/800x500" />
+                    </div>
+                    <div style={{width: 400, height: 500, paddingLeft: 16, paddingRight: 16, paddingTop: 36, paddingBottom: 36, background: 'white', overflow: 'hidden', borderRadius: 30, flexDirection: 'column', justifyContent: 'flex-end', alignItems: 'flex-start', gap: 10, display: 'inline-flex'}}>
+                        <div style={{alignSelf: 'stretch', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 20, display: 'flex'}}>
+                            <div style={{width: 318, flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 10, display: 'flex'}}>
+                                <div style={{alignSelf: 'stretch', justifyContent: 'center', display: 'flex', flexDirection: 'column', color: 'black', fontSize: 24, fontFamily: 'Almarena', fontWeight: '700', textTransform: 'uppercase', wordWrap: 'break-word'}}>A Little Something Extra</div>
+                                <div style={{alignSelf: 'stretch', justifyContent: 'center', display: 'flex', flexDirection: 'column', color: 'black', fontSize: 16, fontFamily: 'Montserrat', fontWeight: '400', wordWrap: 'break-word'}}>High-quality ink, on the house. Reach $30 and we’ll drop a mystery design into your order. New style, zero cost</div>
+                            </div>
+                            <div data-property-1="Default" style={{width: 249, height: 50, position: 'relative', background: 'black', overflow: 'hidden', borderRadius: 30, outline: '1px black solid', outlineOffset: '-1px'}}>
+                                <div style={{width: 205, height: 50, left: 41, top: 0, position: 'absolute', borderRadius: 30, border: '1px rgba(19, 21, 23, 0.10) solid'}} />
+                                <div style={{width: 40, height: 40, left: 201.77, top: 5, position: 'absolute', background: 'white', borderRadius: 200}} />
+                                <div style={{left: 20, top: 16.21, position: 'absolute', justifyContent: 'center', display: 'flex', flexDirection: 'column', color: 'white', fontSize: 18, fontFamily: 'Almarena', fontWeight: '700', textTransform: 'uppercase', wordWrap: 'break-word'}}>Shop collections</div>
+                                <div style={{width: 20, height: 20, left: 211.77, top: 15, position: 'absolute', overflow: 'hidden'}}>
+                                    <div style={{width: 15, height: 12.50, left: 2.50, top: 3.75, position: 'absolute', background: 'black'}} />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div style={{width: 1440, paddingLeft: 64, paddingRight: 64, paddingTop: 80, paddingBottom: 80, background: 'white', overflow: 'hidden', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 10, display: 'flex'}}>
+        <div style={{alignSelf: 'stretch', justifyContent: 'center', alignItems: 'center', gap: 108, display: 'inline-flex'}}>
+            <div style={{width: 243, flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 10, display: 'inline-flex'}}>
+                <div style={{width: 48, height: 48, position: 'relative', overflow: 'hidden'}}>
+                    <div style={{width: 42, height: 41, left: 1, top: 2, position: 'absolute', outline: '2px #FE8204 solid', outlineOffset: '-1px'}} />
+                </div>
+                <div style={{alignSelf: 'stretch', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 10, display: 'flex'}}>
+                    <div style={{alignSelf: 'stretch', justifyContent: 'center', display: 'flex', flexDirection: 'column', color: 'black', fontSize: 24, fontFamily: 'Almarena', fontWeight: '700', textTransform: 'uppercase', wordWrap: 'break-word'}}>Lasts Up to 10 Days</div>
+                    <div style={{alignSelf: 'stretch', justifyContent: 'center', display: 'flex', flexDirection: 'column', color: 'black', fontSize: 16, fontFamily: 'Montserrat', fontWeight: '400', wordWrap: 'break-word'}}>Our skin-safe ink is designed to last up to 10 days, giving you plenty of time to enjoy the look without long-term commitment. Easy to apply, easy to move on when you’re ready for something new</div>
+                </div>
+            </div>
+            <div style={{width: 265, flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 10, display: 'inline-flex'}}>
+                <div style={{width: 48, height: 51, position: 'relative', overflow: 'hidden'}}>
+                    <div style={{width: 16, height: 15.94, left: 16, top: 6.38, position: 'absolute', background: '#FE8204'}} />
+                    <div style={{width: 48, height: 38.25, left: 0, top: 6.38, position: 'absolute', background: '#FE8204'}} />
+                </div>
+                <div style={{alignSelf: 'stretch', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 10, display: 'flex'}}>
+                    <div style={{alignSelf: 'stretch', justifyContent: 'center', display: 'flex', flexDirection: 'column', color: 'black', fontSize: 24, fontFamily: 'Almarena', fontWeight: '700', textTransform: 'uppercase', wordWrap: 'break-word'}}>Made for All<br/>Skin Tones</div>
+                    <div style={{alignSelf: 'stretch', justifyContent: 'center', display: 'flex', flexDirection: 'column', color: 'black', fontSize: 16, fontFamily: 'Montserrat', fontWeight: '400', wordWrap: 'break-word'}}>Our formulas are carefully tested, cruelty-free, and made with vegan-friendly ingredients. Designed to look great across a wide range of skin tones while meeting strict safety standards</div>
+                </div>
+            </div>
+            <div style={{width: 227, flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 10, display: 'inline-flex'}}>
+                <div style={{width: 48, height: 48, position: 'relative', overflow: 'hidden'}}>
+                    <div style={{width: 31.20, height: 39.19, left: 8, top: 4, position: 'absolute', background: '#FE8204'}} />
+                </div>
+                <div style={{alignSelf: 'stretch', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 10, display: 'flex'}}>
+                    <div style={{alignSelf: 'stretch', justifyContent: 'center', display: 'flex', flexDirection: 'column', color: 'black', fontSize: 24, fontFamily: 'Almarena', fontWeight: '700', textTransform: 'uppercase', wordWrap: 'break-word'}}>Real Tattoo Look</div>
+                    <div style={{alignSelf: 'stretch', justifyContent: 'center', display: 'flex', flexDirection: 'column', color: 'black', fontSize: 16, fontFamily: 'Montserrat', fontWeight: '400', wordWrap: 'break-word'}}>Unlike traditional temporary tattoos that sit on the surface, our ink absorbs into the top layer of your skin for a more natural, realistic finish. The design gradually fades as your skin renews itself</div>
+                </div>
+            </div>
+            <div style={{width: 254, flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 10, display: 'inline-flex'}}>
+                <div style={{width: 48, height: 48, position: 'relative', overflow: 'hidden'}}>
+                    <div style={{width: 41.99, height: 42.01, left: 3, top: 2.99, position: 'absolute', background: '#FE8204'}} />
+                </div>
+                <div style={{alignSelf: 'stretch', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 10, display: 'flex'}}>
+                    <div style={{alignSelf: 'stretch', justifyContent: 'center', display: 'flex', flexDirection: 'column', color: 'black', fontSize: 24, fontFamily: 'Almarena', fontWeight: '700', textTransform: 'uppercase', wordWrap: 'break-word'}}>Built for<br/>Self-Expression</div>
+                    <div style={{alignSelf: 'stretch', justifyContent: 'center', display: 'flex', flexDirection: 'column', color: 'black', fontSize: 16, fontFamily: 'Montserrat', fontWeight: '400', wordWrap: 'break-word'}}>Change your look, test new ideas, or make a statement whenever you feel like it. Our tattoos are made for experimenting freely and expressing yourself with confidence.</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div style={{width: 1440, paddingLeft: 64, paddingRight: 64, paddingTop: 32, paddingBottom: 32, background: 'white', overflow: 'hidden', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 10, display: 'flex'}}>
+        <div style={{alignSelf: 'stretch', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 36, display: 'flex'}}>
+            <div style={{alignSelf: 'stretch', justifyContent: 'center', display: 'flex', flexDirection: 'column', color: 'black', fontSize: 64, fontFamily: 'Almarena', fontWeight: '700', textTransform: 'uppercase', wordWrap: 'break-word'}}>Our Testimonials</div>
+            <div style={{alignSelf: 'stretch', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 33, display: 'flex'}}>
+                <div style={{alignSelf: 'stretch', justifyContent: 'flex-start', alignItems: 'center', gap: 32, display: 'inline-flex'}}>
+                    <div data-property-1="Desktop" style={{padding: 32, background: 'white', overflow: 'hidden', borderRadius: 30, outline: '1px black solid', outlineOffset: '-1px', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 24, display: 'inline-flex'}}>
+                        <div style={{flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 24, display: 'flex'}}>
+                            <div style={{height: 19, overflow: 'hidden', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 4, display: 'inline-flex'}}>
+                                <div style={{width: 20, height: 19, background: '#FE8204'}} />
+                                <div style={{width: 20, height: 19, background: '#FE8204'}} />
+                                <div style={{width: 20, height: 19, background: '#FE8204'}} />
+                                <div style={{width: 20, height: 19, background: '#FE8204'}} />
+                                <div style={{width: 20, height: 19, background: '#FE8204'}} />
+                            </div>
+                            <div style={{width: 352, color: 'black', fontSize: 16, fontFamily: 'Montserrat', fontWeight: '400', wordWrap: 'break-word'}}>&quot;This ink looks so real! It lasted ten full days through gym sessions. Love it. 10/10.&quot;</div>
+                        </div>
+                        <div style={{alignSelf: 'stretch', justifyContent: 'flex-start', alignItems: 'center', gap: 16, display: 'inline-flex'}}>
+                            <img style={{width: 48, height: 48, borderRadius: 9999}} src="https://placehold.co/48x48" />
+                            <div style={{flex: '1 1 0', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', display: 'inline-flex'}}>
+                                <div style={{alignSelf: 'stretch', color: 'black', fontSize: 16, fontFamily: 'Almarena', fontWeight: '700', wordWrap: 'break-word'}}>Jordan Miller</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div data-property-1="Desktop" style={{padding: 32, background: 'white', overflow: 'hidden', borderRadius: 30, outline: '1px black solid', outlineOffset: '-1px', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 24, display: 'inline-flex'}}>
+                        <div style={{flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 24, display: 'flex'}}>
+                            <div style={{height: 19, overflow: 'hidden', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 4, display: 'inline-flex'}}>
+                                <div style={{width: 20, height: 19, background: '#FE8204'}} />
+                                <div style={{width: 20, height: 19, background: '#FE8204'}} />
+                                <div style={{width: 20, height: 19, background: '#FE8204'}} />
+                                <div style={{width: 20, height: 19, background: '#FE8204'}} />
+                                <div style={{width: 20, height: 19, background: '#FE8204'}} />
+                            </div>
+                            <div style={{width: 352, color: 'black', fontSize: 16, fontFamily: 'Montserrat', fontWeight: '400', wordWrap: 'break-word'}}>&quot;Perfect for testing my sleeve idea. Super easy to apply and the color is very deep.&quot;</div>
+                        </div>
+                        <div style={{alignSelf: 'stretch', justifyContent: 'flex-start', alignItems: 'center', gap: 16, display: 'inline-flex'}}>
+                            <img style={{width: 48, height: 48, borderRadius: 9999}} src="https://placehold.co/48x48" />
+                            <div style={{flex: '1 1 0', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', display: 'inline-flex'}}>
+                                <div style={{alignSelf: 'stretch', color: 'black', fontSize: 16, fontFamily: 'Almarena', fontWeight: '700', wordWrap: 'break-word'}}>Sarah Laurent</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div data-property-1="Desktop" style={{padding: 32, background: 'white', overflow: 'hidden', borderRadius: 30, outline: '1px black solid', outlineOffset: '-1px', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 24, display: 'inline-flex'}}>
+                        <div style={{flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 24, display: 'flex'}}>
+                            <div style={{height: 19, overflow: 'hidden', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 4, display: 'inline-flex'}}>
+                                <div style={{width: 20, height: 19, background: '#FE8204'}} />
+                                <div style={{width: 20, height: 19, background: '#FE8204'}} />
+                                <div style={{width: 20, height: 19, background: '#FE8204'}} />
+                                <div style={{width: 20, height: 19, background: '#FE8204'}} />
+                                <div style={{width: 20, height: 19, background: '#FE8204'}} />
+                            </div>
+                            <div style={{width: 352, color: 'black', fontSize: 16, fontFamily: 'Montserrat', fontWeight: '400', wordWrap: 'break-word'}}>&quot;Best temporary tattoo I ever tried. People thought it was permanent. Total winner.&quot;</div>
+                        </div>
+                        <div style={{alignSelf: 'stretch', justifyContent: 'flex-start', alignItems: 'center', gap: 16, display: 'inline-flex'}}>
+                            <img style={{width: 48, height: 48, borderRadius: 9999}} src="https://placehold.co/48x48" />
+                            <div style={{flex: '1 1 0', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', display: 'inline-flex'}}>
+                                <div style={{alignSelf: 'stretch', color: 'black', fontSize: 16, fontFamily: 'Almarena', fontWeight: '700', wordWrap: 'break-word'}}>Chris Peterson</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div style={{alignSelf: 'stretch', justifyContent: 'flex-start', alignItems: 'center', gap: 32, display: 'inline-flex'}}>
+                    <div data-property-1="Desktop" style={{padding: 32, background: 'white', overflow: 'hidden', borderRadius: 30, outline: '1px black solid', outlineOffset: '-1px', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 24, display: 'inline-flex'}}>
+                        <div style={{flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 24, display: 'flex'}}>
+                            <div style={{height: 19, overflow: 'hidden', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 4, display: 'inline-flex'}}>
+                                <div style={{width: 20, height: 19, background: '#FE8204'}} />
+                                <div style={{width: 20, height: 19, background: '#FE8204'}} />
+                                <div style={{width: 20, height: 19, background: '#FE8204'}} />
+                                <div style={{width: 20, height: 19, background: '#FE8204'}} />
+                                <div style={{width: 20, height: 19, background: '#FE8204'}} />
+                            </div>
+                            <div style={{width: 352, color: 'black', fontSize: 16, fontFamily: 'Montserrat', fontWeight: '400', wordWrap: 'break-word'}}>&quot;The mystery gift was a great surprise. High quality art that fades away naturally&quot;</div>
+                        </div>
+                        <div style={{alignSelf: 'stretch', justifyContent: 'flex-start', alignItems: 'center', gap: 16, display: 'inline-flex'}}>
+                            <img style={{width: 48, height: 48, borderRadius: 9999}} src="https://placehold.co/48x48" />
+                            <div style={{flex: '1 1 0', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', display: 'inline-flex'}}>
+                                <div style={{alignSelf: 'stretch', color: 'black', fontSize: 16, fontFamily: 'Almarena', fontWeight: '700', wordWrap: 'break-word'}}>Elena Rodriguez</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div data-property-1="Desktop" style={{padding: 32, background: 'white', overflow: 'hidden', borderRadius: 30, outline: '1px black solid', outlineOffset: '-1px', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 24, display: 'inline-flex'}}>
+                        <div style={{flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 24, display: 'flex'}}>
+                            <div style={{height: 19, overflow: 'hidden', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 4, display: 'inline-flex'}}>
+                                <div style={{width: 20, height: 19, background: '#FE8204'}} />
+                                <div style={{width: 20, height: 19, background: '#FE8204'}} />
+                                <div style={{width: 20, height: 19, background: '#FE8204'}} />
+                                <div style={{width: 20, height: 19, background: '#FE8204'}} />
+                                <div style={{width: 20, height: 19, background: '#FE8204'}} />
+                            </div>
+                            <div style={{width: 352, color: 'black', fontSize: 16, fontFamily: 'Montserrat', fontWeight: '400', wordWrap: 'break-word'}}>&quot;No needles, no pain, just style. It developed perfectly in one day. Highly suggest.&quot;</div>
+                        </div>
+                        <div style={{alignSelf: 'stretch', justifyContent: 'flex-start', alignItems: 'center', gap: 16, display: 'inline-flex'}}>
+                            <img style={{width: 48, height: 48, borderRadius: 9999}} src="https://placehold.co/48x48" />
+                            <div style={{flex: '1 1 0', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', display: 'inline-flex'}}>
+                                <div style={{alignSelf: 'stretch', color: 'black', fontSize: 16, fontFamily: 'Almarena', fontWeight: '700', wordWrap: 'break-word'}}>Blake Thompson</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div data-property-1="Desktop" style={{padding: 32, background: 'white', overflow: 'hidden', borderRadius: 30, outline: '1px black solid', outlineOffset: '-1px', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 24, display: 'inline-flex'}}>
+                        <div style={{flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 24, display: 'flex'}}>
+                            <div style={{height: 19, overflow: 'hidden', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 4, display: 'inline-flex'}}>
+                                <div style={{width: 20, height: 19, background: '#FE8204'}} />
+                                <div style={{width: 20, height: 19, background: '#FE8204'}} />
+                                <div style={{width: 20, height: 19, background: '#FE8204'}} />
+                                <div style={{width: 20, height: 19, background: '#FE8204'}} />
+                                <div style={{width: 20, height: 19, background: '#FE8204'}} />
+                            </div>
+                            <div style={{width: 352, color: 'black', fontSize: 16, fontFamily: 'Montserrat', fontWeight: '400', wordWrap: 'break-word'}}>&quot;Finally, a tattoo with zero regret. My friends are obsessed with the matte finish.&quot;</div>
+                        </div>
+                        <div style={{alignSelf: 'stretch', justifyContent: 'flex-start', alignItems: 'center', gap: 16, display: 'inline-flex'}}>
+                            <img style={{width: 48, height: 48, borderRadius: 9999}} src="https://placehold.co/48x48" />
+                            <div style={{flex: '1 1 0', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', display: 'inline-flex'}}>
+                                <div style={{alignSelf: 'stretch', color: 'black', fontSize: 16, fontFamily: 'Almarena', fontWeight: '700', wordWrap: 'break-word'}}>Maya Whitestone</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div style={{width: 1440, paddingLeft: 64, paddingRight: 64, paddingTop: 63, paddingBottom: 63, background: 'white', overflow: 'hidden', justifyContent: 'flex-start', alignItems: 'center', gap: 10, display: 'inline-flex'}}>
+        <div style={{width: 1018, flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 36, display: 'inline-flex'}}>
+            <div style={{alignSelf: 'stretch', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 24, display: 'flex'}}>
+                <div style={{alignSelf: 'stretch', justifyContent: 'center', display: 'flex', flexDirection: 'column', color: 'black', fontSize: 64, fontFamily: 'Almarena', fontWeight: '700', textTransform: 'uppercase', wordWrap: 'break-word'}}>Frequently Asked Questions</div>
+                <div style={{alignSelf: 'stretch', justifyContent: 'center', display: 'flex', flexDirection: 'column', color: 'black', fontSize: 24, fontFamily: 'Montserrat', fontWeight: '500', wordWrap: 'break-word'}}>Find answers to common questions about our products and services</div>
+            </div>
+            <div style={{width: 768, flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', display: 'flex'}}>
+                <div data-property-1="Open" style={{flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', display: 'flex'}}>
+                    <div style={{width: 768, paddingTop: 20, paddingBottom: 20, overflow: 'hidden', borderTop: '1px black solid', justifyContent: 'flex-start', alignItems: 'center', gap: 24, display: 'inline-flex'}}>
+                        <div style={{flex: '1 1 0', color: 'black', fontSize: 18, fontFamily: 'Almarena', fontWeight: '700', wordWrap: 'break-word'}}>How do Just Tattoos work ?</div>
+                        <div style={{width: 32, height: 32, position: 'relative', overflow: 'hidden'}}>
+                            <div style={{width: 15.44, height: 8.88, left: 8.30, top: 10.94, position: 'absolute', background: '#FE8204', border: '1.33px #FE8204 solid'}} />
+                        </div>
+                    </div>
+                    <div style={{width: 768, paddingBottom: 24, justifyContent: 'flex-start', alignItems: 'flex-start', gap: 16, display: 'inline-flex'}}>
+                        <div style={{flex: '1 1 0', color: 'black', fontSize: 16, fontFamily: 'Montserrat', fontWeight: '400', wordWrap: 'break-word'}}>Unlike standard temporary tattoos that sit on top of the skin, Just Tattoos use a skin-reactive ink that absorbs into the upper layer of your skin. This creates a natural, tattoo-like appearance without needles, pain, or long-term commitment.<br/><br/>Application is quick and simple. Once applied, the ink reacts with your skin and gradually darkens over the next 24 to 36 hours, revealing a realistic finish that looks like real ink.</div>
+                    </div>
+                </div>
+                <div data-property-1="Open" style={{flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', display: 'flex'}}>
+                    <div style={{width: 768, paddingTop: 20, paddingBottom: 20, overflow: 'hidden', borderTop: '1px black solid', justifyContent: 'flex-start', alignItems: 'center', gap: 24, display: 'inline-flex'}}>
+                        <div style={{flex: '1 1 0', color: 'black', fontSize: 18, fontFamily: 'Almarena', fontWeight: '700', wordWrap: 'break-word'}}>How long does a Just Tattoo last?</div>
+                        <div style={{width: 32, height: 32, position: 'relative', overflow: 'hidden'}}>
+                            <div style={{width: 15.44, height: 8.88, left: 8.30, top: 10.94, position: 'absolute', background: '#FE8204', border: '1.33px #FE8204 solid'}} />
+                        </div>
+                    </div>
+                    <div style={{width: 768, paddingBottom: 24, justifyContent: 'flex-start', alignItems: 'flex-start', gap: 16, display: 'inline-flex'}}>
+                        <div style={{flex: '1 1 0', color: 'black', fontSize: 16, fontFamily: 'Montserrat', fontWeight: '400', wordWrap: 'break-word'}}>Our designs can last up to 10 days, depending on placement, skin type, and your daily routine. The pigment fades naturally as your skin regenerates.</div>
+                    </div>
+                </div>
+                <div data-property-1="Open" style={{flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', display: 'flex'}}>
+                    <div style={{width: 768, paddingTop: 20, paddingBottom: 20, overflow: 'hidden', borderTop: '1px black solid', justifyContent: 'flex-start', alignItems: 'center', gap: 24, display: 'inline-flex'}}>
+                        <div style={{flex: '1 1 0', color: 'black', fontSize: 18, fontFamily: 'Almarena', fontWeight: '700', wordWrap: 'break-word'}}>What color will my tattoo be?</div>
+                        <div style={{width: 32, height: 32, position: 'relative', overflow: 'hidden'}}>
+                            <div style={{width: 15.44, height: 8.88, left: 8.30, top: 10.94, position: 'absolute', background: '#FE8204', border: '1.33px #FE8204 solid'}} />
+                        </div>
+                    </div>
+                    <div style={{width: 768, paddingBottom: 24, justifyContent: 'flex-start', alignItems: 'flex-start', gap: 16, display: 'inline-flex'}}>
+                        <div style={{flex: '1 1 0', color: 'black', fontSize: 16, fontFamily: 'Montserrat', fontWeight: '400', wordWrap: 'break-word'}}>When first applied, the ink appears as a light blue tint — totally normal. Over the next few hours, it deepens into a rich, natural tone that resembles a real tattoo. It’s all part of the Just Tattoos experience.</div>
+                    </div>
+                </div>
+                <div data-property-1="Open" style={{flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', display: 'flex'}}>
+                    <div style={{width: 768, paddingTop: 20, paddingBottom: 20, overflow: 'hidden', borderTop: '1px black solid', justifyContent: 'flex-start', alignItems: 'center', gap: 24, display: 'inline-flex'}}>
+                        <div style={{flex: '1 1 0', color: 'black', fontSize: 18, fontFamily: 'Almarena', fontWeight: '700', wordWrap: 'break-word'}}>Can I remove the tattoo earlier?</div>
+                        <div style={{width: 32, height: 32, position: 'relative', overflow: 'hidden'}}>
+                            <div style={{width: 15.44, height: 8.88, left: 8.30, top: 10.94, position: 'absolute', background: '#FE8204', border: '1.33px #FE8204 solid'}} />
+                        </div>
+                    </div>
+                    <div style={{width: 768, paddingBottom: 24, justifyContent: 'flex-start', alignItems: 'flex-start', gap: 16, display: 'inline-flex'}}>
+                        <div style={{flex: '1 1 0', color: 'black', fontSize: 16, fontFamily: 'Montserrat', fontWeight: '400', wordWrap: 'break-word'}}>Yes. If you’d like to remove it sooner, gently exfoliate the area with warm saltwater or a body scrub. You may need to repeat the process, but always treat your skin with care.</div>
+                    </div>
+                </div>
+                <div data-property-1="Open" style={{flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', display: 'flex'}}>
+                    <div style={{width: 768, paddingTop: 20, paddingBottom: 20, overflow: 'hidden', borderTop: '1px black solid', justifyContent: 'flex-start', alignItems: 'center', gap: 24, display: 'inline-flex'}}>
+                        <div style={{flex: '1 1 0', color: 'black', fontSize: 18, fontFamily: 'Almarena', fontWeight: '700', wordWrap: 'break-word'}}>What tattoo sizes do you offer?</div>
+                        <div style={{width: 32, height: 32, position: 'relative', overflow: 'hidden'}}>
+                            <div style={{width: 15.44, height: 8.88, left: 8.30, top: 10.94, position: 'absolute', background: '#FE8204', border: '1.33px #FE8204 solid'}} />
+                        </div>
+                    </div>
+                    <div style={{width: 768, paddingBottom: 24, justifyContent: 'flex-start', alignItems: 'flex-start', gap: 16, display: 'inline-flex'}}>
+                        <div style={{flex: '1 1 0', color: 'black', fontSize: 16, fontFamily: 'Montserrat', fontWeight: '400', wordWrap: 'break-word'}}>We offer a range of canvas sizes to suit different designs: 1x1&quot;, 2x2&quot;, 3x3&quot;, 4x4&quot;, 5x2&quot;, 7x2&quot;, 6x3&quot;, 6.5x6.5&quot;, and 5.5x9&quot;. Keep in mind that the usable design area is approximately 0.25&quot; smaller than the canvas size.</div>
+                    </div>
+                </div>
+                <div data-property-1="Open" style={{flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', display: 'flex'}}>
+                    <div style={{width: 768, paddingTop: 20, paddingBottom: 20, overflow: 'hidden', borderTop: '1px black solid', justifyContent: 'flex-start', alignItems: 'center', gap: 24, display: 'inline-flex'}}>
+                        <div style={{flex: '1 1 0', color: 'black', fontSize: 18, fontFamily: 'Almarena', fontWeight: '700', wordWrap: 'break-word'}}>Are Just Tattoos safe?</div>
+                        <div style={{width: 32, height: 32, position: 'relative', overflow: 'hidden'}}>
+                            <div style={{width: 15.44, height: 8.88, left: 8.30, top: 10.94, position: 'absolute', background: '#FE8204', border: '1.33px #FE8204 solid'}} />
+                        </div>
+                    </div>
+                    <div style={{width: 768, paddingBottom: 24, justifyContent: 'flex-start', alignItems: 'flex-start', gap: 16, display: 'inline-flex'}}>
+                        <div style={{flex: '1 1 0', color: 'black', fontSize: 16, fontFamily: 'Montserrat', fontWeight: '400', wordWrap: 'break-word'}}>Yes. Our skin-reactive ink formula is developed to meet cosmetic safety standards and has been dermatologically tested. If you have sensitive skin or experience any discomfort after application, we recommend discontinuing use and consulting a healthcare professional.</div>
+                    </div>
+                </div>
+                <div data-property-1="Open" style={{flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', display: 'flex'}}>
+                    <div style={{width: 768, paddingTop: 20, paddingBottom: 20, overflow: 'hidden', borderTop: '1px black solid', justifyContent: 'flex-start', alignItems: 'center', gap: 24, display: 'inline-flex'}}>
+                        <div style={{flex: '1 1 0', color: 'black', fontSize: 18, fontFamily: 'Almarena', fontWeight: '700', wordWrap: 'break-word'}}>Where do you ship to?</div>
+                        <div style={{width: 32, height: 32, position: 'relative', overflow: 'hidden'}}>
+                            <div style={{width: 15.44, height: 8.88, left: 8.30, top: 10.94, position: 'absolute', background: '#FE8204', border: '1.33px #FE8204 solid'}} />
+                        </div>
+                    </div>
+                    <div style={{width: 768, paddingBottom: 24, justifyContent: 'flex-start', alignItems: 'flex-start', gap: 16, display: 'inline-flex'}}>
+                        <div style={{flex: '1 1 0', color: 'black', fontSize: 16, fontFamily: 'Montserrat', fontWeight: '400', wordWrap: 'break-word'}}>We currently ship all over United States at the moment.</div>
+                    </div>
+                </div>
+                <div data-property-1="Open" style={{flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', display: 'flex'}}>
+                    <div style={{width: 768, paddingTop: 20, paddingBottom: 20, overflow: 'hidden', borderTop: '1px black solid', justifyContent: 'flex-start', alignItems: 'center', gap: 24, display: 'inline-flex'}}>
+                        <div style={{flex: '1 1 0', color: 'black', fontSize: 18, fontFamily: 'Almarena', fontWeight: '700', wordWrap: 'break-word'}}>Do Just Tattoos products expire?</div>
+                        <div style={{width: 32, height: 32, position: 'relative', overflow: 'hidden'}}>
+                            <div style={{width: 15.44, height: 8.88, left: 8.30, top: 10.94, position: 'absolute', background: '#FE8204', border: '1.33px #FE8204 solid'}} />
+                        </div>
+                    </div>
+                    <div style={{width: 768, paddingBottom: 24, justifyContent: 'flex-start', alignItems: 'flex-start', gap: 16, display: 'inline-flex'}}>
+                        <div style={{flex: '1 1 0', color: 'black', fontSize: 16, fontFamily: 'Montserrat', fontWeight: '400', wordWrap: 'break-word'}}>Our tattoo patches have a shelf life of 9 months when stored in a cool, dry place. Freehand Tattoo Markers last up to 30 months unopened, and should be used within 3 months after opening. Always store markers horizontally, at room temperature, and away from direct sunlight.</div>
+                    </div>
+                </div>
+                <div data-property-1="Open" style={{flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', display: 'flex'}}>
+                    <div style={{width: 768, paddingTop: 20, paddingBottom: 20, overflow: 'hidden', borderTop: '1px black solid', justifyContent: 'flex-start', alignItems: 'center', gap: 24, display: 'inline-flex'}}>
+                        <div style={{flex: '1 1 0', color: 'black', fontSize: 18, fontFamily: 'Almarena', fontWeight: '700', wordWrap: 'break-word'}}>How is Just Tattoos different from Henna or Jagua?</div>
+                        <div style={{width: 32, height: 32, position: 'relative', overflow: 'hidden'}}>
+                            <div style={{width: 15.44, height: 8.88, left: 8.30, top: 10.94, position: 'absolute', background: '#FE8204', border: '1.33px #FE8204 solid'}} />
+                        </div>
+                    </div>
+                    <div style={{width: 768, paddingBottom: 24, justifyContent: 'flex-start', alignItems: 'flex-start', gap: 16, display: 'inline-flex'}}>
+                        <div style={{flex: '1 1 0', color: 'black', fontSize: 16, fontFamily: 'Montserrat', fontWeight: '400', wordWrap: 'break-word'}}>Just Tattoos is not henna or jagua. Our tattoos use a proprietary ink formula derived from Genipa plant extract, designed to deliver longer-lasting, water-resistant results with a realistic finish — all without the mess or staining associated with traditional plant-based dyes.</div>
+                    </div>
+                </div>
+                <div data-property-1="Open" style={{flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', display: 'flex'}}>
+                    <div style={{width: 768, paddingTop: 20, paddingBottom: 20, overflow: 'hidden', borderTop: '1px black solid', justifyContent: 'flex-start', alignItems: 'center', gap: 24, display: 'inline-flex'}}>
+                        <div style={{flex: '1 1 0', color: 'black', fontSize: 18, fontFamily: 'Almarena', fontWeight: '700', wordWrap: 'break-word'}}>Can I cancel or return my order?</div>
+                        <div style={{width: 32, height: 32, position: 'relative', overflow: 'hidden'}}>
+                            <div style={{width: 15.44, height: 8.88, left: 8.30, top: 10.94, position: 'absolute', background: '#FE8204', border: '1.33px #FE8204 solid'}} />
+                        </div>
+                    </div>
+                    <div style={{width: 768, paddingBottom: 24, justifyContent: 'flex-start', alignItems: 'flex-start', gap: 16, display: 'inline-flex'}}>
+                        <div style={{flex: '1 1 0', color: 'black', fontSize: 16, fontFamily: 'Montserrat', fontWeight: '400', wordWrap: 'break-word'}}>Orders can be canceled as long as they haven’t been processed or shipped. If you’d like to request a return, please provide your order number and reason for the return. Our team will do their best to assist you.</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div style={{width: 1440, padding: 64, background: '#E8E8E8', overflow: 'hidden', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 10, display: 'flex'}}>
+        <div style={{alignSelf: 'stretch', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 24, display: 'flex'}}>
+            <div style={{alignSelf: 'stretch', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 24, display: 'flex'}}>
+                <div style={{alignSelf: 'stretch', justifyContent: 'center', display: 'flex', flexDirection: 'column', color: 'black', fontSize: 64, fontFamily: 'Almarena', fontWeight: '700', textTransform: 'uppercase', wordWrap: 'break-word'}}>Subscribe to News</div>
+                <div style={{width: 456, justifyContent: 'center', display: 'flex', flexDirection: 'column', color: 'black', fontSize: 24, fontFamily: 'Montserrat', fontWeight: '500', wordWrap: 'break-word'}}>Join our newsletter to stay up to date on features and releases.</div>
+            </div>
+            <div style={{justifyContent: 'flex-start', alignItems: 'flex-end', gap: 10, display: 'inline-flex'}}>
+                <div style={{width: 430, height: 60, position: 'relative', background: 'white', boxShadow: '0px 2px 2px #DBDDE0 inset', overflow: 'hidden', borderRadius: 30}}>
+                    <div style={{width: 429.88, height: 60, left: 0, top: 0, position: 'absolute', overflow: 'hidden'}}>
+                        <div style={{width: 389.88, height: 21, left: 20, top: 19.50, position: 'absolute', overflow: 'hidden'}}>
+                            <div style={{width: 138, height: 20, left: 0, top: 0.50, position: 'absolute', justifyContent: 'center', display: 'flex', flexDirection: 'column', color: 'black', fontSize: 16, fontFamily: 'Montserrat', fontWeight: '400', wordWrap: 'break-word'}}>jane@email.com</div>
+                        </div>
+                    </div>
+                    <div style={{width: 429.88, height: 60, left: 0, top: 0, position: 'absolute', borderRadius: 30, border: '1px #DBDDE0 solid'}} />
+                </div>
+                <div data-property-1="Default" style={{paddingLeft: 24, paddingRight: 24, paddingTop: 20, paddingBottom: 20, background: 'black', borderRadius: 30, justifyContent: 'center', alignItems: 'center', gap: 10, display: 'flex'}}>
+                    <div style={{justifyContent: 'center', display: 'flex', flexDirection: 'column', color: 'white', fontSize: 20, fontFamily: 'Almarena', fontWeight: '700', textTransform: 'uppercase', wordWrap: 'break-word'}}>Subscribe</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div style={{width: 1440, paddingLeft: 30, paddingRight: 30, paddingTop: 64, paddingBottom: 64, background: 'white', overflow: 'hidden', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 10, display: 'flex'}}>
+        <div style={{alignSelf: 'stretch', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 36, display: 'flex'}}>
+            <div style={{alignSelf: 'stretch', justifyContent: 'space-between', alignItems: 'flex-start', display: 'inline-flex'}}>
+                <div style={{justifyContent: 'flex-start', alignItems: 'center', gap: 16, display: 'flex'}}>
+                    <div style={{width: 333, height: 297, position: 'relative', background: 'rgba(255, 255, 255, 0.08)', borderRadius: 30, outline: '1px rgba(0, 0, 0, 0.10) solid', outlineOffset: '-1px'}}>
+                        <div style={{left: 30.50, top: 29.50, position: 'absolute', justifyContent: 'center', display: 'flex', flexDirection: 'column', color: '#FE8204', fontSize: 24, fontFamily: 'Almarena', fontWeight: '700', textTransform: 'uppercase', wordWrap: 'break-word'}}>Shop</div>
+                        <div style={{left: 30.50, top: 192.50, position: 'absolute', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 16, display: 'inline-flex'}}>
+                            <div data-property-1="Default" style={{alignSelf: 'stretch', justifyContent: 'flex-start', alignItems: 'center', gap: 2, display: 'inline-flex'}}>
+                                <div style={{justifyContent: 'center', display: 'flex', flexDirection: 'column', color: 'black', fontSize: 20, fontFamily: 'Almarena', fontWeight: '700', textTransform: 'uppercase', wordWrap: 'break-word'}}>Tattoos</div>
+                            </div>
+                            <div data-property-1="Default" style={{justifyContent: 'flex-start', alignItems: 'center', gap: 2, display: 'inline-flex'}}>
+                                <div style={{justifyContent: 'center', display: 'flex', flexDirection: 'column', color: 'black', fontSize: 20, fontFamily: 'Almarena', fontWeight: '700', textTransform: 'uppercase', wordWrap: 'break-word'}}>New Arrival</div>
+                            </div>
+                            <div data-property-1="Default" style={{alignSelf: 'stretch', justifyContent: 'flex-start', alignItems: 'center', gap: 2, display: 'inline-flex'}}>
+                                <div style={{justifyContent: 'center', display: 'flex', flexDirection: 'column', color: 'black', fontSize: 20, fontFamily: 'Almarena', fontWeight: '700', textTransform: 'uppercase', wordWrap: 'break-word'}}>Sale</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div style={{width: 333, height: 297, position: 'relative', background: 'rgba(255, 255, 255, 0.08)', borderRadius: 30, outline: '1px rgba(0, 0, 0, 0.10) solid', outlineOffset: '-1px'}}>
+                        <div style={{left: 30.50, top: 29.50, position: 'absolute', justifyContent: 'center', display: 'flex', flexDirection: 'column', color: '#FE8204', fontSize: 24, fontFamily: 'Almarena', fontWeight: '700', textTransform: 'uppercase', wordWrap: 'break-word'}}>About</div>
+                        <div style={{left: 30.50, top: 192.50, position: 'absolute', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 16, display: 'inline-flex'}}>
+                            <div data-property-1="Default" style={{alignSelf: 'stretch', justifyContent: 'flex-start', alignItems: 'center', gap: 2, display: 'inline-flex'}}>
+                                <div style={{justifyContent: 'center', display: 'flex', flexDirection: 'column', color: 'black', fontSize: 20, fontFamily: 'Almarena', fontWeight: '700', textTransform: 'uppercase', wordWrap: 'break-word'}}>About us</div>
+                            </div>
+                            <div data-property-1="Default" style={{justifyContent: 'flex-start', alignItems: 'center', gap: 2, display: 'inline-flex'}}>
+                                <div style={{justifyContent: 'center', display: 'flex', flexDirection: 'column', color: 'black', fontSize: 20, fontFamily: 'Almarena', fontWeight: '700', textTransform: 'uppercase', wordWrap: 'break-word'}}>How it works</div>
+                            </div>
+                            <div data-property-1="Default" style={{alignSelf: 'stretch', justifyContent: 'flex-start', alignItems: 'center', gap: 2, display: 'inline-flex'}}>
+                                <div style={{justifyContent: 'center', display: 'flex', flexDirection: 'column', color: 'black', fontSize: 20, fontFamily: 'Almarena', fontWeight: '700', textTransform: 'uppercase', wordWrap: 'break-word'}}>Contact us</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div style={{width: 333, height: 297, position: 'relative', background: 'rgba(255, 255, 255, 0.08)', borderRadius: 30, outline: '1px rgba(0, 0, 0, 0.10) solid', outlineOffset: '-1px'}}>
+                        <div style={{left: 30.50, top: 29.50, position: 'absolute', justifyContent: 'center', display: 'flex', flexDirection: 'column', color: '#FE8204', fontSize: 24, fontFamily: 'Almarena', fontWeight: '700', textTransform: 'uppercase', wordWrap: 'break-word'}}>Customer Care</div>
+                        <div style={{left: 30.50, top: 157.50, position: 'absolute', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 16, display: 'inline-flex'}}>
+                            <div data-property-1="Default" style={{alignSelf: 'stretch', justifyContent: 'flex-start', alignItems: 'center', gap: 2, display: 'inline-flex'}}>
+                                <div style={{justifyContent: 'center', display: 'flex', flexDirection: 'column', color: 'black', fontSize: 20, fontFamily: 'Almarena', fontWeight: '700', textTransform: 'uppercase', wordWrap: 'break-word'}}>Tracking</div>
+                            </div>
+                            <div data-property-1="Default" style={{justifyContent: 'flex-start', alignItems: 'center', gap: 2, display: 'inline-flex'}}>
+                                <div style={{justifyContent: 'center', display: 'flex', flexDirection: 'column', color: 'black', fontSize: 20, fontFamily: 'Almarena', fontWeight: '700', textTransform: 'uppercase', wordWrap: 'break-word'}}>Shipping</div>
+                            </div>
+                            <div data-property-1="Default" style={{alignSelf: 'stretch', justifyContent: 'flex-start', alignItems: 'center', gap: 2, display: 'inline-flex'}}>
+                                <div style={{justifyContent: 'center', display: 'flex', flexDirection: 'column', color: 'black', fontSize: 20, fontFamily: 'Almarena', fontWeight: '700', textTransform: 'uppercase', wordWrap: 'break-word'}}>Help &amp; FAQ</div>
+                            </div>
+                            <div data-property-1="Default" style={{alignSelf: 'stretch', justifyContent: 'flex-start', alignItems: 'center', gap: 2, display: 'inline-flex'}}>
+                                <div style={{justifyContent: 'center', display: 'flex', flexDirection: 'column', color: 'black', fontSize: 20, fontFamily: 'Almarena', fontWeight: '700', textTransform: 'uppercase', wordWrap: 'break-word'}}>Returns</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div style={{width: 334, flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'center', gap: 16, display: 'inline-flex'}}>
+                    <div style={{alignSelf: 'stretch', justifyContent: 'flex-start', alignItems: 'center', gap: 16, display: 'inline-flex'}}>
+                        <div data-property-1="Default" style={{width: 159, height: 141, position: 'relative', background: 'rgba(255, 255, 255, 0.08)', borderRadius: 8, outline: '1px rgba(0, 0, 0, 0.10) solid', outlineOffset: '-1px'}}>
+                            <div style={{width: 34, height: 35, left: 63, top: 53, position: 'absolute', overflow: 'hidden'}}>
+                                <div style={{width: 34, height: 34, left: 0, top: 1, position: 'absolute', background: 'black'}} />
+                            </div>
+                        </div>
+                        <div data-property-1="Default" style={{width: 159, height: 141, position: 'relative', background: 'rgba(255, 255, 255, 0.08)', borderRadius: 8, outline: '1px rgba(0, 0, 0, 0.10) solid', outlineOffset: '-1px'}}>
+                            <div style={{width: 31, height: 35, left: 65, top: 53, position: 'absolute', overflow: 'hidden'}}>
+                                <div style={{width: 31, height: 35, left: 0, top: 0, position: 'absolute', background: 'black'}} />
+                            </div>
+                        </div>
+                    </div>
+                    <div style={{alignSelf: 'stretch', justifyContent: 'flex-start', alignItems: 'center', gap: 16, display: 'inline-flex'}}>
+                        <div data-property-1="Default" style={{width: 100, height: 141, position: 'relative', background: 'rgba(255, 255, 255, 0.08)', borderRadius: 8, outline: '1px rgba(0, 0, 0, 0.10) solid', outlineOffset: '-1px'}}>
+                            <div style={{width: 35, height: 35, left: 33, top: 53, position: 'absolute', overflow: 'hidden'}}>
+                                <div style={{width: 34, height: 30, left: 0, top: 2, position: 'absolute', background: 'black'}} />
+                            </div>
+                        </div>
+                        <div data-property-1="Default" style={{width: 100, height: 141, position: 'relative', background: 'rgba(255, 255, 255, 0.08)', borderRadius: 8, outline: '1px rgba(0, 0, 0, 0.10) solid', outlineOffset: '-1px'}}>
+                            <div style={{width: 19, height: 35, left: 41, top: 53, position: 'absolute', overflow: 'hidden'}}>
+                                <div style={{width: 18, height: 34, left: 1, top: 0, position: 'absolute', background: 'black'}} />
+                            </div>
+                        </div>
+                        <div data-property-1="Default" style={{width: 100, height: 141, position: 'relative', background: 'rgba(255, 255, 255, 0.08)', borderRadius: 8, outline: '1px rgba(0, 0, 0, 0.10) solid', outlineOffset: '-1px'}}>
+                            <div style={{width: 35, height: 35, left: 33, top: 53, position: 'absolute', overflow: 'hidden'}}>
+                                <div style={{width: 35, height: 24, left: 0, top: 5, position: 'absolute', background: 'black'}} />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div style={{width: 117, height: 150, background: '#FE8204'}} />
+            <div style={{width: 94, height: 113, background: '#FE8204'}} />
+            <div style={{width: 122, height: 150, background: '#FE8204'}} />
+            <div style={{width: 108, height: 113, background: '#FE8204'}} />
+            <div style={{width: 108, height: 113, background: '#FE8204'}} />
+            <div style={{width: 99, height: 113, background: '#FE8204'}} />
+            <div style={{width: 94, height: 150, background: '#FE8204'}} />
+            <div style={{width: 94, height: 113, background: '#FE8204'}} />
+            <div style={{width: 99, height: 113, background: '#FE8204'}} />
+            <div style={{width: 61, height: 150, background: '#FE8204'}} />
+            <div style={{width: 202, height: 174, background: '#FE8204'}} />
+        </div>
+    </div>
+</div>
+</html>

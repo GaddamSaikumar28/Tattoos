@@ -1,0 +1,284 @@
+// 2
+color: 'white', fontSize: 13.50, fontFamily: 'Almarena', fontWeight: '700', wordWrap: 'break-word'
+---
+// Real ink
+color: 'black', fontSize: 64, fontFamily: 'Almarena', fontWeight: '700', textTransform: 'uppercase', wordWrap: 'break-word'
+---
+// Your Way
+color: '#FE8204', fontSize: 64, fontFamily: 'Almarena', fontWeight: '700', textTransform: 'uppercase', wordWrap: 'break-word'
+---
+// Get the authentic tattoo look without the needle or the lifelong commitment. Our clinically tested, permanent ink sinks into the top layer of your skin, fully developing into a bold, 
+color: 'black', fontSize: 16, fontFamily: 'Montserrat', fontWeight: '500', wordWrap: 'break-word'
+---
+// realistic design within 24 hours
+color: '#FE8204', fontSize: 16, fontFamily: 'Montserrat', fontWeight: '500', wordWrap: 'break-word'
+---
+// Shop collections
+color: 'white', fontSize: 18, fontFamily: 'Almarena', fontWeight: '700', textTransform: 'uppercase', wordWrap: 'break-word'
+---
+// Real<br/>Tattoo <br/>Look
+color: 'black', fontSize: 36, fontFamily: 'Almarena', fontWeight: '700', textTransform: 'uppercase', wordWrap: 'break-word'
+---
+// Real Art. Real Fast.
+color: 'black', fontSize: 36, fontFamily: 'Almarena', fontWeight: '700', textTransform: 'uppercase', wordWrap: 'break-word'
+---
+// Get an authentic, tattoo-quality finish that develops in 24 hours. Our skin-safe formula is built for adventure and designed to fade naturally. Your style, your terms
+color: 'black', fontSize: 16, fontFamily: 'Montserrat', fontWeight: '500', wordWrap: 'break-word'
+---
+// Built for Self-Expression
+color: 'white', fontSize: 20, fontFamily: 'Almarena', fontWeight: '700', textTransform: 'uppercase', wordWrap: 'break-word'
+---
+// Born from a love for tattoo culture and a fear of lifelong regret. Just Tattoos was created to let you test new ideas, change your look, and make a statement whenever the mood strikes
+color: 'white', fontSize: 14, fontFamily: 'Montserrat', fontWeight: '400', wordWrap: 'break-word'
+---
+// Read our story
+color: 'black', fontSize: 18, fontFamily: 'Almarena', fontWeight: '700', textTransform: 'uppercase', wordWrap: 'break-word'
+---
+// The 24-Hour Glow Up
+color: 'black', fontSize: 20, fontFamily: 'Almarena', fontWeight: '700', textTransform: 'uppercase', wordWrap: 'break-word'
+---
+// Apply your design in minutes and watch the magic happen. Our ink develops over 24 hours to create a deep, realistic finish that lasts up to 10 days. No needles, no pain, just pure art
+color: 'black', fontSize: 14, fontFamily: 'Montserrat', fontWeight: '400', wordWrap: 'break-word'
+---
+// How it works
+color: 'black', fontSize: 18, fontFamily: 'Almarena', fontWeight: '700', textTransform: 'uppercase', wordWrap: 'break-word'
+---
+// New Arrivals
+color: 'white', fontSize: 36, fontFamily: 'Almarena', fontWeight: '700', textTransform: 'uppercase', wordWrap: 'break-word'
+---
+// SALE
+color: 'white', fontSize: 12, fontFamily: 'Montserrat', fontWeight: '700', wordWrap: 'break-word'
+---
+// Wolves &amp; Rose (Color)
+color: 'white', fontSize: 16, fontFamily: 'Almarena', fontWeight: '700', textTransform: 'uppercase', wordWrap: 'break-word'
+---
+// $34,99 USD
+color: 'white', fontSize: 12, fontFamily: 'Montserrat', fontWeight: '300', textDecoration: 'line-through', wordWrap: 'break-word'
+---
+// $29,99 USD
+color: 'white', fontSize: 16, fontFamily: 'Montserrat', fontWeight: '600', wordWrap: 'break-word'
+---
+// SALE
+color: 'white', fontSize: 12, fontFamily: 'Montserrat', fontWeight: '700', wordWrap: 'break-word'
+---
+// Ripped Cross Colored
+color: 'white', fontSize: 16, fontFamily: 'Almarena', fontWeight: '700', textTransform: 'uppercase', wordWrap: 'break-word'
+---
+// $29,99 USD
+color: 'white', fontSize: 12, fontFamily: 'Montserrat', fontWeight: '300', textDecoration: 'line-through', wordWrap: 'break-word'
+---
+// $24,99 USD
+color: 'white', fontSize: 16, fontFamily: 'Montserrat', fontWeight: '600', wordWrap: 'break-word'
+---
+// SALE
+color: 'white', fontSize: 12, fontFamily: 'Montserrat', fontWeight: '700', wordWrap: 'break-word'
+---
+// Snake Skull Compass (colored)
+color: 'white', fontSize: 16, fontFamily: 'Almarena', fontWeight: '700', textTransform: 'uppercase', wordWrap: 'break-word'
+---
+// $29,99 USD
+color: 'white', fontSize: 12, fontFamily: 'Montserrat', fontWeight: '300', textDecoration: 'line-through', wordWrap: 'break-word'
+---
+// $24,99 USD
+color: 'white', fontSize: 16, fontFamily: 'Montserrat', fontWeight: '600', wordWrap: 'break-word'
+---
+// Explore all now
+color: 'black', fontSize: 18, fontFamily: 'Almarena', fontWeight: '700', textTransform: 'uppercase', wordWrap: 'break-word'
+---
+// Free gift with your order
+color: 'white', fontSize: 36, fontFamily: 'Almarena', fontWeight: '700', textTransform: 'uppercase', wordWrap: 'break-word'
+---
+// Who doesn’t love a surprise? Spend $30 USD or more and we’ll toss in a mystery ink on us. Realistic tattoo look, water-resistant, and designed to last up to 10 days. At Just Tattoos, we make it easy to switch up your style, no commitment required.
+color: 'white', fontSize: 16, fontFamily: 'Montserrat', fontWeight: '500', wordWrap: 'break-word'
+---
+// Available in the U.S. only. While supplies last
+color: '#FE8204', fontSize: 16, fontFamily: 'Montserrat', fontWeight: '500', wordWrap: 'break-word'
+---
+// A Little Something Extra
+color: 'black', fontSize: 20, fontFamily: 'Almarena', fontWeight: '700', textTransform: 'uppercase', wordWrap: 'break-word'
+---
+// High-quality ink, on the house. Reach $30 and we’ll drop a mystery design into your order. New style, zero cost
+color: 'black', fontSize: 14, fontFamily: 'Montserrat', fontWeight: '400', wordWrap: 'break-word'
+---
+// Shop collections
+color: 'white', fontSize: 18, fontFamily: 'Almarena', fontWeight: '700', textTransform: 'uppercase', wordWrap: 'break-word'
+---
+// Lasts Up to 10 Days
+color: 'black', fontSize: 20, fontFamily: 'Almarena', fontWeight: '700', textTransform: 'uppercase', wordWrap: 'break-word'
+---
+// Our skin-safe ink is designed to last up to 10 days, giving you plenty of time to enjoy the look without long-term commitment. Easy to apply, easy to move on when you’re ready for something new
+color: 'black', fontSize: 14, fontFamily: 'Montserrat', fontWeight: '400', wordWrap: 'break-word'
+---
+// Made for All<br/>Skin Tones
+color: 'black', fontSize: 20, fontFamily: 'Almarena', fontWeight: '700', textTransform: 'uppercase', wordWrap: 'break-word'
+---
+// Our formulas are carefully tested, cruelty-free, and made with vegan-friendly ingredients. Designed to look great across a wide range of skin tones while meeting strict safety standards
+color: 'black', fontSize: 14, fontFamily: 'Montserrat', fontWeight: '400', wordWrap: 'break-word'
+---
+// Real Tattoo Look
+color: 'black', fontSize: 20, fontFamily: 'Almarena', fontWeight: '700', textTransform: 'uppercase', wordWrap: 'break-word'
+---
+// Unlike traditional temporary tattoos that sit on the surface, our ink absorbs into the top layer of your skin for a more natural, realistic finish. The design gradually fades as your skin renews itself
+color: 'black', fontSize: 14, fontFamily: 'Montserrat', fontWeight: '400', wordWrap: 'break-word'
+---
+// Built for<br/>Self-Expression
+color: 'black', fontSize: 20, fontFamily: 'Almarena', fontWeight: '700', textTransform: 'uppercase', wordWrap: 'break-word'
+---
+// Change your look, test new ideas, or make a statement whenever you feel like it. Our tattoos are made for experimenting freely and expressing yourself with confidence.
+color: 'black', fontSize: 14, fontFamily: 'Montserrat', fontWeight: '400', wordWrap: 'break-word'
+---
+// Our Testimonials
+color: 'black', fontSize: 36, fontFamily: 'Almarena', fontWeight: '700', textTransform: 'uppercase', wordWrap: 'break-word'
+---
+// &quot;This ink looks so real! It lasted ten full days through gym sessions. Love it. 10/10.&quot;
+color: 'black', fontSize: 14, fontFamily: 'Montserrat', fontWeight: '400', wordWrap: 'break-word'
+---
+// Jordan Miller
+color: 'black', fontSize: 16, fontFamily: 'Almarena', fontWeight: '700', wordWrap: 'break-word'
+---
+// &quot;Perfect for testing my sleeve idea. Super easy to apply and the color is very deep.&quot;
+color: 'black', fontSize: 14, fontFamily: 'Montserrat', fontWeight: '400', wordWrap: 'break-word'
+---
+// Sarah Laurent
+color: 'black', fontSize: 16, fontFamily: 'Almarena', fontWeight: '700', wordWrap: 'break-word'
+---
+// &quot;Best temporary tattoo I ever tried. People thought it was permanent. Total winner.&quot;
+color: 'black', fontSize: 14, fontFamily: 'Montserrat', fontWeight: '400', wordWrap: 'break-word'
+---
+// Chris Peterson
+color: 'black', fontSize: 16, fontFamily: 'Almarena', fontWeight: '700', wordWrap: 'break-word'
+---
+// &quot;The mystery gift was a great surprise. High quality art that fades away naturally&quot;
+color: 'black', fontSize: 14, fontFamily: 'Montserrat', fontWeight: '400', wordWrap: 'break-word'
+---
+// Elena Rodriguez
+color: 'black', fontSize: 16, fontFamily: 'Almarena', fontWeight: '700', wordWrap: 'break-word'
+---
+// &quot;No needles, no pain, just style. It developed perfectly in one day. Highly suggest.&quot;
+color: 'black', fontSize: 14, fontFamily: 'Montserrat', fontWeight: '400', wordWrap: 'break-word'
+---
+// Blake Thompson
+color: 'black', fontSize: 16, fontFamily: 'Almarena', fontWeight: '700', wordWrap: 'break-word'
+---
+// &quot;Finally, a tattoo with zero regret. My friends are obsessed with the matte finish.&quot;
+color: 'black', fontSize: 14, fontFamily: 'Montserrat', fontWeight: '400', wordWrap: 'break-word'
+---
+// Maya Whitestone
+color: 'black', fontSize: 16, fontFamily: 'Almarena', fontWeight: '700', wordWrap: 'break-word'
+---
+// Frequently Asked Questions
+color: 'black', fontSize: 36, fontFamily: 'Almarena', fontWeight: '700', textTransform: 'uppercase', wordWrap: 'break-word'
+---
+// Find answers to common questions about our products and services
+color: 'black', fontSize: 16, fontFamily: 'Montserrat', fontWeight: '500', wordWrap: 'break-word'
+---
+// How do Just Tattoos work ?
+color: 'black', fontSize: 16, fontFamily: 'Almarena', fontWeight: '700', wordWrap: 'break-word'
+---
+// Unlike standard temporary tattoos that sit on top of the skin, Just Tattoos use a skin-reactive ink that absorbs into the upper layer of your skin. This creates a natural, tattoo-like appearance without needles, pain, or long-term commitment.<br/><br/>Application is quick and simple. Once applied, the ink reacts with your skin and gradually darkens over the next 24 to 36 hours, revealing a realistic finish that looks like real ink.
+color: 'black', fontSize: 14, fontFamily: 'Montserrat', fontWeight: '400', wordWrap: 'break-word'
+---
+// How long does a Just Tattoo last?
+color: 'black', fontSize: 16, fontFamily: 'Almarena', fontWeight: '700', wordWrap: 'break-word'
+---
+// Our designs can last up to 10 days, depending on placement, skin type, and your daily routine. The pigment fades naturally as your skin regenerates.
+color: 'black', fontSize: 14, fontFamily: 'Montserrat', fontWeight: '400', wordWrap: 'break-word'
+---
+// What color will my tattoo be?
+color: 'black', fontSize: 16, fontFamily: 'Almarena', fontWeight: '700', wordWrap: 'break-word'
+---
+// When first applied, the ink appears as a light blue tint — totally normal. Over the next few hours, it deepens into a rich, natural tone that resembles a real tattoo. It’s all part of the Just Tattoos experience.
+color: 'black', fontSize: 14, fontFamily: 'Montserrat', fontWeight: '400', wordWrap: 'break-word'
+---
+// Can I remove the tattoo earlier?
+color: 'black', fontSize: 16, fontFamily: 'Almarena', fontWeight: '700', wordWrap: 'break-word'
+---
+// Yes. If you’d like to remove it sooner, gently exfoliate the area with warm saltwater or a body scrub. You may need to repeat the process, but always treat your skin with care.
+color: 'black', fontSize: 14, fontFamily: 'Montserrat', fontWeight: '400', wordWrap: 'break-word'
+---
+// What tattoo sizes do you offer?
+color: 'black', fontSize: 16, fontFamily: 'Almarena', fontWeight: '700', wordWrap: 'break-word'
+---
+// We offer a range of canvas sizes to suit different designs: 1x1&quot;, 2x2&quot;, 3x3&quot;, 4x4&quot;, 5x2&quot;, 7x2&quot;, 6x3&quot;, 6.5x6.5&quot;, and 5.5x9&quot;. Keep in mind that the usable design area is approximately 0.25&quot; smaller than the canvas size.
+color: 'black', fontSize: 14, fontFamily: 'Montserrat', fontWeight: '400', wordWrap: 'break-word'
+---
+// Are Just Tattoos safe?
+color: 'black', fontSize: 16, fontFamily: 'Almarena', fontWeight: '700', wordWrap: 'break-word'
+---
+// Yes. Our skin-reactive ink formula is developed to meet cosmetic safety standards and has been dermatologically tested. If you have sensitive skin or experience any discomfort after application, we recommend discontinuing use and consulting a healthcare professional.
+color: 'black', fontSize: 14, fontFamily: 'Montserrat', fontWeight: '400', wordWrap: 'break-word'
+---
+// Where do you ship to?
+color: 'black', fontSize: 16, fontFamily: 'Almarena', fontWeight: '700', wordWrap: 'break-word'
+---
+// We currently ship all over United States at the moment.
+color: 'black', fontSize: 14, fontFamily: 'Montserrat', fontWeight: '400', wordWrap: 'break-word'
+---
+// Do Just Tattoos products expire?
+color: 'black', fontSize: 16, fontFamily: 'Almarena', fontWeight: '700', wordWrap: 'break-word'
+---
+// Our tattoo patches have a shelf life of 9 months when stored in a cool, dry place. Freehand Tattoo Markers last up to 30 months unopened, and should be used within 3 months after opening. Always store markers horizontally, at room temperature, and away from direct sunlight.
+color: 'black', fontSize: 14, fontFamily: 'Montserrat', fontWeight: '400', wordWrap: 'break-word'
+---
+// How is Just Tattoos different from Henna or Jagua?
+color: 'black', fontSize: 16, fontFamily: 'Almarena', fontWeight: '700', wordWrap: 'break-word'
+---
+// Just Tattoos is not henna or jagua. Our tattoos use a proprietary ink formula derived from Genipa plant extract, designed to deliver longer-lasting, water-resistant results with a realistic finish — all without the mess or staining associated with traditional plant-based dyes.
+color: 'black', fontSize: 14, fontFamily: 'Montserrat', fontWeight: '400', wordWrap: 'break-word'
+---
+// Can I cancel or return my order?
+color: 'black', fontSize: 16, fontFamily: 'Almarena', fontWeight: '700', wordWrap: 'break-word'
+---
+// Orders can be canceled as long as they haven’t been processed or shipped. If you’d like to request a return, please provide your order number and reason for the return. Our team will do their best to assist you.
+color: 'black', fontSize: 14, fontFamily: 'Montserrat', fontWeight: '400', wordWrap: 'break-word'
+---
+// Subscribe to News
+color: 'black', fontSize: 36, fontFamily: 'Almarena', fontWeight: '700', textTransform: 'uppercase', wordWrap: 'break-word'
+---
+// Join our newsletter to stay up to date on features and releases.
+color: 'black', fontSize: 16, fontFamily: 'Montserrat', fontWeight: '500', wordWrap: 'break-word'
+---
+// jane@email.com
+color: 'black', fontSize: 16, fontFamily: 'Montserrat', fontWeight: '400', wordWrap: 'break-word'
+---
+// Subscribe
+color: 'white', fontSize: 20, fontFamily: 'Almarena', fontWeight: '700', textTransform: 'uppercase', wordWrap: 'break-word'
+---
+// Shop
+color: '#FE8204', fontSize: 20, fontFamily: 'Almarena', fontWeight: '700', textTransform: 'uppercase', wordWrap: 'break-word'
+---
+// Tattoos
+color: 'black', fontSize: 16, fontFamily: 'Almarena', fontWeight: '700', textTransform: 'uppercase', wordWrap: 'break-word'
+---
+// New Arrival
+color: 'black', fontSize: 16, fontFamily: 'Almarena', fontWeight: '700', textTransform: 'uppercase', wordWrap: 'break-word'
+---
+// sale
+color: 'black', fontSize: 16, fontFamily: 'Almarena', fontWeight: '700', textTransform: 'uppercase', wordWrap: 'break-word'
+---
+// About
+color: '#FE8204', fontSize: 20, fontFamily: 'Almarena', fontWeight: '700', textTransform: 'uppercase', wordWrap: 'break-word'
+---
+// About us
+color: 'black', fontSize: 16, fontFamily: 'Almarena', fontWeight: '700', textTransform: 'uppercase', wordWrap: 'break-word'
+---
+// How it works
+color: 'black', fontSize: 16, fontFamily: 'Almarena', fontWeight: '700', textTransform: 'uppercase', wordWrap: 'break-word'
+---
+// Contact us 
+color: 'black', fontSize: 16, fontFamily: 'Almarena', fontWeight: '700', textTransform: 'uppercase', wordWrap: 'break-word'
+---
+// Customer Care
+color: '#FE8204', fontSize: 20, fontFamily: 'Almarena', fontWeight: '700', textTransform: 'uppercase', wordWrap: 'break-word'
+---
+// Tracking
+color: 'black', fontSize: 16, fontFamily: 'Almarena', fontWeight: '700', textTransform: 'uppercase', wordWrap: 'break-word'
+---
+// Shipping
+color: 'black', fontSize: 16, fontFamily: 'Almarena', fontWeight: '700', textTransform: 'uppercase', wordWrap: 'break-word'
+---
+// help &amp; faq
+color: 'black', fontSize: 16, fontFamily: 'Almarena', fontWeight: '700', textTransform: 'uppercase', wordWrap: 'break-word'
+---
+// Returns
+color: 'black', fontSize: 16, fontFamily: 'Almarena', fontWeight: '700', textTransform: 'uppercase', wordWrap: 'break-word'

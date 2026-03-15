@@ -1,0 +1,4 @@
+/* hero.css */
+.card-shadow {
+  box-shadow: -10px 10px 30px rgba(0,0,0,0.15), 0 0 0 1px rgba(0,0,0,0.05);
+}

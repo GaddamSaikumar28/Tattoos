@@ -1,0 +1,44 @@
+<div style="width: 1440px; height: 1403px; position: relative; background: white; overflow: hidden">
+  <div style="left: 64px; top: 100px; position: absolute; justify-content: center; display: flex; flex-direction: column; color: black; font-size: 64px; font-family: Almarena; font-weight: 700; text-transform: uppercase; word-wrap: break-word">Real Art. Real Fast.</div>
+  <div style="width: 1018px; left: 64px; top: 185px; position: absolute; justify-content: center; display: flex; flex-direction: column; color: black; font-size: 24px; font-family: Montserrat; font-weight: 500; word-wrap: break-word">Get an authentic, tattoo-quality finish that develops in 24 hours. Our skin-safe formula is built for adventure and designed to fade naturally. Your style, your terms</div>
+  <div style="width: 800px; height: 500px; left: 64px; top: 279px; position: absolute; background: black; overflow: hidden; border-radius: 30px">
+    <img style="width: 800px; height: 500px; left: 0.21px; top: 0px; position: absolute; border-radius: 30px" src="https://placehold.co/800x500" />
+  </div>
+  <div style="width: 800px; height: 500px; left: 488px; top: 803px; position: absolute; background: black; overflow: hidden; border-radius: 30px">
+    <img style="width: 800px; height: 500px; left: 0px; top: 0px; position: absolute; border-radius: 30px" src="https://placehold.co/800x500" />
+  </div>
+  <div style="width: 400px; height: 500px; left: 888px; top: 279px; position: absolute; background: black; overflow: hidden; border-radius: 30px">
+    <div style="left: 16px; top: 281px; position: absolute; justify-content: center; display: flex; flex-direction: column; color: white; font-size: 24px; font-family: Almarena; font-weight: 700; text-transform: uppercase; word-wrap: break-word">Built for Self-Expression</div>
+    <div style="width: 370px; left: 16px; top: 314px; position: absolute; justify-content: center; display: flex; flex-direction: column; color: white; font-size: 16px; font-family: Montserrat; font-weight: 400; word-wrap: break-word">Born from a love for tattoo culture and a fear of lifelong regret. Just Tattoos was created to let you test new ideas, change your look, and make a statement whenever the mood strikes</div>
+    <div data-property-1="Default" style="width: 249px; height: 50px; left: 16px; top: 414px; position: absolute; background: white; overflow: hidden; border-radius: 30px; outline: 1px black solid; outline-offset: -1px">
+      <div style="width: 205px; height: 50px; left: 41px; top: 0px; position: absolute; border-radius: 30px; border: 1px rgba(255, 255, 255, 0.10) solid"></div>
+      <div style="width: 40px; height: 40px; left: 201.77px; top: 5px; position: absolute; background: black; border-radius: 200px"></div>
+      <div style="left: 20px; top: 16.21px; position: absolute; justify-content: center; display: flex; flex-direction: column; color: black; font-size: 18px; font-family: Almarena; font-weight: 700; text-transform: uppercase; word-wrap: break-word">Read our story</div>
+      <div style="width: 20px; height: 20px; left: 211.77px; top: 15px; position: absolute; overflow: hidden">
+        <div style="width: 15px; height: 12.50px; left: 2.50px; top: 3.75px; position: absolute; background: white"></div>
+      </div>
+    </div>
+  </div>
+  <div style="width: 400px; height: 500px; left: 64px; top: 803px; position: absolute; background: #E8E8E8; overflow: hidden; border-radius: 30px">
+    <div style="left: 16px; top: 281px; position: absolute; justify-content: center; display: flex; flex-direction: column; color: black; font-size: 24px; font-family: Almarena; font-weight: 700; text-transform: uppercase; word-wrap: break-word">The 24-Hour Glow Up</div>
+    <div style="width: 370px; left: 16px; top: 314px; position: absolute; justify-content: center; display: flex; flex-direction: column; color: black; font-size: 16px; font-family: Montserrat; font-weight: 400; word-wrap: break-word">Apply your design in minutes and watch the magic happen. Our ink develops over 24 hours to create a deep, realistic finish that lasts up to 10 days. No needles, no pain, just pure art</div>
+    <div data-property-1="Default" style="width: 249px; height: 50px; left: 16px; top: 414px; position: absolute; background: white; overflow: hidden; border-radius: 30px; outline: 1px black solid; outline-offset: -1px">
+      <div style="width: 205px; height: 50px; left: 41px; top: 0px; position: absolute; border-radius: 30px; border: 1px rgba(255, 255, 255, 0.10) solid"></div>
+      <div style="width: 40px; height: 40px; left: 201.77px; top: 5px; position: absolute; background: black; border-radius: 200px"></div>
+      <div style="left: 20px; top: 16.21px; position: absolute; justify-content: center; display: flex; flex-direction: column; color: black; font-size: 18px; font-family: Almarena; font-weight: 700; text-transform: uppercase; word-wrap: break-word">How it works</div>
+      <div style="width: 20px; height: 20px; left: 211.77px; top: 15px; position: absolute; overflow: hidden">
+        <div style="width: 15px; height: 12.50px; left: 2.50px; top: 3.75px; position: absolute; background: white"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+Now this is the new component to be created in Home Screen , Given by the Client, Deeply analyse the Vedio as it contains animations to be developed , those are the slide in animations, 
+I have also attached the wireframe given by the Client for both desktop and mobile
+I have also attached the Index.css which contains the configuration of fonts and colours used by the client , Give me the full code of the component , with proper animations and styles included , neatly 
+
+For Reference :
+Attached the code given by figma for the client wireframe 
+SecondComponentDesktop - destop view code
+SecondComponentMobile - mobile view Code ,
+Analyse each and every part in detail add, proper smooth animations and give me the full code of the component 

@@ -1,0 +1,114 @@
+@import "tailwindcss";
+
+/* --- Custom Font Loading (Almarena) --- */
+@font-face {
+  font-family: 'Almarena';
+  src: url('./assets/fonts/Almarena-Regular.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Almarena';
+  src: url('./assets/fonts/Almarena-Bold.otf') format('opentype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@theme {
+  /* --- Color Palette --- */
+  --color-primary: #ea0422; /* Red */
+  --color-brand-orange: #fe8204; /* Orange used in "Your Way" */
+  --color-secondary: #121212;
+  --color-white: #ffffff;
+  --color-black: #000000;
+
+  /* --- Font Families --- */
+  --font-almarena: "Almarena", sans-serif;
+  --font-montserrat: "Montserrat", sans-serif;
+}
+
+/* --- Responsive Typography Base Layer --- */
+@layer base {
+  :root {
+    font-family: var(--font-montserrat);
+    color: var(--color-black);
+    background-color: var(--color-white);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  /* --- Global Resets & Body --- */
+  p, .text-body {
+    font-family: var(--font-montserrat);
+    font-size: 14px; /* Mobile */
+    font-weight: 400;
+    line-height: 1.5;
+  }
+
+  /* Subtitle / Lead Text (e.g. "Get the authentic tattoo look...") */
+  .text-lead {
+    font-family: var(--font-montserrat);
+    font-size: 16px; /* Mobile */
+    font-weight: 500;
+    line-height: 1.4;
+  }
+
+  /* Small Text / Strikethrough Prices */
+  small, .text-small {
+    font-family: var(--font-montserrat);
+    font-size: 12px; /* Mobile */
+  }
+
+  /* --- Headings (Almarena, Bold, Uppercase) --- */
+  h1, h2, h3, h4, h5, h6, .font-heading {
+    font-family: var(--font-almarena);
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 1.1;
+  }
+
+  /* Hero Huge Text */
+  .text-hero { font-size: 64px; } /* Mobile */
+
+  /* Section Titles */
+  h2, .text-h2 { font-size: 36px; } /* Mobile */
+
+  /* Feature / Card Titles */
+  h3, .text-h3 { font-size: 20px; } /* Mobile */
+
+  /* Nav Links / Buttons */
+  .text-btn {
+    font-family: var(--font-almarena);
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 18px; /* Mobile */
+  }
+
+  /* FAQ Questions (Not Uppercase in some places, but uses Almarena Bold) */
+  .text-faq-title {
+    font-family: var(--font-almarena);
+    font-weight: 700;
+    font-size: 16px; /* Mobile */
+  }
+
+  .card-shadow {
+    box-shadow: -10px 10px 30px rgba(0,0,0,0.15), 0 0 0 1px rgba(0,0,0,0.05);
+  }
+
+  /* --- Desktop Breakpoint Overrides (768px and up) --- */
+  @media (min-width: 768px) {
+    p, .text-body { font-size: 16px; }
+    .text-lead { font-size: 24px; }
+    small, .text-small { font-size: 16px; }
+    
+    .text-hero { font-size: 140px; }
+    h2, .text-h2 { font-size: 64px; }
+    h3, .text-h3 { font-size: 24px; }
+    
+    .text-btn { font-size: 20px; }
+    .text-faq-title { font-size: 18px; }
+  }
+}
