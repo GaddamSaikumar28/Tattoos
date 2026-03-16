@@ -731,7 +731,7 @@ const Footer = () => {
           <div className="mt-4 md:mt-0">
             {/* MOBILE VIEW: Single Horizontal Row */}
             <div className="flex md:hidden flex-row gap-3 h-[60px]">
-              {['instagram', 'tiktok', 'x', 'facebook', 'youtube'].map((icon) => (
+              {['instagram', 'tiktok', 'twitter', 'facebook', 'youtube'].map((icon) => (
                 <SocialIcon 
                   key={icon} 
                   className="flex-1" 
@@ -758,14 +758,14 @@ const Footer = () => {
         </div>
 
         {/* BOTTOM SECTION: Brand Logo (Optimized Size) */}
-        <div className="mt-16 w-full">
+        {/* <div className="mt-16 w-full">
           <div className="flex items-center justify-center gap-3 md:gap-6 select-none">
-            <span className="text-[#FE8204] text-[40px] sm:text-[60px] md:text-[100px] lg:text-[130px] font-bold leading-none uppercase tracking-tighter">
+            {/* <span className="text-[#FE8204] text-[40px] sm:text-[60px] md:text-[100px] lg:text-[130px] font-bold leading-none uppercase tracking-tighter">
               Just
-            </span>
+            </span> */}
             
             {/* Brand Heart */}
-            <div className="w-[35px] h-[35px] sm:w-[50px] sm:h-[50px] md:w-[90px] md:h-[90px]">
+            {/* <div className="w-[35px] h-[35px] sm:w-[50px] sm:h-[50px] md:w-[90px] md:h-[90px]">
                 <svg viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg" className="w-full h-full">
                     <path 
                       d="M50 85L43.5 79.5C21.5 60.5 7 47.5 7 31.5C7 18.5 17.5 8 30.5 8C37.5 8 44.5 11.5 50 17C55.5 11.5 62.5 8 69.5 8C82.5 8 93 18.5 93 31.5C93 47.5 78.5 60.5 56.5 79.5L50 85Z" 
@@ -774,13 +774,41 @@ const Footer = () => {
                       strokeLinejoin="round"
                     />
                 </svg>
-            </div>
+            </div> */}
+            {/* <div className="w-[35px] h-[35px] sm:w-[50px] sm:h-[50px] md:w-[90px] md:h-[90px]">
+    <svg viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg" className="w-full h-full">
+        <path 
+          d="M50 82L15 47L32.5 29.5L50 47L67.5 29.5L85 47L50 82Z" 
+          stroke="#FE8204" 
+          strokeWidth="12" 
+          strokeLinecap="round"
+          strokeLinejoin="round"
+        />
+    </svg>
+</div> */}
+{/* 
+<div className="w-[500px] h-max sm:w-[50px] sm:h-[50px] md:w-[90px] md:h-[90px]">
+  <img 
+    src="/assets/icons/FooterLogo.png" 
+    alt="Footer Logo" 
+    className="w-full h-full object-contain" 
+  />
+</div> */}
 
-            <span className="text-[#FE8204] text-[40px] sm:text-[60px] md:text-[100px] lg:text-[130px] font-bold leading-none uppercase tracking-tighter">
-              Tattoos
-            </span>
-          </div>
-        </div>
+  <div className="mt-16 w-full px-4">
+  <div className="flex items-center justify-center select-none">
+
+    {/* Fully Scaled Large Logo & Text */}
+    <div className="w-full max-w-[800px] lg:max-w-[1200px]">
+      <img 
+        src="assets/icons/Fotterlogo2.svg" 
+        alt="Footer Logo" 
+        className="w-full h-auto object-contain" 
+      />
+    </div>
+
+  </div>
+</div>
 
       </div>
     </footer>

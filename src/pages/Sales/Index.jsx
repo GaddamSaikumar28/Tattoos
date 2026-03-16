@@ -27,7 +27,7 @@ export default function NewArrivalsPage() {
   return (
     <div className="w-full min-h-screen bg-white">
         <SharedHeroBanner 
-        title="New Arrivals" 
+        title="Sale Collection" 
         image="/assets/images/SaleBanner.png"
         // image="/assets/images/SaleHeroBanner.png"
         // textColor="#E11D48" // You can even pass a custom hex color for different sections!

@@ -3520,6 +3520,10 @@ export default function Hero() {
   const [isDesktop,     setIsDesktop]     = useState(true);
 
   useEffect(() => {
+    // Check if splash has been seen. If yes, skip the 2800ms wait.
+    const hasSeenSplash = sessionStorage.getItem('hasSeenSplash');
+    const initialDelay = hasSeenSplash ? 100 : 2800;
+    
     const introTimer = setTimeout(() => {
       setShowIntro(false);
       setTimeout(() => {
@@ -3528,9 +3532,38 @@ export default function Hero() {
         setTimeout(() => setCardIsFalling(false), FACE_CARD_DROP_MS);
         setTimeout(() => setIsExpanded(true), EXPAND_DELAY_MS);
       }, 400);
-    }, 2800);
+    }, initialDelay); // <-- Replaced 2800 with initialDelay here
+
     return () => clearTimeout(introTimer);
   }, []);
+
+  // useEffect(() => {
+
+  //   const hasSeenSplash = sessionStorage.getItem('hasSeenSplash');
+  //   const initialDelay = hasSeenSplash ? 100 : 2800;
+
+  //   const introTimer = setTimeout(() => {
+  //     setShowIntro(false);
+  //     setTimeout(() => {
+  //       setTopCardReady(true);
+  //       setCardIsFalling(true);
+  //       setTimeout(() => setCardIsFalling(false), FACE_CARD_DROP_MS);
+  //       setTimeout(() => setIsExpanded(true), EXPAND_DELAY_MS);
+  //     }, 400);
+  //   }, 2800);
+  //   return () => clearTimeout(introTimer);
+  // }, []);
+
+  useEffect(() => {
+    if (!isExpanded) {
+      document.body.style.overflow = 'hidden'; // Block scroll during animation
+    } else {
+      document.body.style.overflow = '';       // Release scroll when cards expand
+    }
+    return () => { document.body.style.overflow = ''; };
+  }, [isExpanded]);
+
+
 
   useEffect(() => {
     setIsDesktop(window.innerWidth >= 768);
@@ -3538,12 +3571,23 @@ export default function Hero() {
     window.addEventListener('resize', handleResize);
 
     const handleScroll = () => {
-      if (window.scrollY > 50 && isExpanded) {
+      if (!isExpanded) return;
+
+      // Hysteresis: Require a deeper scroll to trigger, and a higher scroll to untrigger.
+      if (window.scrollY > 80) {
         setIsScrolled(true);
-      } else {
+      } else if (window.scrollY < 30) {
         setIsScrolled(false);
       }
     };
+    window.addEventListener('scroll', handleScroll, { passive: true });
+    // const handleScroll = () => {
+    //   if (window.scrollY > 50 && isExpanded) {
+    //     setIsScrolled(true);
+    //   } else {
+    //     setIsScrolled(false);
+    //   }
+    // };
     window.addEventListener('scroll', handleScroll);
     
     return () => {
@@ -3673,7 +3717,7 @@ export default function Hero() {
                           boxShadow: '0 20px 40px rgba(0,0,0,0.12)',
                           backgroundColor: '#fff',
                         }}
-                        initial={isTopCard ? { x: -650, y: -650, opacity: 0, rotate: -20 } : { x: 0, y: 0, opacity: 0, rotate: 0 }}
+                        initial={isTopCard ? { x: 0, y: -800, opacity: 0, rotate: -20 } : { x: 0, y: 0, opacity: 0, rotate: 0 }}
                         animate={
                           isScrolled 
                             ? {
@@ -3694,15 +3738,27 @@ export default function Hero() {
                             : isTopCard && topCardReady
                             ? {
                                 // FIX: Smoothly fall directly to the final 0,0 location without any snapping at the end.
-                                x: [-650, 0],
-                                y: [-650, 0],
-                                rotate: [-70, -2],
+                                // x: [-650, 0],
+                                // y: [-650, 0],
+                                // rotate: [-70, -2],
+                                // opacity: [0, 1],
+                                // scale: 1
+                                x: 0,           // Removed the [-650, 0] array to keep it centered
+                                y: [-800, 0],   // Falls straight down from -800
+                                rotate: [-30, -2], // Less extreme rotation since it's not sweeping in from the side
                                 opacity: [0, 1],
                                 scale: 1
+
                               }
                             : {
-                                x: isTopCard ? -650 : 0,
-                                y: isTopCard ? -650 : 0,
+                                // x: isTopCard ? -650 : 0,
+                                // y: isTopCard ? -650 : 0,
+                                // opacity: 0,
+                                // rotate: isTopCard ? -20 : 0,
+                                // scale: 1
+
+                                x: 0,
+                                y: isTopCard ? -800 : 0,
                                 opacity: 0,
                                 rotate: isTopCard ? -20 : 0,
                                 scale: 1
@@ -3710,7 +3766,8 @@ export default function Hero() {
                         }
                         transition={
                           isScrolled
-                            ? { type: 'spring', damping: 25, stiffness: 85, mass: 1 }
+                          ? { type: 'spring', damping: 20, stiffness: 70, mass: 1 }
+                            // ? { type: 'spring', damping: 25, stiffness: 85, mass: 1 }
                             : isExpanded
                             ? { type: 'spring', damping: 18, stiffness: 90, delay: isTopCard ? 0 : index * 0.08 }
                             : isTopCard && topCardReady
@@ -3750,53 +3807,34 @@ export default function Hero() {
               
             </main>
 
-            {/* FIX: Infinity bar mapped properly to isExpanded and scrolling state */}
-            {/* <motion.div
-              className="absolute bottom-0 z-50 w-full h-14 md:h-16 bg-black flex-shrink-0 flex items-center overflow-hidden"
-              initial={{ y: 50, opacity: 0 }}
-              animate={{
-                y: isExpanded ? 0 : 50,
-                opacity: isScrolled ? 0 : (isExpanded ? 1 : 0),
-                x: isScrolled ? '100%' : '0%' 
-              }}
-              transition={{ duration: 0.8, ease: 'easeInOut' }}
-            >
-              <motion.div className="flex whitespace-nowrap" animate={{ x: ['0%', '-50%'] }} transition={{ duration: 18, ease: 'linear', repeat: Infinity, repeatType: 'loop' }}>
-                {[0, 1].map((i) => (
-                  <span key={i} className="flex items-center" style={{ fontFamily: 'Montserrat, sans-serif', fontWeight: '700', fontSize: 'clamp(13px, 1.1vw, 16px)', textTransform: 'uppercase', letterSpacing: '0.12em', color: '#fff' }}>
-                    {Array.from({ length: 10 }).map((_, j) => (
-                      <span key={j} className="flex items-center">
-                        Just Tattoos <span style={{ color: '#FE8204', margin: '0 18px', fontSize: '10px' }}>◆</span>
-                      </span>
-                    ))}
-                  </span>
-                ))}
-              </motion.div>
-            </motion.div> */}
-            
             {/* FIX: Changed 'absolute' to 'fixed left-0' so it anchors to the bottom of your screen, not the bottom of the 100vh container */}
-<motion.div
-  className="fixed bottom-0 left-0 z-50 w-full h-14 md:h-16 bg-black flex-shrink-0 flex items-center overflow-hidden"
-  initial={{ y: 50, opacity: 0 }}
-  animate={{
-    y: isExpanded ? 0 : 50,
-    opacity: isScrolled ? 0 : (isExpanded ? 1 : 0),
-    x: isScrolled ? '100%' : '0%' 
-  }}
-  transition={{ duration: 0.8, ease: 'easeInOut' }}
->
-  <motion.div className="flex whitespace-nowrap" animate={{ x: ['0%', '-50%'] }} transition={{ duration: 18, ease: 'linear', repeat: Infinity, repeatType: 'loop' }}>
-    {[0, 1].map((i) => (
-      <span key={i} className="flex items-center" style={{ fontFamily: 'Montserrat, sans-serif', fontWeight: '700', fontSize: 'clamp(13px, 1.1vw, 16px)', textTransform: 'uppercase', letterSpacing: '0.12em', color: '#fff' }}>
-        {Array.from({ length: 10 }).map((_, j) => (
-          <span key={j} className="flex items-center">
-            Just Tattoos <span style={{ color: '#FE8204', margin: '0 18px', fontSize: '10px' }}>◆</span>
-          </span>
-        ))}
-      </span>
-    ))}
-  </motion.div>
-</motion.div>
+              {isDesktop && (<motion.div
+                className="fixed bottom-0 left-0 z-50 w-full h-14 md:h-16 bg-black flex-shrink-0 flex items-center overflow-hidden"
+                initial={{ y: 50, opacity: 0 }}
+                animate={{
+                  y: isExpanded ? 0 : 50,
+                  opacity: isScrolled ? 0 : (isExpanded ? 1 : 0),
+                  x: isScrolled ? '100%' : '0%' 
+                }}
+                transition={{ duration: 0.8, ease: 'easeInOut' }}
+              >
+                <motion.div className="flex whitespace-nowrap items-center h-full" animate={{ x: ['0%', '-50%'] }} transition={{ duration: 18, ease: 'linear', repeat: Infinity, repeatType: 'loop' }}>
+                  {[0, 1].map((i) => (
+                    <span key={i} className="flex items-center h-full shrink-0">
+                      {Array.from({ length: 10 }).map((_, j) => (
+                        <span key={j} className="flex items-center justify-center px-4 h-full shrink-0">
+                          <img 
+                            src="/assets/icons/InfinityBar.svg" 
+                            alt="Infinity Logo" 
+                            className="h-5 md:h-6 w-auto object-contain" 
+                          />
+                        </span>
+                      ))}
+                    </span>
+                  ))}
+                </motion.div>
+              </motion.div>
+              )}
 
           </motion.div>
         </AnimatePresence>
