@@ -22,22 +22,14 @@ const productsData = Array.from({ length: 20 }, (_, i) => ({
 export default function NewArrivalsPage() {
   return (
     <div className="w-full min-h-screen bg-white">
-        <SharedHeroBanner 
+      <SharedHeroBanner 
         title="New Arrivals" 
         // image="/assets/images/SaleHeroBanner.png"
         // textColor="#E11D48" // You can even pass a custom hex color for different sections!
+        useMobileImage={true}
+        mobileImage = "/assets/images/NewArrivalMobile.png"
+
       />
-      {/* <NewArrivals /> */}
-      {/* <NewArrivalsProducts /> */}
-      {/* <SharedProductGrid 
-        title="Sale Collection"
-        products={productsData}
-        itemsPerPage={15} 
-        showPagination={true} 
-        showExploreAll={true} 
-        exploreAllText="Explore All Now"
-        onExploreAll={handleExploreClick}
-      /> */}
 
       <SharedProductGrid 
         title="New Arrivals"
